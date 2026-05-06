@@ -1,4 +1,4 @@
----
+***
 
 ## 🚀 Lokale Entwicklung
 
@@ -17,7 +17,7 @@ npm run dev
 npm run build
 ```
 
----
+***
 
 ## 📝 Neues Dokument hinzufügen
 
@@ -42,7 +42,7 @@ npm run build
 3. Commit & Push
 4. Vercel deployed automatisch
 
----
+***
 
 ## 🔗 Links
 
@@ -50,7 +50,7 @@ npm run build
 - **Autoren-Website:** https://thomas-kueper.de
 - **OverTime Archive:** (in Planung)
 
----
+***
 
 ## 📄 Lizenz
 
@@ -61,7 +61,7 @@ npm run build
 - Source Serif Pro © Adobe (SIL OFL 1.1)  
 - JetBrains Mono © JetBrains (Apache 2.0)
 
----
+***
 
 ## 👤 Kontakt
 
@@ -70,6 +70,6 @@ Mörfelder Landstraße 103
 60598 Frankfurt am Main  
 📧 t.kueper@camaleo.de
 
----
+***
 
 **ᐃ**
