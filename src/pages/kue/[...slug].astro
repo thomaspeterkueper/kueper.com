@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import KUEDocument from '../../layouts/KUEDocument.astro';
+
+export async function getStaticPaths() {
+  const kueEntries = await getCollection('kue', ({ data }) => {
+    return data.public !== false && data.sprache === 'DE';
+  });
+
+  return kueEntries.map(entry => ({
+    params: { slug: entry.slug },
+    props: { entry }
+  }));
+}
+
+const { entry } = Astro.props;
+---
+
+<KUEDocument document={entry} />
