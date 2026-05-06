@@ -1,0 +1,576 @@
+/* ═══════════════════════════════════════════════════════════
+   KUEPER.COM – SCIENTIFIC DESIGN SYSTEM
+   Hard Science | Akademisch | Nüchtern
+   ═══════════════════════════════════════════════════════════ */
+
+/* ───────────────────────────────────────────────────────────
+   FONTS – Self-Hosted (DSGVO)
+   Gleiche wie thomas-kueper.de, aber andere Verwendung
+   ─────────────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/inter-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/inter-semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('/fonts/source-serif/sourceserif-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('/fonts/source-serif/sourceserif-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/jetbrains-mono/jetbrainsmono-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ───────────────────────────────────────────────────────────
+   DESIGN TOKENS – Scientific Monochrome
+   ─────────────────────────────────────────────────────────── */
+
+:root {
+  /* Typography */
+  --font-heading: 'Inter', -apple-system, sans-serif;
+  --font-body: 'Source Serif Pro', Georgia, serif;
+  --font-code: 'JetBrains Mono', 'SF Mono', monospace;
+  
+  /* Font Sizes – Minimal Scale */
+  --text-xs: 14px;
+  --text-sm: 16px;
+  --text-base: 18px;
+  --text-lg: 20px;
+  --text-xl: 24px;
+  --text-2xl: 30px;
+  --text-3xl: 36px;
+  
+  /* Line Heights – Academic */
+  --leading-tight: 1.3;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.8;
+  
+  /* Colors – Extreme Monochrome */
+  --bg-primary: #fafafa;
+  --bg-secondary: #f0f0f0;
+  --bg-tertiary: #e8e8e8;
+  --bg-code: #e8e8e8;
+  
+  --text-primary: #0a0a0a;
+  --text-secondary: #3a3a3a;
+  --text-tertiary: #5a5a5a;
+  --text-muted: #7a7a7a;
+  
+  --accent-primary: #1a4d8f;      /* Wissenschaftsblau */
+  --accent-secondary: #2c5aa0;
+  --accent-hover: #0d3a6f;
+  
+  --border-light: #e0e0e0;
+  --border-medium: #d0d0d0;
+  --border-dark: #a0a0a0;
+  
+  /* Epistemologische Marker Farben */
+  --marker-R: #1a4d8f;  /* Research – Dunkelblau */
+  --marker-T: #2d5a2d;  /* Theoretical – Dunkelgrün */
+  --marker-S: #8f5a1a;  /* Speculative – Dunkelorange */
+  --marker-P: #6a2d6a;  /* Plausible – Dunkellila */
+  
+  /* Spacing – Tight */
+  --space-2xs: 0.125rem;  /* 2px */
+  --space-xs: 0.25rem;    /* 4px */
+  --space-sm: 0.5rem;     /* 8px */
+  --space-md: 1rem;       /* 16px */
+  --space-lg: 1.5rem;     /* 24px */
+  --space-xl: 2rem;       /* 32px */
+  --space-2xl: 3rem;      /* 48px */
+  --space-3xl: 4rem;      /* 64px */
+  
+  /* Layout */
+  --content-width: 750px;          /* Schmaler als thomas-kueper.de */
+  --content-width-narrow: 600px;
+  --content-width-wide: 900px;
+  
+  /* Shadows – Minimal */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* Dark Mode – Extrem kontrastreich */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #0a0a0a;
+    --bg-secondary: #141414;
+    --bg-tertiary: #1a1a1a;
+    --bg-code: #1a1a1a;
+    
+    --text-primary: #f0f0f0;
+    --text-secondary: #c0c0c0;
+    --text-tertiary: #a0a0a0;
+    --text-muted: #808080;
+    
+    --accent-primary: #5a8fd1;
+    --accent-secondary: #6b9bd1;
+    --accent-hover: #7aabf0;
+    
+    --border-light: #2a2a2a;
+    --border-medium: #3a3a3a;
+    --border-dark: #4a4a4a;
+    
+    --marker-R: #5a8fd1;
+    --marker-T: #5a8f5a;
+    --marker-S: #d18f5a;
+    --marker-P: #a05aa0;
+  }
+}
+
+/* ───────────────────────────────────────────────────────────
+   RESET & BASE
+   ─────────────────────────────────────────────────────────── */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  
+  /* Minimale Ränder */
+  padding: 0;
+  margin: 0;
+}
+
+/* ───────────────────────────────────────────────────────────
+   TYPOGRAPHY – Academic Style
+   ─────────────────────────────────────────────────────────── */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: var(--leading-tight);
+  color: var(--text-primary);
+  margin-top: var(--space-2xl);
+  margin-bottom: var(--space-md);
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: var(--text-3xl);
+  font-weight: 600;
+  border-bottom: 2px solid var(--border-medium);
+  padding-bottom: var(--space-sm);
+  margin-top: 0;
+}
+
+h2 {
+  font-size: var(--text-2xl);
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: var(--space-xs);
+}
+
+h3 {
+  font-size: var(--text-xl);
+}
+
+h4 {
+  font-size: var(--text-lg);
+  color: var(--text-secondary);
+}
+
+h5, h6 {
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: var(--space-lg);
+  line-height: var(--leading-relaxed);
+}
+
+/* Links – Dezent */
+a {
+  color: var(--accent-primary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.15s ease;
+}
+
+a:hover {
+  color: var(--accent-hover);
+  border-bottom-color: var(--accent-hover);
+}
+
+/* Listen – Minimalistisch */
+ul, ol {
+  margin-bottom: var(--space-lg);
+  padding-left: var(--space-xl);
+}
+
+li {
+  margin-bottom: var(--space-sm);
+  line-height: var(--leading-normal);
+}
+
+/* Blockquotes – Scientific */
+blockquote {
+  margin: var(--space-xl) 0;
+  padding: var(--space-md) var(--space-lg);
+  background-color: var(--bg-secondary);
+  border-left: 3px solid var(--accent-primary);
+  font-style: italic;
+  color: var(--text-secondary);
+  font-size: var(--text-base);
+}
+
+/* Horizontale Linien */
+hr {
+  margin: var(--space-2xl) 0;
+  border: none;
+  border-top: 1px solid var(--border-medium);
+}
+
+/* ───────────────────────────────────────────────────────────
+   CODE & TECHNICAL ELEMENTS
+   ─────────────────────────────────────────────────────────── */
+
+code, pre, .signatur, .marker {
+  font-family: var(--font-code);
+}
+
+/* Inline Code */
+code {
+  background-color: var(--bg-code);
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  color: var(--text-primary);
+  border: 1px solid var(--border-light);
+}
+
+/* Code Blocks */
+pre {
+  background-color: var(--bg-code);
+  padding: var(--space-lg);
+  border-radius: 4px;
+  overflow-x: auto;
+  margin-bottom: var(--space-lg);
+  border: 1px solid var(--border-medium);
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  border: none;
+}
+
+/* Signaturen – Prominent */
+.signatur {
+  font-size: 0.95em;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Epistemologische Marker – Farbcodiert */
+.marker {
+  display: inline-block;
+  padding: 0.15em 0.5em;
+  background-color: var(--bg-tertiary);
+  border: 1px solid var(--border-medium);
+  border-radius: 3px;
+  font-size: 0.8em;
+  font-weight: 700;
+  margin-right: var(--space-xs);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.marker-R { 
+  color: var(--marker-R); 
+  border-color: var(--marker-R);
+}
+
+.marker-T { 
+  color: var(--marker-T); 
+  border-color: var(--marker-T);
+}
+
+.marker-S { 
+  color: var(--marker-S); 
+  border-color: var(--marker-S);
+}
+
+.marker-P { 
+  color: var(--marker-P); 
+  border-color: var(--marker-P);
+}
+
+/* ───────────────────────────────────────────────────────────
+   TABLES – Academic
+   ─────────────────────────────────────────────────────────── */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-xl) 0;
+  font-size: var(--text-sm);
+  border: 1px solid var(--border-medium);
+}
+
+thead {
+  background-color: var(--bg-secondary);
+  border-bottom: 2px solid var(--border-dark);
+}
+
+th {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  text-align: left;
+  padding: var(--space-sm) var(--space-md);
+  border-right: 1px solid var(--border-light);
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary);
+}
+
+th:last-child {
+  border-right: none;
+}
+
+td {
+  padding: var(--space-sm) var(--space-md);
+  border-bottom: 1px solid var(--border-light);
+  border-right: 1px solid var(--border-light);
+}
+
+td:last-child {
+  border-right: none;
+}
+
+tbody tr:hover {
+  background-color: var(--bg-secondary);
+}
+
+/* ───────────────────────────────────────────────────────────
+   LAYOUT
+   ─────────────────────────────────────────────────────────── */
+
+.container {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.container-narrow {
+  max-width: var(--content-width-narrow);
+}
+
+.container-wide {
+  max-width: var(--content-width-wide);
+}
+
+/* ───────────────────────────────────────────────────────────
+   HEADER – Minimalistisch
+   ─────────────────────────────────────────────────────────── */
+
+.site-header {
+  border-bottom: 1px solid var(--border-medium);
+  padding: var(--space-lg) 0;
+  background-color: var(--bg-primary);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.site-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-primary);
+  text-decoration: none;
+  border: none;
+}
+
+.site-nav {
+  display: flex;
+  gap: var(--space-lg);
+  margin-top: var(--space-sm);
+  font-family: var(--font-heading);
+  font-size: var(--text-sm);
+}
+
+.site-nav a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: var(--space-2xs);
+  transition: all 0.15s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+.site-nav a:hover {
+  color: var(--accent-primary);
+  border-bottom-color: var(--accent-primary);
+}
+
+/* ───────────────────────────────────────────────────────────
+   KURATORISCHE NOTIZEN
+   ─────────────────────────────────────────────────────────── */
+
+.kuratorische-notiz {
+  background-color: var(--bg-secondary);
+  border-left: 3px solid var(--accent-primary);
+  padding: var(--space-md) var(--space-lg);
+  margin: var(--space-xl) 0;
+  font-size: var(--text-sm);
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+.kuratorische-notiz::before {
+  content: "Kuratorische Notiz: ";
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-style: normal;
+  color: var(--accent-primary);
+  display: block;
+  margin-bottom: var(--space-xs);
+}
+
+/* ───────────────────────────────────────────────────────────
+   DOCUMENT METADATA
+   ─────────────────────────────────────────────────────────── */
+
+.document-meta {
+  background-color: var(--bg-secondary);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-2xl);
+  border: 1px solid var(--border-medium);
+  border-radius: 4px;
+  font-family: var(--font-code);
+  font-size: var(--text-sm);
+}
+
+.document-meta dt {
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-2xs);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: var(--text-xs);
+}
+
+.document-meta dd {
+  margin-bottom: var(--space-sm);
+  color: var(--text-primary);
+}
+
+/* ───────────────────────────────────────────────────────────
+   FOOTER
+   ─────────────────────────────────────────────────────────── */
+
+.site-footer {
+  border-top: 1px solid var(--border-medium);
+  margin-top: var(--space-3xl);
+  padding: var(--space-xl) 0;
+  font-size: var(--text-sm);
+  color: var(--text-tertiary);
+  text-align: center;
+}
+
+/* ───────────────────────────────────────────────────────────
+   RESPONSIVE
+   ─────────────────────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  :root {
+    --text-base: 17px;
+    --text-2xl: 26px;
+    --text-3xl: 32px;
+    --content-width: 100%;
+  }
+  
+  .container {
+    padding: 0 var(--space-md);
+  }
+  
+  .site-nav {
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+  }
+}
+
+/* ───────────────────────────────────────────────────────────
+   PRINT
+   ─────────────────────────────────────────────────────────── */
+
+@media print {
+  body {
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #000;
+    background: #fff;
+  }
+  
+  .site-header,
+  .site-nav,
+  .site-footer {
+    display: none;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+  
+  pre, blockquote, table {
+    page-break-inside: avoid;
+  }
+}
