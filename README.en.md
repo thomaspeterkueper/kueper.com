@@ -21,7 +21,7 @@ The **kueper.com Archive (KUE)** exclusively documents scientifically grounded c
 
 **Never in the KUE Archive:** [F] Fiction
 
----
+***
 
 ## 🏗️ Technology
 
@@ -31,6 +31,6 @@ The **kueper.com Archive (KUE)** exclusively documents scientifically grounded c
 - **Deployment:** Vercel
 - **Bilingual:** German & English
 
----
+***
 
 ## 📂 Structure
