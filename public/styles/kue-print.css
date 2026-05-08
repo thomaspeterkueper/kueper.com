@@ -1,0 +1,393 @@
+/* ═══════════════════════════════════════════════════════════
+   KUE PRINT STYLESHEET
+   Optimized for PDF generation via browser print (Ctrl+P)
+   ═══════════════════════════════════════════════════════════ */
+
+@media print {
+  
+  /* ═══════════════════════════════════════════════════════════
+     PAGE SETUP
+     ═══════════════════════════════════════════════════════════ */
+  
+  @page {
+    size: A4;
+    margin: 20mm 20mm 25mm 20mm;
+    
+    @top-right {
+      content: counter(page) " / " counter(pages);
+      font-family: 'Inter', sans-serif;
+      font-size: 9pt;
+      color: #666;
+    }
+    
+    @bottom-center {
+      content: "KUEPER.COM ARCHIV · " var(--doc-signature);
+      font-family: 'Inter', sans-serif;
+      font-size: 8pt;
+      color: #999;
+      letter-spacing: 0.05em;
+    }
+  }
+  
+  /* ═══════════════════════════════════════════════════════════
+     RESET & OPTIMIZATION
+     ═══════════════════════════════════════════════════════════ */
+  
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  
+  body {
+    font-size: 10.5pt;
+    line-height: 1.5;
+    background: #fff !important;
+  }
+  
+  /* ═══════════════════════════════════════════════════════════
+     HIDE INTERACTIVE ELEMENTS
+     ═══════════════════════════════════════════════════════════ */
+  
+  .doc-nav,
+  .print-btn,
+  .nav-brand,
+  button,
+  input,
+  textarea {
+    display: none !important;
+  }
+  
+  /* ═══════════════════════════════════════════════════════════
+     CONTAINER
+     ═══════════════════════════════════════════════════════════ */
+  
+  .doc-container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* ═══════════════════════════════════════════════════════════
+     DOCUMENT HEADER
+     ═══════════════════════════════════════════════════════════ */
+  
+  .doc-header {
+    text-align: center;
+    padding-bottom: 18pt;
+    border-bottom: 1pt solid #000;
+    margin-bottom: 18pt;
+    page-break-after: avoid;
+  }
+  
+  .doc-logo {
+    margin-bottom: 12pt;
+  }
+  
+  .doc-logo svg {
+    width: 36pt;
+    height: 36pt;
+  }
+  
+  .doc-category {
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #666 !important;
+    margin-bottom: 8pt;
+  }
+  
+  .doc-title {
+    font-size: 20pt;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8pt;
+    page-break-after: avoid;
+  }
+  
+  .doc-signature {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8pt;
+    color: #666 !important;
+  }
+  
+  /* ═══════════════════════════════════════════════════════════
+     METADATA BOX
+     ═══════════════════════════════════════════════════════════ */
+  
+  .doc-meta {
+    border: 1pt solid #ccc;
+    padding: 12pt;
+    margin-bottom: 24pt;
+    page-break-inside: avoid;
+  }
+  
+  .meta-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8pt;
+  }
+  
+  .meta-label {
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #666 !important;
+    font-weight: 600;
+  }
+  
+  .meta-value {
+    font-size: 9pt;
+  }
+  
+  .meta-value code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8.5pt;
+    background: #f5f5f5 !important;
+    padding: 1pt 3pt;
+    border: 0.5pt solid #ddd;
+  }
+  
+  .marker {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 7pt;
+    padding: 1.5pt 4pt;
+    border: 0.75pt solid;
+    border-radius: 2pt;
+    margin-right: 3pt;
+    display: inline-block;
+  }
+  
+  /* ═══════════════════════════════════════════════════════════
+     TYPOGRAPHY
+     ═══════════════════════════════════════════════════════════ */
+  
+  .doc-content {
+    font-size: 10.5pt;
+    line-height: 1.5;
+  }
+  
+  .doc-content h2 {
+    font-size: 14pt;
+    font-weight: 400;
+    margin: 24pt 0 8pt;
+    padding-bottom: 4pt;
+    border-bottom: 0.75pt solid #000;
+    page-break-after: avoid;
+  }
+  
+  .doc-content h3 {
+    font-size: 11pt;
+    font-weight: 600;
+    margin: 16pt 0 6pt;
+    page-break-after: avoid;
+  }
+  
+  .doc-content h4 {
+    font-size: 10pt;
+    font-weight: 600;
+    margin: 12pt 0 4pt;
+    color: #333 !important;
+    page-break-after: avoid;
+  }
+  
+  .doc-content p {
+    margin-bottom: 8pt;
+    text-align: justify;
+    hyphens: auto;
+    orphans: 3;
+    widows: 3;
+  }
+  
+  .doc-content a {
+    color: #000 !important;
+    text-decoration: underline;
+  }
+  
+  .doc-content a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #666 !important;
+  }
+  
+  .doc-content code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9pt;
+    background: #f5f5f5 !important;
+    padding: 1pt 3pt;
+    border: 0.5pt solid #ddd;
+  }
+  
+  .doc-content pre {
+    background: #f5f5f5 !important;
+    border: 0.75pt solid #ccc;
+    padding: 8pt;
+    font-size: 8.5pt;
+    page-break-inside: avoid;
+    overflow: visible;
+  }
+  
+  /* ═══════════════════════════════════════════════════════════
+     LISTS
+     ═══════════════════════════════════════════════════════════ */
+  
+  .doc-content ul,
+  .doc-content ol {
+    margin: 8pt 0 8pt 12pt;
+  }
+  
+  .doc-content li {
+    margin-bottom: 4pt;
+  }
+  
+  /* ═══════════════════════════════════════════════════════════
+     TABLES
+     ═══════════════════════════════════════════════════════════ */
+  
+  .doc-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16pt 0;
+    font-size: 9pt;
+    page-break-inside: avoid;
+  }
+  
+  .doc-content thead {
+    background: #f0f0f0 !important;
+    display: table-header-group;
+  }
+  
+  .doc-content th {
+    font-size: 8pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding: 6pt 8pt;
+    border: 0.75pt solid #000;
+  }
+  
+  .doc-content td {
+    padding: 6pt 8pt;
+    border: 0.5pt solid #ccc;
+    vertical-align: top;
+  }
+  
+  .doc-content tbody tr:nth-child(even) {
+    background: #f9f9f9 !important;
+  }
+  
+  /* ═══════════════════════════════════════════════════════════
+     BLOCKQUOTES
+     ═══════════════════════════════════════════════════════════ */
+  
+  .doc-content blockquote {
+    border-left: 2pt solid #666;
+    padding: 8pt 12pt;
+    margin: 12pt 0;
+    background: #f9f9f9 !important;
+    font-style: italic;
+    page-break-inside: avoid;
+  }
+  
+  /* ═══════════════════════════════════════════════════════════
+     FIGURES & IMAGES
+     ═══════════════════════════════════════════════════════════ */
+  
+  .doc-content figure {
+    margin: 16pt 0;
+    border: 0.75pt solid #ccc;
+    page-break-inside: avoid;
+  }
+  
+  .doc-content figure img,
+  .doc-content figure svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 180mm;
+    object-fit: contain;
+    padding: 8pt;
+  }
+  
+  .doc-content figcaption {
+    padding: 6pt 8pt;
+    background: #f5f5f5 !important;
+    border-top: 0.5pt solid #ccc;
+    font-size: 8.5pt;
+    color: #666 !important;
+    font-style: italic;
+  }
+  
+  /* ═══════════════════════════════════════════════════════════
+     MEDIA (HIDE IN PRINT)
+     ═══════════════════════════════════════════════════════════ */
+  
+  .doc-content .media-container iframe,
+  .doc-content video,
+  .doc-content audio {
+    display: none !important;
+  }
+  
+  .doc-content .media-container::after {
+    content: "[ Video: " attr(data-title) " ]";
+    display: block;
+    padding: 12pt;
+    background: #f0f0f0 !important;
+    border: 1pt dashed #999;
+    text-align: center;
+    font-size: 9pt;
+    color: #666 !important;
+  }
+  
+  /* ═══════════════════════════════════════════════════════════
+     DOCUMENT FOOTER
+     ═══════════════════════════════════════════════════════════ */
+  
+  .doc-footer {
+    margin-top: 32pt;
+    padding-top: 12pt;
+    border-top: 0.75pt solid #ccc;
+    text-align: center;
+    page-break-before: avoid;
+  }
+  
+  .footer-sig {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8pt;
+    color: #666 !important;
+    margin-bottom: 6pt;
+  }
+  
+  .footer-sig svg {
+    width: 14pt;
+    height: 14pt;
+    vertical-align: middle;
+  }
+  
+  .footer-text {
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #999 !important;
+  }
+  
+  /* ═══════════════════════════════════════════════════════════
+     PAGE BREAKS
+     ═══════════════════════════════════════════════════════════ */
+  
+  h2, h3, h4 {
+    page-break-after: avoid;
+  }
+  
+  figure, table, blockquote, .doc-meta {
+    page-break-inside: avoid;
+  }
+  
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+  
+}
