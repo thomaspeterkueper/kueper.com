@@ -271,44 +271,50 @@
 </footer>
 
   <script>
-    // Navigation
-    const navLinks = document.querySelectorAll('.nav-link');
-    const sections = document.querySelectorAll('.content-section');
+  // Navigation
+  const navLinks = document.querySelectorAll<HTMLButtonElement>('.nav-link');
+  const sections = document.querySelectorAll<HTMLElement>('.content-section');
 
-    navLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        const targetSection = link.dataset.section;
-        
-        navLinks.forEach(l => l.classList.remove('active'));
-        sections.forEach(s => s.classList.remove('active'));
-        
-        link.classList.add('active');
-        document.getElementById(targetSection).classList.add('active');
-      });
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      const targetSection = link.getAttribute('data-section');
+      if (!targetSection) return;
+      
+      navLinks.forEach(l => l.classList.remove('active'));
+      sections.forEach(s => s.classList.remove('active'));
+      
+      link.classList.add('active');
+      const targetElement = document.getElementById(targetSection);
+      if (targetElement) {
+        targetElement.classList.add('active');
+      }
     });
+  });
 
-    // Language Switcher
-    const langBtns = document.querySelectorAll('.lang-btn');
-    const translatableElements = document.querySelectorAll('[data-de][data-en]');
+  // Language Switcher
+  const langBtns = document.querySelectorAll<HTMLButtonElement>('.lang-btn');
+  const translatableElements = document.querySelectorAll<HTMLElement>('[data-de][data-en]');
 
-    langBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const targetLang = btn.dataset.lang;
-        
-        langBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        
-        translatableElements.forEach(el => {
-          el.textContent = el.dataset[targetLang];
-        });
-
-        // Update signature example
-        const sigDisplay = document.querySelector('.signature-display');
-        if (sigDisplay) {
-          sigDisplay.textContent = targetLang === 'de' ? 'KUE-SCI-0001-2026-DE' : 'KUE-SCI-0001-2026-EN';
-        }
+  langBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetLang = btn.getAttribute('data-lang') as 'de' | 'en';
+      if (!targetLang) return;
+      
+      langBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      
+      translatableElements.forEach(el => {
+        const text = el.getAttribute(`data-${targetLang}`);
+        if (text) el.textContent = text;
       });
+
+      // Update signature example
+      const sigDisplay = document.querySelector<HTMLElement>('.signature-display');
+      if (sigDisplay) {
+        sigDisplay.textContent = targetLang === 'de' ? 'KUE-SCI-0001-2026-DE' : 'KUE-SCI-0001-2026-EN';
+      }
     });
-  </script>
+  });
+</script>
 </body>
 </html>
