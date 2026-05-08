@@ -19,8 +19,8 @@ const formattedDate = new Date(datum).toLocaleDateString('de-DE', {
   day: 'numeric'
 });
 
-// Category labels
-const categoryLabels = {
+// Category labels - COMPLETE LIST
+const categoryLabels: Record<string, string> = {
   BIO: 'Biographical Profile',
   SCI: 'Scientific Framework',
   TEC: 'Technical Specification',
@@ -29,7 +29,15 @@ const categoryLabels = {
   FND: 'Foundational',
   PHY: 'Physics',
   ARC: 'Architecture',
-  HIS: 'History'
+  HIS: 'History',
+  GEO: 'Geography',
+  PSY: 'Psychology',
+  SOC: 'Sociology',
+  LNG: 'Linguistics',
+  ECO: 'Ecology',
+  ORG: 'Organizational',
+  OPS: 'Operations',
+  MET: 'Methodology'
 };
 
 const categoryLabel = categoryLabels[kategorie] || kategorie;
