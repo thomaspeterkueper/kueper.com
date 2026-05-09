@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#fafafa"/>
+  
+  <!-- Axes -->
+  <line x1="80" y1="350" x2="550" y2="350" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="350" x2="80" y2="50" stroke="#333" stroke-width="2"/>
+  
+  <!-- Grid -->
+  <line x1="80" y1="200" x2="550" y2="200" stroke="#ccc" stroke-width="1"/>
+  <line x1="315" y1="350" x2="315" y2="50" stroke="#ccc" stroke-width="1"/>
+  
+  <!-- Labels -->
+  <text x="315" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Lokales Feld ← → Globaler Parameter</text>
+  <text x="35" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333" transform="rotate(-90 35 205)">Markovsch ← → Nicht-markovsch</text>
+  
+  <!-- ΛCDM -->
+  <circle cx="460" cy="320" r="6" fill="#4a7c8c"/>
+  <text x="460" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">ΛCDM</text>
+  
+  <!-- Quintessenz -->
+  <circle cx="180" cy="310" r="6" fill="#7c5c4a"/>
+  <text x="180" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Quintessenz</text>
+  
+  <!-- Running Vacuum -->
+  <circle cx="450" cy="230" r="6" fill="#6a7c4a"/>
+  <text x="450" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Running Vacuum</text>
+  
+  <!-- Early Dark Energy -->
+  <circle cx="360" cy="170" r="6" fill="#7c6a4a"/>
+  <text x="360" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Early Dark Energy</text>
+  
+  <!-- AVI (highlighted) -->
+  <circle cx="510" cy="90" r="9" fill="#c83030"/>
+  <text x="510" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c83030">AVI</text>
+  <text x="510" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#c83030">Global × Nicht-markovsch</text>
+</svg>
