@@ -6,25 +6,26 @@ const kueCollection = defineCollection({
     datum: z.string(),
     titel: z.string(),
     kategorie: z.enum([
-      'BIO',  // Biographical Profiles
-      'SCI',  // Scientific Frameworks
-      'TEC',  // Technical Specifications
-      'LSC',  // Life Sciences
-      'PHY',  // Physics
-      'ARC',  // Architecture
-      'HIS',  // History
-      'GEO',  // Geography
-      'PSY',  // Psychology
-      'SOC',  // Sociology
-      'LNG',  // Linguistics
-      'ECO',  // Ecology
-      'ORG',  // Organizational Models
-      'OBS',  // Observations
-      'FND',  // Foundational
-      'OPS',  // Operations
-      'MET',  // Methodology
+      'BIO',
+      'SCI',
+      'TEC',
+      'LSC',
+      'PHY',
+      'PHI',  // Philosophy
+      'ARC',
+      'HIS',
+      'GEO',
+      'PSY',
+      'SOC',
+      'LNG',
+      'ECO',
+      'ORG',
+      'OBS',
+      'FND',
+      'OPS',
+      'MET',
     ]),
-    marker: z.array(z.enum(['R', 'T', 'S', 'P', 'I', 'H'])),
+    marker: z.array(z.enum(['R', 'T', 'S', 'P', 'H', 'I'])),
     version: z.string(),
     status: z.string(),
     sprache: z.enum(['DE', 'EN']),
