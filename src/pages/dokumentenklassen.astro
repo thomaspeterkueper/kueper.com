@@ -1,0 +1,299 @@
+---
+import Navigation from '../components/Navigation.astro';
+---
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dokumentenklassen — KUEPER.COM</title>
+  <link rel="stylesheet" href="/styles/fonts.css">
+  <link rel="stylesheet" href="/styles/kue-document.css">
+  <style>
+    body {
+      background: var(--kue-bg, #f5f3ef);
+      margin: 0;
+      padding: 0;
+    }
+    
+    .page-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3rem 2rem 6rem 2rem;
+    }
+    
+    .page-header {
+      text-align: center;
+      margin-bottom: 4rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--kue-border-light, #e8e8e6);
+    }
+    
+    .page-title {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin: 0 0 1rem 0;
+      color: #1a1a1a;
+    }
+    
+    .page-subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+      margin: 0;
+    }
+    
+    .content-section {
+      margin-bottom: 3rem;
+    }
+    
+    .content-section h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 0 0 1rem 0;
+      color: #1a1a1a;
+    }
+    
+    .content-section p {
+      line-height: 1.8;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+    
+    .marker-grid {
+      display: grid;
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    
+    .marker-card {
+      background: white;
+      border-radius: 6px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+      border-left: 4px solid;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .marker-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    
+    .marker-card.research { border-color: var(--marker-r, #1a5f2a); }
+    .marker-card.theoretical { border-color: var(--marker-t, #2563eb); }
+    .marker-card.speculative { border-color: var(--marker-s, #7c3aed); }
+    .marker-card.plausible { border-color: var(--marker-p, #0891b2); }
+    
+    .marker-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    
+    .marker-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 0.35rem 0.75rem;
+      border-radius: 4px;
+      color: white;
+    }
+    
+    .marker-badge.research { background: var(--marker-r, #1a5f2a); }
+    .marker-badge.theoretical { background: var(--marker-t, #2563eb); }
+    .marker-badge.speculative { background: var(--marker-s, #7c3aed); }
+    .marker-badge.plausible { background: var(--marker-p, #0891b2); }
+    
+    .marker-name {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin: 0;
+    }
+    
+    .marker-definition {
+      font-size: 0.95rem;
+      color: #4a4a4a;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+    
+    .marker-example {
+      background: #f8f8f8;
+      padding: 1rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      color: #555;
+      border-left: 3px solid #ddd;
+      margin-top: 1rem;
+    }
+    
+    .marker-example strong {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+    
+    .info-box {
+      background: #f0f7ff;
+      border-left: 3px solid #2563eb;
+      padding: 1.5rem;
+      margin: 2rem 0;
+      border-radius: 0 4px 4px 0;
+    }
+    
+    .info-box h3 {
+      margin: 0 0 0.75rem 0;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+    
+    .info-box p {
+      margin: 0;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <Navigation />
+  
+  <div class="page-container">
+    <header class="page-header">
+      <h1 class="page-title">Dokumentenklassen</h1>
+      <p class="page-subtitle">Epistemologische Marker und ihre Bedeutung</p>
+    </header>
+
+    <section class="content-section">
+      <h2>Was sind epistemologische Marker?</h2>
+      <p>Jedes Dokument im kueper.com-Archiv verwendet <strong>epistemologische Marker</strong>, um den Wahrheitsgehalt und die wissenschaftliche Basis seiner Aussagen transparent zu machen.</p>
+      
+      <p>Diese Marker sind keine Qualitäts-Bewertungen. Sie sind <strong>Wahrheitswert-Anzeigen</strong>: Sie sagen, auf welcher Grundlage eine Aussage steht — von peer-reviewter Forschung bis zu plausibler Spekulation.</p>
+      
+      <p>Ein Dokument kann mehrere Marker tragen, wenn es verschiedene Evidenzgrade kombiniert.</p>
+    </section>
+
+    <section class="content-section">
+      <h2>Die vier Evidenzgrade</h2>
+      
+      <div class="marker-grid">
+        <!-- [R] Research -->
+        <div class="marker-card research">
+          <div class="marker-header">
+            <span class="marker-badge research">[R]</span>
+            <h3 class="marker-name">Research</h3>
+          </div>
+          <p class="marker-definition">
+            Peer-reviewte, publizierte Wissenschaft. Aussagen mit diesem Marker basieren auf etablierten wissenschaftlichen Befunden, die in Fachzeitschriften veröffentlicht wurden.
+          </p>
+          <div class="marker-example">
+            <strong>Beispiel:</strong>
+            "Die Mars-Atmosphäre besteht zu 95% aus CO₂" — NASA-Daten, peer-reviewed publiziert.
+          </div>
+        </div>
+
+        <!-- [T] Theoretical -->
+        <div class="marker-card theoretical">
+          <div class="marker-header">
+            <span class="marker-badge theoretical">[T]</span>
+            <h3 class="marker-name">Theoretical</h3>
+          </div>
+          <p class="marker-definition">
+            Theoretische Frameworks mit wissenschaftlicher Grundlage. Aussagen, die aus etablierten Theorien logisch ableitbar sind, auch wenn sie noch nicht experimentell bestätigt wurden.
+          </p>
+          <div class="marker-example">
+            <strong>Beispiel:</strong>
+            "Vakuumenergiedichte könnte epochenabhängig variieren" — theoretisch konsistent mit Allgemeiner Relativitätstheorie, aber nicht beobachtet.
+          </div>
+        </div>
+
+        <!-- [S] Speculative -->
+        <div class="marker-card speculative">
+          <div class="marker-header">
+            <span class="marker-badge speculative">[S]</span>
+            <h3 class="marker-name">Speculative</h3>
+          </div>
+          <p class="marker-definition">
+            Spekulation basierend auf etablierten Prinzipien. Aussagen, die von bekannten wissenschaftlichen Gesetzen ausgehen und diese extrapolieren, ohne formale theoretische Ableitung.
+          </p>
+          <div class="marker-example">
+            <strong>Beispiel:</strong>
+            "Biologische Anpassungen an Mars-Gravitation könnten Knochenstruktur verändern" — spekulativ, aber physikalisch plausibel.
+          </div>
+        </div>
+
+        <!-- [P] Plausible -->
+        <div class="marker-card plausible">
+          <div class="marker-header">
+            <span class="marker-badge plausible">[P]</span>
+            <h3 class="marker-name">Plausible</h3>
+          </div>
+          <p class="marker-definition">
+            Plausible Wissenschaft ohne formale Theorie. Aussagen, die mit bekannten Naturgesetzen konsistent sind, aber weder theoretisch abgeleitet noch empirisch getestet wurden.
+          </p>
+          <div class="marker-example">
+            <strong>Beispiel:</strong>
+            "Frequenzbasierte Kommunikation über große Distanzen" — plausibel im Rahmen der Physik, aber ohne konkrete Theorie.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2>Mehrfach-Markierung</h2>
+      <p>Ein Dokument kann mehrere Marker gleichzeitig tragen, wenn es verschiedene Evidenzgrade kombiniert:</p>
+      
+      <div class="info-box">
+        <h3>Beispiel: KUE-SCI-0015 "Frequenzbasierte Physik"</h3>
+        <p><strong>Marker:</strong> [R][T][S]</p>
+        <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem;">
+          <li><strong>[R]</strong> — Etablierte Quantenmechanik als Grundlage</li>
+          <li><strong>[T]</strong> — Theoretisches Frequenz-Framework</li>
+          <li><strong>[S]</strong> — Spekulative Anwendungen in Kosmologie</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2>Was NICHT im Archiv erscheint</h2>
+      <p>Das kueper.com-Archiv verzichtet bewusst auf einen Marker:</p>
+      
+      <div style="background: #fff5f5; border-left: 3px solid #c83030; padding: 1.5rem; margin: 2rem 0; border-radius: 0 4px 4px 0;">
+        <h3 style="margin: 0 0 0.75rem 0; font-size: 1.1rem; font-weight: 600; color: #1a1a1a;">
+          [F] Fiction — Verboten
+        </h3>
+        <p style="margin: 0; color: #333;">
+          Fiktionale Elemente (Charaktere, Plots, fiktionale Organisationen) gehören <strong>nicht</strong> ins kueper.com-Archiv. Sie erscheinen ausschließlich im OverTime Archive (OTA).
+        </p>
+      </div>
+      
+      <p>Diese strikte Trennung ist kein Zufall. Sie ist die <strong>Existenzbedingung</strong> des Archivs: Wissenschaft und Fiktion werden in getrennten Räumen behandelt, mit klaren Verweisrichtungen (OTA → KUE, niemals KUE → OTA).</p>
+    </section>
+
+    <section class="content-section">
+      <h2>Qualitätssicherung</h2>
+      <p>Vor Publikation wird jedes Dokument auf folgende Kriterien geprüft:</p>
+      
+      <ol style="line-height: 1.8; color: #333;">
+        <li><strong>Epistemologische Korrektheit:</strong> Marker korrekt gesetzt?</li>
+        <li><strong>Quellenangaben:</strong> Alle [R]-Aussagen mit Quellen belegt?</li>
+        <li><strong>Werk-Neutralität:</strong> Keine fiktionalen Elemente?</li>
+        <li><strong>Konsistenz:</strong> Widersprüche zu bestehenden KUE-Dokumenten aufgelöst?</li>
+        <li><strong>Akademischer Ton:</strong> Formale Sprache, präzise Terminologie?</li>
+      </ol>
+    </section>
+
+    <section class="content-section">
+      <h2>Weiterführende Informationen</h2>
+      <p>Für eine vollständige Einführung in die Prinzipien des Archivs siehe:</p>
+      <ul style="line-height: 1.8;">
+        <li><a href="/kue/fnd/kue-fnd-0001-2026-de" style="color: #1a1a1a; text-decoration: underline;">KUE-FND-0001: Wissenschaftliche Wissensbasis für literarische Werke</a></li>
+        <li><a href="/ueber" style="color: #1a1a1a; text-decoration: underline;">Über das Archiv</a></li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
