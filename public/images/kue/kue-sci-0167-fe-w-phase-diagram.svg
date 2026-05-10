@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Fe-W Binary Phase Diagram (schematic, simplified) -->
+  <!-- Own representation based on Massalski et al., Binary Alloy Phase Diagrams -->
+  
+  <defs>
+    <style>
+      .axis-line { stroke: #1a1a1a; stroke-width: 2; fill: none; }
+      .grid-line { stroke: #e0e0e0; stroke-width: 1; stroke-dasharray: 4,4; }
+      .phase-region { fill: #f0f0f0; stroke: #666; stroke-width: 1.5; }
+      .phase-label { font-family: 'Arial', sans-serif; font-size: 16px; font-weight: 600; fill: #1a1a1a; }
+      .axis-label { font-family: 'Arial', sans-serif; font-size: 14px; fill: #333; }
+      .tick-label { font-family: 'Arial', sans-serif; font-size: 12px; fill: #666; }
+      .phase-line { stroke: #1a1a1a; stroke-width: 2; fill: none; }
+      .mu-phase { fill: #e8f4f8; stroke: #2563eb; stroke-width: 2; }
+      .title { font-family: 'Arial', sans-serif; font-size: 18px; font-weight: 700; fill: #1a1a1a; }
+      .caption { font-family: 'Arial', sans-serif; font-size: 11px; fill: #666; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" class="title">Fe-W Binäres Phasendiagramm (vereinfacht)</text>
+  
+  <!-- Axes -->
+  <line x1="100" y1="500" x2="700" y2="500" class="axis-line"/>
+  <line x1="100" y1="500" x2="100" y2="80" class="axis-line"/>
+  
+  <!-- Grid lines (temperature) -->
+  <line x1="100" y1="410" x2="700" y2="410" class="grid-line"/>
+  <line x1="100" y1="320" x2="700" y2="320" class="grid-line"/>
+  <line x1="100" y1="230" x2="700" y2="230" class="grid-line"/>
+  <line x1="100" y1="140" x2="700" y2="140" class="grid-line"/>
+  
+  <!-- Grid lines (composition) -->
+  <line x1="250" y1="500" x2="250" y2="80" class="grid-line"/>
+  <line x1="400" y1="500" x2="400" y2="80" class="grid-line"/>
+  <line x1="550" y1="500" x2="550" y2="80" class="grid-line"/>
+  
+  <!-- Y-axis labels (Temperature) -->
+  <text x="80" y="505" text-anchor="end" class="tick-label">0</text>
+  <text x="80" y="415" text-anchor="end" class="tick-label">1000</text>
+  <text x="80" y="325" text-anchor="end" class="tick-label">2000</text>
+  <text x="80" y="235" text-anchor="end" class="tick-label">3000</text>
+  <text x="80" y="145" text-anchor="end" class="tick-label">4000</text>
+  
+  <text x="40" y="290" text-anchor="middle" class="axis-label" transform="rotate(-90 40 290)">Temperatur (°C)</text>
+  
+  <!-- X-axis labels (Composition) -->
+  <text x="100" y="525" text-anchor="middle" class="tick-label">0</text>
+  <text x="250" y="525" text-anchor="middle" class="tick-label">25</text>
+  <text x="400" y="525" text-anchor="middle" class="tick-label">50</text>
+  <text x="550" y="525" text-anchor="middle" class="tick-label">75</text>
+  <text x="700" y="525" text-anchor="middle" class="tick-label">100</text>
+  
+  <text x="400" y="555" text-anchor="middle" class="axis-label">W-Gehalt (at%)</text>
+  
+  <!-- Pure component markers -->
+  <text x="100" y="560" text-anchor="middle" class="axis-label" font-weight="600">Fe</text>
+  <text x="700" y="560" text-anchor="middle" class="axis-label" font-weight="600">W</text>
+  
+  <!-- Melting points -->
+  <circle cx="100" cy="162" r="4" fill="#1a1a1a"/>
+  <text x="100" y="152" text-anchor="middle" class="tick-label">1538°C</text>
+  
+  <circle cx="700" cy="93" r="4" fill="#1a1a1a"/>
+  <text x="700" y="83" text-anchor="middle" class="tick-label">3422°C</text>
+  
+  <!-- Phase regions (simplified) -->
+  
+  <!-- α-Fe (bcc) region -->
+  <polygon points="100,500 180,500 180,450 100,450" class="phase-region"/>
+  <text x="140" y="480" text-anchor="middle" class="phase-label">α-Fe</text>
+  
+  <!-- γ-Fe (fcc) region (simplified) -->
+  <polygon points="100,450 140,450 140,380 100,380" class="phase-region"/>
+  <text x="120" y="420" text-anchor="middle" class="phase-label" font-size="14">γ</text>
+  
+  <!-- λ-Phase (Fe₂W, Laves) region -->
+  <polygon points="200,450 300,420 300,350 200,370" class="phase-region"/>
+  <text x="250" y="395" text-anchor="middle" class="phase-label">λ</text>
+  <text x="250" y="410" text-anchor="middle" class="tick-label">(Fe₂W)</text>
+  
+  <!-- μ-Phase (Fe₇W₆) region - HIGHLIGHTED -->
+  <polygon points="320,440 480,380 480,300 320,340" class="mu-phase"/>
+  <text x="400" y="355" text-anchor="middle" class="phase-label" fill="#2563eb">μ-Phase</text>
+  <text x="400" y="370" text-anchor="middle" class="tick-label" fill="#2563eb">(Fe₇W₆)</text>
+  
+  <!-- W-rich solid solution -->
+  <polygon points="550,250 700,150 700,500 550,500" class="phase-region"/>
+  <text x="625" y="350" text-anchor="middle" class="phase-label">W(Fe)</text>
+  
+  <!-- Liquidus line (schematic) -->
+  <path d="M 100,162 Q 250,200 400,250 T 700,93" class="phase-line" stroke="#d97706" stroke-width="2.5"/>
+  <text x="450" y="220" class="tick-label" fill="#d97706">Liquidus</text>
+  
+  <!-- Arrow pointing to μ-phase -->
+  <path d="M 520,280 L 460,320" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="530" y="275" class="tick-label" fill="#2563eb">Bei schneller Abkühlung</text>
+  <text x="530" y="290" class="tick-label" fill="#2563eb">kinetisch bevorzugt</text>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0,0 10,3 0,6" fill="#2563eb"/>
+    </marker>
+  </defs>
+  
+  <!-- Caption -->
+  <text x="400" y="585" text-anchor="middle" class="caption">Abbildung 1: Vereinfachtes Fe-W-Phasendiagramm. Die μ-Phase (Fe₇W₆) ist im</text>
+  <text x="400" y="597" text-anchor="middle" class="caption">Bereich ~54-56 at% W stabil. Nach Daten aus Massalski et al. (1990), eigene Darstellung.</text>
+</svg>
