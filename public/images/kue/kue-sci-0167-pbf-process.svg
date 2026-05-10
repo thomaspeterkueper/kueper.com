@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- PBF-LB/M Process Schematic - Own Creation -->
+  
+  <defs>
+    <style>
+      .component { stroke: #1a1a1a; stroke-width: 2; }
+      .metal { fill: #a8a8a8; }
+      .powder { fill: #e0e0e0; }
+      .melt-pool { fill: #ff6b35; stroke: #ff6b35; }
+      .laser-beam { stroke: #ef4444; stroke-width: 3; fill: none; }
+      .platform { fill: #666; }
+      .label { font-family: 'Arial', sans-serif; font-size: 14px; fill: #1a1a1a; font-weight: 600; }
+      .annotation { font-family: 'Arial', sans-serif; font-size: 12px; fill: #666; }
+      .arrow { stroke: #1a1a1a; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+      .title { font-family: 'Arial', sans-serif; font-size: 18px; font-weight: 700; fill: #1a1a1a; }
+      .caption { font-family: 'Arial', sans-serif; font-size: 11px; fill: #666; }
+      .process-step { fill: #f0f0f0; stroke: #666; stroke-width: 1; }
+    </style>
+    
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0,0 10,3 0,6" fill="#1a1a1a"/>
+    </marker>
+    
+    <marker id="laser-arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0,0 10,3 0,6" fill="#ef4444"/>
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" class="title">Laser-Pulverbett-Verfahren (PBF-LB/M)</text>
+  
+  <!-- Main Process Chamber -->
+  <rect x="150" y="80" width="500" height="300" fill="none" stroke="#333" stroke-width="2" rx="5"/>
+  <text x="400" y="100" text-anchor="middle" class="annotation">Prozesskammer (Schutzgas-Atmosphäre)</text>
+  
+  <!-- Laser source -->
+  <rect x="350" y="50" width="100" height="25" class="component" fill="#d4d4d4"/>
+  <text x="400" y="68" text-anchor="middle" class="label" font-size="12">Laser</text>
+  
+  <!-- Laser beam -->
+  <path d="M 400,75 L 400,180" class="laser-beam" stroke-dasharray="5,3" marker-end="url(#laser-arrow)"/>
+  <text x="415" y="130" class="annotation" fill="#ef4444">Laserstrahl</text>
+  
+  <!-- Powder bed -->
+  <rect x="200" y="250" width="400" height="80" class="powder component"/>
+  <text x="400" y="300" text-anchor="middle" class="label">Pulverbett</text>
+  
+  <!-- Already solidified layers -->
+  <rect x="200" y="210" width="400" height="40" class="metal component"/>
+  <rect x="200" y="230" width="400" height="20" class="metal component" opacity="0.7"/>
+  <text x="400" y="230" text-anchor="middle" class="annotation" font-size="11">Erstarrte Schichten</text>
+  
+  <!-- Melt pool -->
+  <ellipse cx="400" cy="195" rx="30" ry="12" class="melt-pool"/>
+  <text x="330" y="195" text-anchor="end" class="annotation" fill="#ff6b35">Schmelzbad</text>
+  
+  <!-- Build platform -->
+  <rect x="180" y="330" width="440" height="25" class="platform component"/>
+  <text x="400" y="347" text-anchor="middle" class="label" fill="white" font-size="12">Bauplattform</text>
+  
+  <!-- Recoater blade -->
+  <rect x="150" y="240" width="40" height="15" class="component" fill="#888"/>
+  <path d="M 155,255 L 155,275" class="arrow"/>
+  <text x="145" y="220" text-anchor="end" class="annotation" font-size="11">Rakel</text>
+  
+  <!-- Arrows showing process -->
+  <path d="M 670,290 L 720,290" class="arrow"/>
+  <text x="740" y="295" class="annotation">Pulverzufuhr</text>
+  
+  <path d="M 400,360 L 400,390" class="arrow"/>
+  <text x="420" y="380" class="annotation">Absenkung</text>
+  
+  <!-- Process steps (right side) -->
+  <rect x="680" y="120" width="110" height="210" class="process-step"/>
+  <text x="735" y="140" text-anchor="middle" class="label" font-size="13">Prozessschritte:</text>
+  
+  <text x="690" y="165" class="annotation" font-size="11">1. Pulver auftragen</text>
+  <text x="690" y="185" class="annotation" font-size="11">2. Laser schmilzt</text>
+  <text x="700" y="198" class="annotation" font-size="11">   lokal auf</text>
+  <text x="690" y="218" class="annotation" font-size="11">3. Schnelle</text>
+  <text x="700" y="231" class="annotation" font-size="11">   Erstarrung</text>
+  <text x="690" y="251" class="annotation" font-size="11">4. Plattform senkt</text>
+  <text x="690" y="271" class="annotation" font-size="11">5. Nächste Schicht</text>
+  
+  <text x="735" y="295" text-anchor="middle" class="annotation" font-size="10">(10³–10⁶ K/s)</text>
+  
+  <!-- Key parameters box -->
+  <rect x="50" y="390" width="200" height="85" class="process-step"/>
+  <text x="150" y="408" text-anchor="middle" class="label" font-size="12">Prozessparameter:</text>
+  <text x="60" y="428" class="annotation" font-size="11">• Laserleistung (W)</text>
+  <text x="60" y="444" class="annotation" font-size="11">• Scangeschwindigkeit</text>
+  <text x="60" y="460" class="annotation" font-size="11">• Schichtdicke (μm)</text>
+  
+  <!-- Material history note -->
+  <rect x="270" y="390" width="260" height="85" class="process-step"/>
+  <text x="400" y="408" text-anchor="middle" class="label" font-size="12">Prozessgeschichte:</text>
+  <text x="280" y="428" class="annotation" font-size="11">Jede Schicht durchläuft:</text>
+  <text x="280" y="444" class="annotation" font-size="11">• Aufschmelzen bei neuem Layer</text>
+  <text x="280" y="460" class="annotation" font-size="11">→ Mikrostruktur wird überschrieben</text>
+  
+  <!-- Caption -->
+  <text x="400" y="492" text-anchor="middle" class="caption">Abbildung 2: Schematische Darstellung des Laser-Pulverbett-Verfahrens (PBF-LB/M).</text>
+</svg>
