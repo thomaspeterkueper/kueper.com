@@ -16,20 +16,17 @@ import Navigation from '../components/Navigation.astro';
       margin: 0;
       padding: 0;
     }
-    
     .page-container {
       max-width: 800px;
       margin: 0 auto;
       padding: 3rem 2rem 6rem 2rem;
     }
-    
     .page-title {
       font-size: 2rem;
       font-weight: 600;
       margin: 0 0 2rem 0;
       color: #1a1a1a;
     }
-    
     .legal-section {
       background: white;
       padding: 2rem;
@@ -37,28 +34,39 @@ import Navigation from '../components/Navigation.astro';
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
       margin-bottom: 2rem;
     }
-    
     .legal-section h2 {
       font-size: 1.3rem;
       font-weight: 600;
       margin: 0 0 1rem 0;
       color: #1a1a1a;
     }
-    
+    .legal-section h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 1.5rem 0 0.75rem 0;
+      color: #1a1a1a;
+    }
     .legal-section p {
       line-height: 1.7;
       margin-bottom: 0.75rem;
       color: #333;
     }
-    
     .legal-section p:last-child {
       margin-bottom: 0;
+    }
+    .legal-section a {
+      color: #1a1a1a;
+    }
+    .ip-list {
+      margin: 0.5rem 0 0.75rem 1.5rem;
+      line-height: 1.8;
+      color: #333;
     }
   </style>
 </head>
 <body>
   <Navigation />
-  
+
   <div class="page-container">
     <h1 class="page-title">Impressum</h1>
 
@@ -66,8 +74,8 @@ import Navigation from '../components/Navigation.astro';
       <h2>Angaben gemäß § 5 TMG</h2>
       <p>
         Thomas Peter Küper<br>
-        Mörfelder Landstraße 103<br>
-        60598 Frankfurt am Main<br>
+        Bogenstraße 15<br>
+        59486 Sundern<br>
         Deutschland
       </p>
     </div>
@@ -75,39 +83,54 @@ import Navigation from '../components/Navigation.astro';
     <div class="legal-section">
       <h2>Kontakt</h2>
       <p>
-        E-Mail: t.kueper@camaleo.de
+        E-Mail: <a href="mailto:mail@thomas-kueper.de">mail@thomas-kueper.de</a>
       </p>
     </div>
 
     <div class="legal-section">
-      <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
+      <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
       <p>
-        Thomas Peter Küper
+        Thomas Peter Küper<br>
+        Bogenstraße 15, 59486 Sundern
+      </p>
+    </div>
+
+    <div class="legal-section">
+      <h2>Urheberrecht</h2>
+      <p>
+        Alle literarischen Werke, philosophischen Konzepte sowie alle fiktionalen Universen sind
+        geistiges Eigentum von Thomas Peter Küper. Dies umfasst insbesondere:
+      </p>
+      <ul class="ip-list">
+        <li>Das AVI-Modell (Axiomatisches Vakuum-Integral)</li>
+        <li>Die Omnizedenz-Philosophie</li>
+        <li>Mishkenaz</li>
+        <li>OmniZedenz-Saga</li>
+        <li>Baumeister Universe</li>
+        <li>noχ¹ᐃ Universe</li>
+        <li>Zereya Saga</li>
+      </ul>
+      <p>
+        Die durch den Seitenbetreiber erstellten Inhalte auf diesen Seiten unterliegen dem deutschen
+        Urheberrecht. Die Vervielfältigung, Bearbeitung und Verbreitung bedürfen der schriftlichen
+        Zustimmung des Autors.
       </p>
     </div>
 
     <div class="legal-section">
       <h2>Haftungsausschluss</h2>
-      
-      <h3 style="font-size: 1.1rem; margin: 1.5rem 0 0.75rem 0;">Haftung für Inhalte</h3>
+
+      <h3>Haftung für Inhalte</h3>
       <p>
-        Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, 
+        Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit,
         Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.
       </p>
-      
-      <h3 style="font-size: 1.1rem; margin: 1.5rem 0 0.75rem 0;">Haftung für Links</h3>
+
+      <h3>Haftung für Links</h3>
       <p>
-        Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte kein Einfluss 
-        genommen werden kann. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter 
-        oder Betreiber der Seiten verantwortlich.
-      </p>
-      
-      <h3 style="font-size: 1.1rem; margin: 1.5rem 0 0.75rem 0;">Urheberrecht</h3>
-      <p>
-        Die durch den Seitenbetreiber erstellten Inhalte und Werke auf dieser Website unterliegen 
-        dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art 
-        der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen 
-        Zustimmung des jeweiligen Autors bzw. Erstellers.
+        Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte kein Einfluss
+        genommen werden kann. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter
+        oder Betreiber verantwortlich.
       </p>
     </div>
   </div>
