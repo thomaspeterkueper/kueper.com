@@ -1,75 +1,83 @@
-***
+# kueper.com
 
-## 🚀 Lokale Entwicklung
+Kanonische öffentliche Dokument- und Publikationsschicht des KUEPER-Ökosystems.
+
+`kueper.com` speichert und veröffentlicht insbesondere MINT+-Grundlagen, Essays, Whitepaper, Spezifikationen, Standards und Guides. Identitäten, Relationen, Mappings und zentrale Rechtsdaten werden im KUEPER Knowledge Graph gepflegt; fiktionale und In-universe-Archivdokumente gehören ausschließlich ins OverTime Archive.
+
+## Lokale Entwicklung
 
 ```bash
-# Repository klonen
-git clone https://github.com/thomaspeterkueper/thomas-kueper-public.git
-cd thomas-kueper-public
-
-# Dependencies installieren
+git clone https://github.com/thomaspeterkueper/kueper.com.git
+cd kueper.com
 npm install
-
-# Development Server starten
 npm run dev
+```
 
-# Build für Production
+Produktionsbuild:
+
+```bash
 npm run build
 ```
 
-***
+Vor `dev` und `build` synchronisiert `scripts/sync-legal.mjs` die zentralen Rechtstextquellen aus `thomaspeterkueper/kueper-knowledge-graph`. Ist die KG-Quelle nicht erreichbar oder fehlt eine registrierte Dokument-ID, schlägt der Sync fehl. Es werden keine erfundenen Fallback-Texte erzeugt.
 
-## 📝 Neues Dokument hinzufügen
+## Kanonische Dokumente
 
-1. Erstelle Markdown-Datei in `src/content/kue/[kategorie]/`
-2. YAML Frontmatter ausfüllen:
-```yaml
-   ---
-   signatur: KUE-SCI-0001-2026-DE
-   titel: "Titel des Dokuments"
-   kategorie: SCI
-   marker: [R, T]
-   sprache: DE
-   datum: 2026-05-06
-   version: 1.0
-   status: Kanonisch
-   keywords:
-     - Keyword 1
-     - Keyword 2
-   public: true
-   ---
+Dokumente liegen unter:
+
+```text
+src/content/kue/<kategorie>/
 ```
-3. Commit & Push
-4. Vercel deployed automatisch
 
-***
+Für Neuanlagen gilt der Dokumentvertrag in [`docs/document-contract.md`](docs/document-contract.md). Die stabile ID verwendet den Namespace:
 
-## 🔗 Links
+```text
+DOC:KUE:<KANONISCHE-ID>
+```
 
-- **Live-Website:** https://kueper.com (in Kürze)
-- **Autoren-Website:** https://thomas-kueper.de
-- **OverTime Archive:** (in Planung)
+Bestehende Dokumente verwenden weiterhin Felder wie `signatur`, `titel` und `sprache`. Die ECO-ARC-0007-Felder `id`, `title`, `language`, `documentType` und `kg` werden schrittweise ergänzt.
 
-***
+## Repository-Struktur
 
-## 📄 Lizenz
+```text
+external-tasks/
+  open/       # verbindliche Cross-Repository-Anforderungen
+  done/       # abgeschlossene Anforderungen
+  rejected/   # abgelehnte Anforderungen
+incoming/
+  references/             # interne Prüfung vorhandener KUE-Anker
+  requested-foundations/  # interne Bearbeitung fehlender Grundlagen
+  review/                 # unklare Fälle
+src/content/kue/           # kanonische Dokumentkörper
+src/pages/                 # öffentliche Astro-Seiten
+scripts/sync-legal.mjs     # buildseitige KG-Rechtstextintegration
+```
+
+`incoming/` ist kein zweiter External-Task-Kanal. Cross-Repository-Kommunikation läuft ausschließlich über `external-tasks/` nach ECO-ARC-0006.
+
+## Rechtstexte
+
+Die folgenden Dokumente werden zentral aus dem Knowledge Graph bezogen:
+
+- `DOC:KUE:LEGAL-IMPRINT-DE`
+- `DOC:KUE:LEGAL-PRIVACY-DE`
+- `DOC:KUE:LEGAL-TERMS-DE`
+
+Der im Dokumentkörper deklarierte Draft-/Release-Status wird auf der Website sichtbar respektiert. Inhaltliche Änderungen erfolgen nicht lokal, sondern über einen External Task an `KG`.
+
+## Links
+
+- Website: https://kueper.com
+- Autorenseite: https://thomas-kueper.de
+- OverTime Archive: https://overtimearchive.org
+- KUEPER-Ökosystem-Dashboard: https://kueper-ecosystem.vercel.app/dashboard
+
+## Lizenz
 
 © 2026 Thomas Peter Küper. Alle Rechte vorbehalten.
 
-**Fonts:**
-- Inter © Rasmus Andersson (SIL OFL 1.1)
-- Source Serif Pro © Adobe (SIL OFL 1.1)  
-- JetBrains Mono © JetBrains (Apache 2.0)
+Schriftarten behalten ihre jeweiligen Lizenzen:
 
-***
-
-## 👤 Kontakt
-
-**Thomas Peter Küper**  
-Mörfelder Landstraße 103  
-60598 Frankfurt am Main  
-📧 t.kueper@camaleo.de
-
-***
-
-**ᐃ**
+- Inter — SIL OFL 1.1
+- Source Serif Pro — SIL OFL 1.1
+- JetBrains Mono — Apache 2.0
