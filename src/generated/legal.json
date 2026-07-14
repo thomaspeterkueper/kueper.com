@@ -1,0 +1,28 @@
+{
+  "generatedAt": null,
+  "sourceRepository": "thomaspeterkueper/kueper-knowledge-graph",
+  "registryStatus": "unknown",
+  "imprint": {
+    "documentId": "DOC:KUE:LEGAL-IMPRINT-DE",
+    "registryStatus": "unknown",
+    "status": "unknown",
+    "updated": "unknown",
+    "responsible": {
+      "name": "",
+      "address": "",
+      "email": ""
+    }
+  },
+  "privacy": {
+    "documentId": "DOC:KUE:LEGAL-PRIVACY-DE",
+    "registryStatus": "unknown",
+    "declaredStatus": "unknown",
+    "markdown": ""
+  },
+  "terms": {
+    "documentId": "DOC:KUE:LEGAL-TERMS-DE",
+    "registryStatus": "unknown",
+    "declaredStatus": "unknown",
+    "markdown": ""
+  }
+}
