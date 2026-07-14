@@ -1,0 +1,12 @@
+---
+import LegalDocument from '../components/LegalDocument.astro';
+import legal from '../generated/legal.json';
+---
+
+<LegalDocument
+  title="Nutzungsbedingungen"
+  documentId={legal.terms.documentId}
+  registryStatus={legal.terms.registryStatus}
+  declaredStatus={legal.terms.declaredStatus}
+  markdown={legal.terms.markdown}
+/>
