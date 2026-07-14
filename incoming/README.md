@@ -25,3 +25,5 @@ Die ursprüngliche External-Task-ID muss in jedem internen Vorgang erhalten blei
 3. Entscheidung oder Dokument-ID im ursprünglichen External Task festhalten.
 4. Task nach `done/` oder `rejected/` verschieben.
 5. Interne Arbeitsnotiz löschen oder mit dem Abschlussverweis archivieren.
+
+Die Umsetzung dieses Workflows schließt GitHub-Issue #1.
