@@ -1,5 +1,8 @@
 ---
 import Navigation from '../components/Navigation.astro';
+import legal from '../generated/legal.json';
+
+const { responsible, documentId, registryStatus, status, updated } = legal.imprint;
 ---
 
 <!DOCTYPE html>
@@ -11,128 +14,40 @@ import Navigation from '../components/Navigation.astro';
   <link rel="stylesheet" href="/styles/fonts.css">
   <link rel="stylesheet" href="/styles/kue-document.css">
   <style>
-    body {
-      background: var(--kue-bg, #f5f3ef);
-      margin: 0;
-      padding: 0;
-    }
-    .page-container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 3rem 2rem 6rem 2rem;
-    }
-    .page-title {
-      font-size: 2rem;
-      font-weight: 600;
-      margin: 0 0 2rem 0;
-      color: #1a1a1a;
-    }
-    .legal-section {
-      background: white;
-      padding: 2rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-      margin-bottom: 2rem;
-    }
-    .legal-section h2 {
-      font-size: 1.3rem;
-      font-weight: 600;
-      margin: 0 0 1rem 0;
-      color: #1a1a1a;
-    }
-    .legal-section h3 {
-      font-size: 1.1rem;
-      font-weight: 600;
-      margin: 1.5rem 0 0.75rem 0;
-      color: #1a1a1a;
-    }
-    .legal-section p {
-      line-height: 1.7;
-      margin-bottom: 0.75rem;
-      color: #333;
-    }
-    .legal-section p:last-child {
-      margin-bottom: 0;
-    }
-    .legal-section a {
-      color: #1a1a1a;
-    }
-    .ip-list {
-      margin: 0.5rem 0 0.75rem 1.5rem;
-      line-height: 1.8;
-      color: #333;
-    }
+    body { background: var(--kue-bg, #f5f3ef); margin: 0; }
+    .page-container { max-width: 800px; margin: 0 auto; padding: 3rem 2rem 6rem; }
+    .page-title { font-size: 2rem; font-weight: 600; margin: 0 0 .5rem; color: #1a1a1a; }
+    .meta { color: #666; font-family: 'JetBrains Mono', monospace; font-size: .78rem; margin-bottom: 2rem; }
+    .legal-section { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,.06); margin-bottom: 2rem; }
+    .legal-section h2 { font-size: 1.3rem; margin-top: 0; }
+    .legal-section p { line-height: 1.7; color: #333; }
+    .legal-section a { color: #1a1a1a; }
   </style>
 </head>
 <body>
   <Navigation />
-
-  <div class="page-container">
+  <main class="page-container">
     <h1 class="page-title">Impressum</h1>
+    <div class="meta">{documentId} · Registry: {registryStatus} · Quelle: {status} · Stand: {updated}</div>
 
-    <div class="legal-section">
-      <h2>Angaben gemäß § 5 TMG</h2>
+    <section class="legal-section">
+      <h2>Angaben zum Verantwortlichen</h2>
       <p>
-        Thomas Peter Küper<br>
-        Bogenstraße 15<br>
-        59486 Sundern<br>
-        Deutschland
+        {responsible.name}<br />
+        {responsible.address}
       </p>
-    </div>
+      <p>E-Mail: <a href={`mailto:${responsible.email}`}>{responsible.email}</a></p>
+    </section>
 
-    <div class="legal-section">
-      <h2>Kontakt</h2>
-      <p>
-        E-Mail: <a href="mailto:mail@thomas-kueper.de">mail@thomas-kueper.de</a>
-      </p>
-    </div>
+    <section class="legal-section">
+      <h2>Verantwortlich für den Inhalt</h2>
+      <p>{responsible.name}<br />{responsible.address}</p>
+    </section>
 
-    <div class="legal-section">
-      <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
-      <p>
-        Thomas Peter Küper<br>
-        Bogenstraße 15, 59486 Sundern
-      </p>
-    </div>
-
-    <div class="legal-section">
-      <h2>Urheberrecht</h2>
-      <p>
-        Alle literarischen Werke, philosophischen Konzepte sowie alle fiktionalen Universen sind
-        geistiges Eigentum von Thomas Peter Küper. Dies umfasst insbesondere:
-      </p>
-      <ul class="ip-list">
-        <li>Das AVI-Modell (Axiomatisches Vakuum-Integral)</li>
-        <li>Die Omnizedenz-Philosophie</li>
-        <li>Mishkenaz</li>
-        <li>OmniZedenz-Saga</li>
-        <li>Baumeister Universe</li>
-        <li>noχ¹ᐃ Universe</li>
-        <li>Zereya Saga</li>
-      </ul>
-      <p>
-        Die durch den Seitenbetreiber erstellten Inhalte auf diesen Seiten unterliegen dem deutschen
-        Urheberrecht. Die Vervielfältigung, Bearbeitung und Verbreitung bedürfen der schriftlichen
-        Zustimmung des Autors.
-      </p>
-    </div>
-
-    <div class="legal-section">
-      <h2>Haftungsausschluss</h2>
-
-      <h3>Haftung für Inhalte</h3>
-      <p>
-        Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit,
-        Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.
-      </p>
-
-      <h3>Haftung für Links</h3>
-      <p>
-        Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte kein Einfluss
-        genommen werden kann. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter
-        oder Betreiber verantwortlich.
-      </p>
-    </div>
-  </div>
+    <section class="legal-section">
+      <h2>Quellenhinweis</h2>
+      <p>Die Verantwortlichen-Daten werden beim Build aus der zentralen Rechtsdaten-Registry des KUEPER Knowledge Graph übernommen und in diesem Repository nicht als eigenständige rechtliche Systemwahrheit gepflegt.</p>
+    </section>
+  </main>
 </body>
 </html>
