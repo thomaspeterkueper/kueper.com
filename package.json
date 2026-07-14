@@ -1,15 +1,17 @@
 {
   "name": "kueper-com",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
+    "sync:legal": "node scripts/sync-legal.mjs",
+    "dev": "npm run sync:legal && astro dev",
+    "start": "npm run dev",
+    "build": "npm run sync:legal && astro build",
     "preview": "astro preview"
   },
   "dependencies": {
     "astro": "^5.1.4",
-    "@astrojs/mdx": "^4.0.0"
+    "@astrojs/mdx": "^4.0.0",
+    "marked": "^15.0.7"
   }
 }
