@@ -1,0 +1,51 @@
+---
+import Navigation from './Navigation.astro';
+import { marked } from 'marked';
+
+interface Props {
+  title: string;
+  documentId: string;
+  registryStatus: string;
+  declaredStatus: string;
+  markdown: string;
+}
+
+const { title, documentId, registryStatus, declaredStatus, markdown } = Astro.props;
+const html = await marked.parse(markdown);
+const isReleased = declaredStatus === 'released';
+---
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title} — KUEPER.COM</title>
+  <link rel="stylesheet" href="/styles/fonts.css">
+  <link rel="stylesheet" href="/styles/kue-document.css">
+  <style>
+    body { background: var(--kue-bg, #f5f3ef); margin: 0; }
+    .page-container { max-width: 860px; margin: 0 auto; padding: 3rem 2rem 6rem; }
+    .status-panel { background: #fff8db; border: 1px solid #d7bd57; border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 1.5rem; line-height: 1.55; }
+    .status-panel strong { display: block; margin-bottom: .25rem; }
+    .legal-document { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,.06); line-height: 1.7; color: #333; }
+    .legal-document :global(h1) { font-size: 2rem; color: #1a1a1a; margin-top: 0; }
+    .legal-document :global(h2) { font-size: 1.3rem; color: #1a1a1a; margin-top: 2rem; }
+    .legal-document :global(a) { color: #1a1a1a; }
+    .meta { color: #666; font-family: 'JetBrains Mono', monospace; font-size: .78rem; margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+  <Navigation />
+  <main class="page-container">
+    <div class="meta">{documentId} · Registry: {registryStatus} · Dokument: {declaredStatus}</div>
+    {!isReleased && (
+      <aside class="status-panel" role="status">
+        <strong>Nicht juristisch freigegebener Entwurf</strong>
+        Dieser zentral bezogene Text ist derzeit nicht als geprüfter Rechtstext freigegeben. Der Status wird aus dem KG-Dokumentkörper übernommen.
+      </aside>
+    )}
+    <article class="legal-document" set:html={html} />
+  </main>
+</body>
+</html>
