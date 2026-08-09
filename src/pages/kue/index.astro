@@ -11,6 +11,7 @@ const categoryLabels: Record<string, string> = {
   TEC: 'Technical Specifications',
   LSC: 'Life Sciences',
   PHY: 'Physics',
+  PHI: 'Philosophy & Epistemology',
   ARC: 'Architecture',
   HIS: 'Historical Research',
   GEO: 'Geography & Planetary Science',
@@ -162,6 +163,7 @@ const activeCategories = Object.keys(categoryCounts).sort();
               {category === 'TEC' && 'Engineering, Antriebssysteme, technische Spezifikationen'}
               {category === 'LSC' && 'Neurologie, Genetik, Biologie, Medizin'}
               {category === 'PHY' && 'Quantenmechanik, Frequenz-Modelle, Vakuum-Physik'}
+              {category === 'PHI' && 'Philosophische Essays, Modellskizzen und epistemische Reflexionen'}
               {category === 'BIO' && 'Biografische Profile realer historischer Personen'}
               {category === 'HIS' && 'Wissenschaftlich recherchierte Geschichte'}
               {category === 'GEO' && 'Planetologie, Geologie, Terraforming-Potenziale'}
