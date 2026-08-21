@@ -1,28 +1,19 @@
 {
-  "generatedAt": null,
-  "sourceRepository": "thomaspeterkueper/kueper-knowledge-graph",
-  "registryStatus": "unknown",
+  "generatedAt": "2026-08",
+  "responsible": {
+    "name": "Thomas Peter Küper",
+    "address": "Mörfelder Landstraße 103\n60598 Frankfurt am Main\nDeutschland",
+    "email": "t.kueper@camaleo.de"
+  },
   "imprint": {
-    "documentId": "DOC:KUE:LEGAL-IMPRINT-DE",
-    "registryStatus": "unknown",
-    "status": "unknown",
-    "updated": "unknown",
-    "responsible": {
-      "name": "",
-      "address": "",
-      "email": ""
-    }
+    "name": "Thomas Peter Küper",
+    "address": "Mörfelder Landstraße 103\n60598 Frankfurt am Main\nDeutschland",
+    "email": "t.kueper@camaleo.de"
   },
   "privacy": {
-    "documentId": "DOC:KUE:LEGAL-PRIVACY-DE",
-    "registryStatus": "unknown",
-    "declaredStatus": "unknown",
-    "markdown": ""
+    "markdown": "## Verantwortlicher\n\nThomas Peter Küper  \nMörfelder Landstraße 103  \n60598 Frankfurt am Main  \nE-Mail: t.kueper@camaleo.de\n\n## Hosting\n\nDiese Website wird über **Vercel Inc.**, 340 Pine Street, Suite 701, San Francisco, CA 94104, USA, gehostet. Beim Abruf von Seiten werden durch Vercel automatisch Server-Log-Dateien erstellt, die folgende Informationen enthalten können:\n\n- IP-Adresse des anfragenden Rechners\n- Datum und Uhrzeit der Anfrage\n- Aufgerufene URL\n- Browsertyp und -version\n- Betriebssystem\n- Referrer-URL\n\nDie Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der sicheren und stabilen Bereitstellung des Angebots). Mit Vercel besteht ein Data Processing Agreement gemäß Art. 28 DSGVO. Weitere Informationen: [vercel.com/legal/privacy-policy](https://vercel.com/legal/privacy-policy)\n\n## Keine Cookies, kein Tracking\n\nDiese Website setzt keine Cookies. Es werden keine Tracking- oder Analyse-Dienste eingesetzt. Es findet keine Weitergabe personenbezogener Daten an Dritte für Werbezwecke statt.\n\n## Datenerfassung durch Nutzer\n\nDiese Website enthält keine Kontaktformulare und keine Möglichkeit zur Eingabe personenbezogener Daten. Eingehende E-Mails an die oben genannte Adresse werden zur Beantwortung der Anfrage verarbeitet und nicht ohne Einwilligung an Dritte weitergegeben.\n\n## Betroffenenrechte\n\nSie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16 DSGVO), Löschung (Art. 17 DSGVO), Einschränkung der Verarbeitung (Art. 18 DSGVO) sowie Widerspruch gegen die Verarbeitung (Art. 21 DSGVO). Zudem steht Ihnen ein Beschwerderecht bei der zuständigen Datenschutz-Aufsichtsbehörde zu.\n\nFür Anfragen wenden Sie sich bitte an: t.kueper@camaleo.de\n\n## Aktualität\n\nStand: August 2026"
   },
   "terms": {
-    "documentId": "DOC:KUE:LEGAL-TERMS-DE",
-    "registryStatus": "unknown",
-    "declaredStatus": "unknown",
-    "markdown": ""
+    "markdown": "## Zweck des Archivs\n\nKueper.com ist ein wissenschaftliches Archiv, das als Wissensbasis für literarische Werke von Thomas Peter Küper dient. Die Inhalte werden zur Information und Dokumentation bereitgestellt.\n\n## Urheberrecht\n\nAlle Inhalte dieser Website — einschließlich Texte, Grafiken, Tabellen, Strukturen und wissenschaftlicher Dokumente — sind urheberrechtlich geschützt und Eigentum von Thomas Peter Küper, sofern nicht anders angegeben.\n\nDie Vervielfältigung, Verbreitung, öffentliche Wiedergabe oder sonstige Nutzung der Inhalte ist ohne ausdrückliche schriftliche Genehmigung nicht gestattet. Zitate im Rahmen wissenschaftlicher oder journalistischer Berichterstattung sind unter Angabe der Quelle zulässig.\n\n## Keine Gewähr für Vollständigkeit\n\nDie Dokumente in diesem Archiv befinden sich in kontinuierlicher Entwicklung. Sie tragen epistemische Marker, die den jeweiligen Wissensstand kennzeichnen. Der Betreiber übernimmt keine Gewähr für die Vollständigkeit, Richtigkeit oder Aktualität der bereitgestellten Informationen.\n\n## Haftungsausschluss\n\nDie Inhalte dieses Archivs sind zur wissenschaftlichen Dokumentation für literarische Werke bestimmt. Sie stellen keine rechtliche, medizinische oder sonstige professionelle Beratung dar. Der Betreiber haftet nicht für Schäden, die aus der Nutzung oder Nichtnutzbarkeit der Inhalte entstehen.\n\nVerweise auf externe Websites liegen außerhalb des Verantwortungsbereichs des Betreibers. Für deren Inhalte sind die jeweiligen Betreiber verantwortlich.\n\n## Änderungen\n\nDer Betreiber behält sich vor, diese Nutzungsbedingungen jederzeit zu ändern. Es gilt jeweils die zum Zeitpunkt der Nutzung veröffentlichte Fassung.\n\n## Anwendbares Recht\n\nEs gilt das Recht der Bundesrepublik Deutschland. Gerichtsstand ist Frankfurt am Main.\n\n## Aktualität\n\nStand: August 2026"
   }
 }
