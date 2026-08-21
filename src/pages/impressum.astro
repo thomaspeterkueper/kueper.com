@@ -1,8 +1,5 @@
 ---
 import Navigation from '../components/Navigation.astro';
-import legal from '../generated/legal.json';
-
-const { responsible, documentId, registryStatus, status, updated } = legal.imprint;
 ---
 
 <!DOCTYPE html>
@@ -12,41 +9,57 @@ const { responsible, documentId, registryStatus, status, updated } = legal.impri
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Impressum — KUEPER.COM</title>
   <link rel="stylesheet" href="/styles/fonts.css">
-  <link rel="stylesheet" href="/styles/kue-document.css">
+  <link rel="stylesheet" href="/styles/homepage.css">
   <style>
-    body { background: var(--kue-bg, #f5f3ef); margin: 0; }
-    .page-container { max-width: 800px; margin: 0 auto; padding: 3rem 2rem 6rem; }
-    .page-title { font-size: 2rem; font-weight: 600; margin: 0 0 .5rem; color: #1a1a1a; }
-    .meta { color: #666; font-family: 'JetBrains Mono', monospace; font-size: .78rem; margin-bottom: 2rem; }
-    .legal-section { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,.06); margin-bottom: 2rem; }
-    .legal-section h2 { font-size: 1.3rem; margin-top: 0; }
-    .legal-section p { line-height: 1.7; color: #333; }
-    .legal-section a { color: #1a1a1a; }
+    .legal-page { max-width: 680px; margin: 0 auto; padding: 3rem 2rem 6rem; }
+    .legal-page h1 { font-family: 'Source Serif Pro', Georgia, serif; font-size: 1.75rem; font-weight: 400; margin-bottom: 2.5rem; padding-bottom: 1rem; border-bottom: 0.5px solid var(--border, #e5e5e5); color: var(--text-primary, #111); }
+    .legal-section { margin-bottom: 2rem; }
+    .legal-section h2 { font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted, #999); font-family: 'JetBrains Mono', monospace; margin-bottom: 0.75rem; }
+    .legal-section p { font-size: 15px; color: var(--text-secondary, #555); line-height: 1.8; }
+    .legal-section a { color: var(--text-primary, #111); }
+    .legal-section a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
   <Navigation />
-  <main class="page-container">
-    <h1 class="page-title">Impressum</h1>
-    <div class="meta">{documentId} · Registry: {registryStatus} · Quelle: {status} · Stand: {updated}</div>
+  <main class="legal-page">
+    <h1>Impressum</h1>
 
     <section class="legal-section">
-      <h2>Angaben zum Verantwortlichen</h2>
+      <h2>Angaben gemäß § 5 TMG</h2>
       <p>
-        {responsible.name}<br />
-        {responsible.address}
+        Thomas Peter Küper<br>
+        Mörfelder Landstraße 103<br>
+        60598 Frankfurt am Main<br>
+        Deutschland
       </p>
-      <p>E-Mail: <a href={`mailto:${responsible.email}`}>{responsible.email}</a></p>
     </section>
 
     <section class="legal-section">
-      <h2>Verantwortlich für den Inhalt</h2>
-      <p>{responsible.name}<br />{responsible.address}</p>
+      <h2>Kontakt</h2>
+      <p>E-Mail: <a href="mailto:t.kueper@camaleo.de">t.kueper@camaleo.de</a></p>
     </section>
 
     <section class="legal-section">
-      <h2>Quellenhinweis</h2>
-      <p>Die Verantwortlichen-Daten werden beim Build aus der zentralen Rechtsdaten-Registry des KUEPER Knowledge Graph übernommen und in diesem Repository nicht als eigenständige rechtliche Systemwahrheit gepflegt.</p>
+      <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+      <p>
+        Thomas Peter Küper<br>
+        Mörfelder Landstraße 103<br>
+        60598 Frankfurt am Main
+      </p>
+    </section>
+
+    <section class="legal-section">
+      <h2>Urheberrecht</h2>
+      <p>
+        Alle Inhalte dieser Website — einschließlich wissenschaftlicher Dokumente, theoretischer Frameworks,
+        philosophischer Konzepte (insbesondere das AVI-Modell und die Omnizedenz-Philosophie) sowie aller
+        fiktionalen Universen — sind geistiges Eigentum von Thomas Peter Küper.
+      </p>
+      <p style="margin-top: 0.75rem;">
+        Die durch den Seitenbetreiber erstellten Inhalte unterliegen dem deutschen Urheberrecht.
+        Vervielfältigung, Bearbeitung und Verbreitung bedürfen der schriftlichen Zustimmung.
+      </p>
     </section>
   </main>
 </body>
