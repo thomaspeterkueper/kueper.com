@@ -1,12 +1,80 @@
 ---
-import LegalDocument from '../components/LegalDocument.astro';
-import legal from '../generated/legal.json';
+import Navigation from '../components/Navigation.astro';
 ---
 
-<LegalDocument
-  title="Nutzungsbedingungen"
-  documentId={legal.terms.documentId}
-  registryStatus={legal.terms.registryStatus}
-  declaredStatus={legal.terms.declaredStatus}
-  markdown={legal.terms.markdown}
-/>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutzungsbedingungen — KUEPER.COM</title>
+  <meta name="description" content="Nutzungsbedingungen für kueper.com">
+  <link rel="stylesheet" href="/styles/fonts.css">
+  <link rel="stylesheet" href="/styles/homepage.css">
+  <style>
+    .legal-page { max-width: 680px; margin: 0 auto; padding: 3rem 2rem 6rem; }
+    .legal-page h1 { font-family: 'Source Serif Pro', Georgia, serif; font-size: 1.75rem; font-weight: 400; margin-bottom: 2.5rem; padding-bottom: 1rem; border-bottom: 0.5px solid var(--border, #e5e5e5); color: var(--text-primary, #111); }
+    .legal-page h2 { font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted, #999); font-family: 'JetBrains Mono', monospace; margin: 2rem 0 0.75rem; }
+    .legal-page p { font-size: 15px; color: var(--text-secondary, #555); line-height: 1.8; margin-bottom: 0.75rem; }
+    .legal-page ul { font-size: 15px; color: var(--text-secondary, #555); line-height: 1.8; padding-left: 1.5rem; margin-bottom: 0.75rem; }
+    .legal-page li { margin-bottom: 0.25rem; }
+    .legal-page a { color: var(--text-primary, #111); }
+    .legal-page a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <Navigation />
+  <main class="legal-page">
+    <h1>Nutzungsbedingungen</h1>
+
+    <h2>Zweck des Archivs</h2>
+    <p>
+      Kueper.com ist ein wissenschaftliches Archiv, das als Wissensbasis für literarische Werke von Thomas Peter Küper dient.
+      Die Inhalte werden zur Information und Dokumentation bereitgestellt.
+    </p>
+
+    <h2>Urheberrecht</h2>
+    <p>
+      Alle Inhalte dieser Website — einschließlich Texte, Grafiken, Tabellen, Strukturen und wissenschaftlicher Dokumente —
+      sind urheberrechtlich geschützt und Eigentum von Thomas Peter Küper, sofern nicht anders angegeben.
+    </p>
+    <p>
+      Die Vervielfältigung, Verbreitung, öffentliche Wiedergabe oder sonstige Nutzung der Inhalte ist ohne ausdrückliche
+      schriftliche Genehmigung nicht gestattet. Zitate im Rahmen wissenschaftlicher oder journalistischer Berichterstattung
+      sind unter Angabe der Quelle zulässig.
+    </p>
+
+    <h2>Keine Gewähr für Vollständigkeit</h2>
+    <p>
+      Die Dokumente in diesem Archiv befinden sich in kontinuierlicher Entwicklung. Sie tragen epistemische Marker,
+      die den jeweiligen Wissensstand kennzeichnen. Der Betreiber übernimmt keine Gewähr für die Vollständigkeit,
+      Richtigkeit oder Aktualität der bereitgestellten Informationen.
+    </p>
+
+    <h2>Haftungsausschluss</h2>
+    <p>
+      Die Inhalte dieses Archivs sind zur wissenschaftlichen Dokumentation für literarische Werke bestimmt.
+      Sie stellen keine rechtliche, medizinische oder sonstige professionelle Beratung dar.
+      Der Betreiber haftet nicht für Schäden, die aus der Nutzung oder Nichtnutzbarkeit der Inhalte entstehen.
+    </p>
+    <p>
+      Verweise auf externe Websites liegen außerhalb des Verantwortungsbereichs des Betreibers.
+      Für deren Inhalte sind die jeweiligen Betreiber verantwortlich.
+    </p>
+
+    <h2>Änderungen</h2>
+    <p>
+      Der Betreiber behält sich vor, diese Nutzungsbedingungen jederzeit zu ändern.
+      Es gilt jeweils die zum Zeitpunkt der Nutzung veröffentlichte Fassung.
+    </p>
+
+    <h2>Anwendbares Recht</h2>
+    <p>
+      Es gilt das Recht der Bundesrepublik Deutschland. Gerichtsstand ist Frankfurt am Main.
+    </p>
+
+    <h2>Aktualität</h2>
+    <p>Stand: August 2026</p>
+  </main>
+</body>
+</html>
