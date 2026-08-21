@@ -5,18 +5,16 @@ import { getCollection } from 'astro:content';
 const allDocs = await getCollection('kue');
 const totalDocs = allDocs.length;
 
-// Get unique categories
 const categories = [...new Set(allDocs.map(doc => doc.data.kategorie))];
 const totalCategories = categories.length;
 
-// Category labels
 const categoryLabels: Record<string, string> = {
   BIO: 'Biographical Profiles',
   SCI: 'Scientific Frameworks',
   TEC: 'Technical Specifications',
   LSC: 'Life Sciences',
   PHY: 'Physics',
-  PHI: 'Philosophy',
+  PHI: 'Philosophy & Epistemology',
   ARC: 'Architecture',
   HIS: 'Historical Research',
   GEO: 'Geography & Planetary Science',
@@ -31,14 +29,33 @@ const categoryLabels: Record<string, string> = {
   MET: 'Methodology',
 };
 
-// Count docs per category
+const categoryDescriptions: Record<string, string> = {
+  SCI: 'Physikalische Theorien und wissenschaftliche Modelle für literarische Werke',
+  TEC: 'Engineering, Antriebssysteme, technische Spezifikationen',
+  LSC: 'Neurologie, Genetik, Biologie, Medizin',
+  PHY: 'Quantenmechanik, Frequenz-Modelle, Vakuum-Physik',
+  PHI: 'Philosophische Motivationen und ontologische Grundlagen',
+  BIO: 'Biografische Profile realer historischer Personen',
+  HIS: 'Wissenschaftlich recherchierte Geschichte',
+  GEO: 'Planetologie, Geologie, Terraforming-Potenziale',
+  OBS: 'Beobachtungs-Notizen und kommentierte Einzelbefunde',
+  FND: 'Methodendokumente und Gründungstexte',
+  PSY: 'Sozialpsychologie, Verhaltensforschung',
+  SOC: 'Organisationstheorie, Gruppenverhalten',
+  LNG: 'Sprachentwicklung, linguistische Systeme',
+  ECO: 'Ökosysteme, Klimamodelle',
+  ORG: 'Wissenschaftlich fundierte Strukturen',
+  ARC: 'Konstruktionsprinzipien, Lebensraumgestaltung',
+  OPS: 'Operative Dokumente',
+  MET: 'Methodologische Grundlagen für den Theorieaufbau',
+};
+
 const categoryCounts = allDocs.reduce((acc, doc) => {
   const cat = doc.data.kategorie;
   acc[cat] = (acc[cat] || 0) + 1;
   return acc;
 }, {} as Record<string, number>);
 
-// Get categories with documents
 const activeCategories = Object.keys(categoryCounts).sort();
 ---
 
@@ -47,32 +64,28 @@ const activeCategories = Object.keys(categoryCounts).sort();
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KUEPER.COM ARCHIV — Wissenschaftliche Wissensbasis für literarische Werke</title>
+  <title>Kueper.com Archiv — Wissenschaftliche Wissensbasis für literarische Werke</title>
   <meta name="description" content="Wissenschaftliche Grundlagen für literarische Werke. Peer-reviewed Forschung, theoretische Frameworks und plausible Spekulationen.">
   <link rel="stylesheet" href="/styles/fonts.css">
   <link rel="stylesheet" href="/styles/homepage.css">
 </head>
 <body>
   <Navigation />
-  
+
   <main class="homepage">
     <header class="hero">
-      <div class="hero-icon">
-        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="20" y="20" width="40" height="40" transform="rotate(45 40 40)" stroke="currentColor" stroke-width="2"/>
-          <circle cx="40" cy="40" r="4" fill="currentColor"/>
-        </svg>
-      </div>
-      
-      <h1 class="hero-title">KUEPER.COM ARCHIV</h1>
-      <p class="hero-subtitle">Wissenschaftliche Wissensbasis für literarische Werke</p>
-      
+      <div class="hero-eyebrow">Wissenschaftliche Wissensbasis</div>
+      <h1>Kueper.com Archiv</h1>
+      <p class="hero-subtitle">
+        Wissenschaftliche Grundlagen für literarische Werke — peer-reviewed Forschung,
+        theoretische Frameworks und plausible Spekulationen, werk- und universumsübergreifend dokumentiert.
+      </p>
       <div class="hero-stats">
-        <div class="stat">
+        <div>
           <span class="stat-number">{totalDocs}</span>
           <span class="stat-label">Dokumente</span>
         </div>
-        <div class="stat">
+        <div>
           <span class="stat-number">{totalCategories}</span>
           <span class="stat-label">Kategorien</span>
         </div>
@@ -80,75 +93,56 @@ const activeCategories = Object.keys(categoryCounts).sort();
     </header>
 
     <section class="categories-section">
+      <div class="section-label">Dokumentenkategorien</div>
       <div class="categories-grid">
-        {activeCategories.map(category => {
-          const count = categoryCounts[category];
-          const label = categoryLabels[category] || category;
-          
-          return (
-            <a href={`/kue/${category.toLowerCase()}`} class="category-card">
-              <div class="category-header">
-                <span class="category-code">{category}</span>
-                <span class="category-count">{count} Dok.</span>
-              </div>
-              <h2 class="category-name">{label}</h2>
-              <p class="category-description">
-                {category === 'SCI' && 'Physikalische Theorien und wissenschaftliche Modelle'}
-                {category === 'TEC' && 'Engineering, Antriebssysteme, technische Spezifikationen'}
-                {category === 'LSC' && 'Neurologie, Genetik, Biologie, Medizin'}
-                {category === 'PHY' && 'Quantenmechanik, Frequenz-Modelle, Vakuum-Physik'}
-                {category === 'PHI' && 'Philosophische Motivationen und ontologische Grundlagen'}
-                {category === 'BIO' && 'Biografische Profile realer historischer Personen'}
-                {category === 'HIS' && 'Wissenschaftlich recherchierte Geschichte'}
-                {category === 'GEO' && 'Planetologie, Geologie, Terraforming-Potenziale'}
-                {category === 'OBS' && 'Beobachtungs-Notizen und Einzelbefunde'}
-                {category === 'FND' && 'Methodendokumente und Gründungstexte'}
-                {category === 'PSY' && 'Sozialpsychologie, Verhaltensforschung'}
-                {category === 'SOC' && 'Organisationstheorie, Gruppenverhalten'}
-                {category === 'LNG' && 'Sprachentwicklung, linguistische Systeme'}
-                {category === 'ECO' && 'Ökosysteme, Klimamodelle'}
-                {category === 'ORG' && 'Wissenschaftlich fundierte Strukturen'}
-                {category === 'ARC' && 'Konstruktionsprinzipien, Lebensraumgestaltung'}
-                {category === 'OPS' && 'Operative Dokumente'}
-                {category === 'MET' && 'Methodologische Grundlagen'}
-              </p>
-            </a>
-          );
-        })}
+        {activeCategories.map(category => (
+          <a href={`/kue/${category.toLowerCase()}`} class="category-card">
+            <div class="category-header">
+              <span class="category-code">{category}</span>
+              <span class="category-count">{categoryCounts[category]} Dok.</span>
+            </div>
+            <div class="category-name">{categoryLabels[category] || category}</div>
+            <p class="category-description">{categoryDescriptions[category] || ''}</p>
+          </a>
+        ))}
       </div>
     </section>
 
+    <hr class="section-divider">
+
     <section class="about-preview">
-      <h2>Was ist das kueper.com-Archiv?</h2>
+      <h2>Was dieses Archiv ist</h2>
       <p>
-        Das kueper.com-Archiv ist die <strong>wissenschaftliche Grundlage</strong> für alle 
-        literarischen Werke des Kurators Thomas Peter Küper. Es dokumentiert peer-reviewed 
-        Forschung, theoretische Frameworks und plausible Spekulationen — werk-übergreifend 
-        und universumsunabhängig.
+        Das Kueper.com-Archiv ist die <strong>wissenschaftliche Grundlage</strong> für alle
+        literarischen Werke des Kurators Thomas Peter Küper. Es dokumentiert Forschung und
+        theoretische Frameworks werk-übergreifend und universumsunabhängig.
       </p>
-      <a href="/ueber" class="cta-link">Mehr über das Archiv →</a>
+      <p>Jedes Dokument trägt epistemische Marker, die den Gewissheitsgrad einzelner Aussagen kennzeichnen.</p>
+      <div class="marker-legend">
+        <span class="marker-pill"><span class="m-r">R</span> Research</span>
+        <span class="marker-pill"><span class="m-t">T</span> Theoretical</span>
+        <span class="marker-pill"><span class="m-s">S</span> Speculative</span>
+        <span class="marker-pill"><span class="m-h">H</span> Hypothesis</span>
+        <span class="marker-pill"><span class="m-i">I</span> Interpretation</span>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-content">
       <div class="footer-brand">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="8" y="8" width="8" height="8" transform="rotate(45 12 12)" stroke="currentColor" stroke-width="1.5"/>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <rect x="8" y="8" width="8" height="8" transform="rotate(45 12 12)"/>
           <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
         </svg>
-        <span>KUEPER.COM ARCHIV</span>
+        Kueper.com
       </div>
-      
       <nav class="footer-nav">
-        <a href="/">Startseite</a>
         <a href="/impressum">Impressum</a>
         <a href="/datenschutz">Datenschutz</a>
+        <a href="/nutzungsbedingungen">Nutzungsbedingungen</a>
+        <a href="/ki-transparenz">KI-Transparenz</a>
       </nav>
-      
-      <p class="footer-credit">
-        Kuratiert von Thomas Peter Küper · Frankfurt am Main
-      </p>
     </div>
   </footer>
 </body>
