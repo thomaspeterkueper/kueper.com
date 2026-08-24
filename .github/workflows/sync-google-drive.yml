@@ -25,7 +25,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Check Google Drive configuration
         id: config
@@ -57,6 +57,17 @@ jobs:
           chmod 600 "$HOME/.config/rclone/rclone.conf"
           rclone lsd gdrive: >/dev/null
 
+      - name: Validate kueper.com source
+        if: steps.config.outputs.configured == 'true'
+        shell: bash
+        run: |
+          count=$(find "src/content/kue" -type f | wc -l)
+          echo "Source contains $count files."
+          if [ "$count" -lt 10 ]; then
+            echo "Refusing sync: kueper.com source unexpectedly contains fewer than 10 files."
+            exit 1
+          fi
+
       - name: Sync canonical kueper.com documents
         if: steps.config.outputs.configured == 'true'
         shell: bash
@@ -65,7 +76,7 @@ jobs:
             "src/content/kue" \
             "gdrive:OTA/_GITHUB/kueper.com" \
             --backup-dir "gdrive:OTA/_GITHUB/_sync-history/kueper.com/${GITHUB_RUN_ID}" \
-            --max-delete 100 \
+            --max-delete 10 \
             --create-empty-src-dirs \
             --drive-skip-gdocs \
             --verbose
