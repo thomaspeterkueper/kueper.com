@@ -63,8 +63,8 @@ jobs:
         run: |
           rclone sync \
             "src/content/kue" \
-            "gdrive:KUEPER/kueper.com Archive" \
-            --backup-dir "gdrive:KUEPER/_sync-history/kueper.com Archive/${GITHUB_RUN_ID}" \
+            "gdrive:OTA/_GITHUB/kueper.com" \
+            --backup-dir "gdrive:OTA/_GITHUB/_sync-history/kueper.com/${GITHUB_RUN_ID}" \
             --max-delete 100 \
             --create-empty-src-dirs \
             --drive-skip-gdocs \
