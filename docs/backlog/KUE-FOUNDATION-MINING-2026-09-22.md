@@ -158,3 +158,45 @@ Vor dem ersten neuen Foundation-Dokument werden:
 ## Arbeitsprinzip
 
 Das Ziel ist nicht, möglichst viele KUE-Dokumente zu erzeugen. Ziel ist eine kleine, belastbare und wiederverwendbare Schicht wissenschaftlicher Grundlagen, auf die OTA, SSF, NOXIA und weitere Projekte eindeutig referenzieren können.
+
+
+## 8. Foundation-Mining Pass 2 — bestätigte Zuordnungen
+
+Der erste Detailabgleich der neueren OTA-SCI-Serie bestätigt, dass nicht jede OTA-SCI-Nummer eine neue KUE-Grundlage erzeugen darf. Mehrere OTA-Dossiers sind bereits direkt oder semantisch durch KUE abgedeckt.
+
+| OTA | Thema | Zuordnung | Begründung / Aktion |
+| --- | --- | --- | --- |
+| OTA-SCI-0059 | Meteoritisches Eisen | COVERED | KUE-SCI-0059 ist der passende Realanker. |
+| OTA-SCI-0060 | Magnetit im Gehirn / Magnetorezeption | COVERED | KUE-SCI-0170 deckt Nachweis, EEG-Befund und Mechanismusgrenzen ab. |
+| OTA-SCI-0064 | Hautmikrobiom | COVERED | KUE-SCI-0064 ist der passende Realanker. |
+| OTA-SCI-0083 | Eigenzeit / optische Atomuhren | EXTEND_KUE | KUE-SCI-0177 deckt Quantensensorik/optische Uhren; prüfen, ob relativistische Geodäsie und Ausschlusslogik dort vollständig genug sind. |
+| OTA-SCI-0084 | Kryoporöse Eiswelten | COVERED | bereits explizit auf KUE-SCI-0013 als Basis referenziert. |
+| OTA-SCI-0090 | Utopia Planitia / Wassereis | COVERED / EXTEND_KUE | KUE-SCI-0171 deckt Mars-Wassereis und ISRU; regionale Evidenz ggf. als Erweiterung statt neues Foundation-Dokument. |
+| OTA-SCI-0087 | Kinder von Ceres | PROJECT_ONLY | reale Grundlage aus 0086 extrahieren; Ceres-/Figurenkanon bleibt OTA. |
+| OTA-SCI-0088 | Geburt auf Raumfrachter | PROJECT_ONLY | reale Grundlage aus 0086 extrahieren; Frachterfall bleibt OTA. |
+| OTA-SCI-0089 | Gravity-environment adaptation | EXTEND_KUE / NEW_FOUNDATION | als allgemeine Humanphysiologie prüfen; NOXIA-Klassen und Zukunftsannahmen entfernen. |
+| OTA-SCI-0091 | Unite / SN Ia / Dunkle Energie | NEW_FOUNDATION | Beobachtungsgrundlage als KUE-Kosmologie-Dokument geeignet; AVI-Nutzung strikt nachgelagert. |
+
+### Neue starke Kandidaten aus OTA-SCI 0057–0091
+
+| Thema | Quelle | Klasse | Scope für KUE |
+| --- | --- | --- | --- |
+| Otjize als funktionales Materialsystem | OTA-SCI-0057 | NEW_FOUNDATION-Kandidat | Ocker-Fett-Matrix, Mineralogie, UV-/thermische und antimikrobielle Eigenschaften; kulturelle Aussagen nur quellenbasiert |
+| Triclosan | OTA-SCI-0058 | NEW_FOUNDATION-Kandidat | Wirkmechanismus, Resistenzselektion, Mikrobiom-/Barriereeffekte; regulatorische Angaben zeitgebunden |
+| Disulfidbrücken | OTA-SCI-0061 | NEW_FOUNDATION | Chemie, Proteinstruktur, Redoxschalter, Raman-Signaturen |
+| Mpemba-Effekt | OTA-SCI-0062 | NEW_FOUNDATION | Nichtgleichgewichtsrelaxation, experimentelle Bedingungen und Reproduzierbarkeitsgrenzen |
+| Belousov–Zhabotinsky-Reaktion | OTA-SCI-0063 | NEW_FOUNDATION | oszillierende Reaktionskinetik, Reaktions-Diffusions-Systeme, Selbstorganisation |
+| Elemi-Harz | OTA-SCI-0066 | REVIEW | Chemie real, aber Eigenständigkeit als projektübergreifender KUE-Anker noch prüfen |
+| Kreisplattenakustik / Chladni | OTA-SCI-0081 | NEW_FOUNDATION-Kandidat | allgemeine Moden/Knotenlinien von Platten; Bronze-/Artefaktbezug aus Realanker entfernen |
+| Präzession / historische Himmelsrekonstruktion | OTA-SCI-0082 | NEW_FOUNDATION-Kandidat | Präzession, Polarsternwechsel, archäoastronomische Rekonstruktionsmethodik |
+| Reproduktion/Entwicklung in Mikro- und Teilgravitation | OTA-SCI-0086 | NEW_FOUNDATION — hohe Priorität | Human-/Tier-/Analogdaten, Strahlung, Entwicklung; keine erfundene Mindestgravitation |
+| SN-Ia-Hubble-Diagramme / dynamische DE | OTA-SCI-0091 | NEW_FOUNDATION — hohe Priorität | reale Beobachtungs- und Modelllage; keine AVI-Bestätigung ableiten |
+
+### Konsequenz für die Priorisierung
+
+Die erste Welle wird um zwei besonders wertvolle Grundlagen erweitert:
+
+1. **Humanentwicklung, Reproduktion und Teilgravitation**, weil mehrere OTA-Dossiers (0086–0089) davon abhängen und die Grundlage auch für NOXIA/Engineering wiederverwendbar ist.
+2. **SN-Ia-Kosmologie / Expansionsgeschichte**, weil OTA-SCI-0091 bereits eine klar abtrennbare reale Beobachtungsschicht besitzt und KUE-SCI-0001 (AVI) dadurch eine unabhängige empirische Referenzschicht erhält.
+
+Gleichzeitig werden 0059, 0060, 0064 und 0084 ausdrücklich **nicht** als neue KUE-Dokumente geplant. Das verhindert unmittelbare Dubletten.
