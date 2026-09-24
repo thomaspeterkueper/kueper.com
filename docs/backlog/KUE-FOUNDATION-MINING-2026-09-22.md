@@ -200,3 +200,37 @@ Die erste Welle wird um zwei besonders wertvolle Grundlagen erweitert:
 2. **SN-Ia-Kosmologie / Expansionsgeschichte**, weil OTA-SCI-0091 bereits eine klar abtrennbare reale Beobachtungsschicht besitzt und KUE-SCI-0001 (AVI) dadurch eine unabhängige empirische Referenzschicht erhält.
 
 Gleichzeitig werden 0059, 0060, 0064 und 0084 ausdrücklich **nicht** als neue KUE-Dokumente geplant. Das verhindert unmittelbare Dubletten.
+
+
+## 9. Foundation-Mining Pass 3 — OTA + SSF, 2026-09-24
+
+Der erneute Bestandsabgleich bestätigt die Trennung zwischen KUE-Grundlagen, SSF-Didaktik, OTA-Kanon und Engineering. Der aktuelle OTA-Open-Bestand ist auf elf fachliche Tasks plus `.gitkeep` zurückgegangen; die Backlog-Map darf daher nicht mit dem OTA-Task-Backlog gleichgesetzt werden.
+
+### Bestätigte SSF-Extraktionskandidaten
+
+| Thema | SSF-Quelle | Klasse | KUE-Ziel |
+| --- | --- | --- | --- |
+| Planetare Raman-Spektroskopie | `docs/PLANETARY-RAMAN-RESOURCE-RECONNAISSANCE.md` | NEW_FOUNDATION — hohe Priorität | Raman-Physik, reale planetare Instrumente, Standoff-Grenzen, Sensorfusion und epistemische Trennung von Detektion/Grade/Tonnage/Reserve |
+| Magnetische Funktionsmaterialien | `lib/learningPaths/magnetismMaterials.ts`, MAG-001..008 | NEW_FOUNDATION-Kandidat | Hysterese, Remanenz, Koerzitivfeld, weich-/hartmagnetische Werkstoffe, Temperaturgrenzen und Funktionsklassen; Didaktik bleibt SSF |
+| Mars-Systemskalierung | `docs/research/minimum-viable-mars-colony-497.md` | EXTEND_KUE / REVIEW | belastbare Stoffstrom- und Resilienzgrundlagen gegen KUE-SCI-0172/0178/0181 deduplizieren; die konkrete 497-Personen-Architektur bleibt SSF/OTA/Engineering |
+
+### Bestätigte OTA-Extraktionskandidaten
+
+| Thema | OTA-Signal | Klasse | KUE-Ziel |
+| --- | --- | --- | --- |
+| Solar-induced chlorophyll fluorescence (SIF) | `EXT-NOXIA-OTA-20260914-flex-photosynthesis-state-model.md` | NEW_FOUNDATION-Kandidat | SIF als Messgröße, Photosynthese-/Stressbezug, Retrievalgrenzen; NOXIA-Zustandsfelder bleiben NOXIA |
+| Solare Transferlogistik | `EXT-ENG-OTA-20260920-transfer-logistics-canonicalization.md` | ENGINEERING / COVERED | keine pauschale neue KUE-Grundlage; Orbitalmechanik gegen 0173/0179/0182 referenzieren, konkrete Netzarchitektur bleibt Engineering/OTA |
+
+### Arbeitsreihenfolge nach Pass 3
+
+1. Planetare Raman-Spektroskopie als erster neuer Foundation-Entwurf.
+2. Lunarer Staub und Mars-Perchlorate nach Quellenabgleich.
+3. Humanentwicklung/Reproduktion in Mikro-/Teilgravitation.
+4. SIF/Photosynthese-Fernerkundung.
+5. Magnetische Funktionsmaterialien.
+6. SN-Ia/Expansionsgeschichte und FRB/Baryonen als astrophysikalischer Block.
+7. Erst danach kleinere Chemie-/Materialkandidaten.
+
+### Governance-Folge
+
+KG wird über die Mining-Pipeline informiert, damit neue stabile KUE-Dokumente nach Fertigstellung registriert und mit OTA/SSF/NOXIA über kanonische Relationen verbunden werden können. ECO wird über das projektübergreifende Muster informiert, weil das Foundation-Mining mehrere Repositories betrifft und als wiederkehrender Workflow standardisierbar ist. Diese Mitteilungen übertragen **keine** Source-of-Truth-Verantwortung: KUE bleibt Owner der Realgrundlagen; KG bleibt Owner von Identitäten/Relationen; ECO bleibt Governance-Owner.
