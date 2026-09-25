@@ -234,3 +234,36 @@ Der erneute Bestandsabgleich bestätigt die Trennung zwischen KUE-Grundlagen, SS
 ### Governance-Folge
 
 KG wird über die Mining-Pipeline informiert, damit neue stabile KUE-Dokumente nach Fertigstellung registriert und mit OTA/SSF/NOXIA über kanonische Relationen verbunden werden können. ECO wird über das projektübergreifende Muster informiert, weil das Foundation-Mining mehrere Repositories betrifft und als wiederkehrender Workflow standardisierbar ist. Diese Mitteilungen übertragen **keine** Source-of-Truth-Verantwortung: KUE bleibt Owner der Realgrundlagen; KG bleibt Owner von Identitäten/Relationen; ECO bleibt Governance-Owner.
+
+
+## 10. Foundation-Mining Pass 4 — erster Foundation-Build, 2026-09-25
+
+Der erste Kandidat aus der priorisierten Arbeitsreihenfolge ist umgesetzt:
+
+| KUE-Dokument | Ursprung | Ergebnis |
+| --- | --- | --- |
+| `KUE-SCI-0184-2026-DE` | SSF `docs/PLANETARY-RAMAN-RESOURCE-RECONNAISSANCE.md` + unabhängige Primär-/Missionsquellenprüfung | **ERSTELLT** — planetare Raman-Spektroskopie, reale SuperCam-/SHERLOC-Heritage, 120-m-Standoff-Demonstration, 30–50-km-NIAC-Status, Sensorfusion und Ressourcenevidenzgrenzen |
+
+### Deduplizierungsentscheidung
+
+KUE-SCI-0184 übernimmt **nicht** die SSF-Didaktik und **nicht** die konkrete NIAC-Missionsarchitektur. Der kanonische KUE-Scope ist die wiederverwendbare physikalisch-methodische Grundlage. Die zentrale epistemische Kette lautet:
+
+`composition detection ≠ grade ≠ thickness/depth ≠ tonnage ≠ recoverable resource ≠ reserve`
+
+Damit kann SSF künftig die Lehre auf KUE-0184 grounden, während OTA/NOXIA die Ressourcenerkundung darauf referenzieren können, ohne eine Spektraldetektion unmittelbar als bekannte Lagerstätte zu behandeln.
+
+### Nummerierung
+
+Der vorhandene SCI-Bestand wurde vor der Neuanlage erneut geprüft. Die historischen IDs 0001/0004/0012/0013/0059/0064 koexistieren mit dem neueren zusammenhängenden Block 0167–0183. Für neue Foundation-Dokumente wird der aktuelle Block ab 0184 fortgeführt; bestehende historische IDs werden nicht umnummeriert.
+
+### Nächster Build-Block
+
+Nach Raman folgen gemäß Priorisierung:
+
+1. lunarer Staub,
+2. Mars-Perchlorate,
+3. Humanentwicklung/Reproduktion in Mikro-/Teilgravitation,
+4. SIF/Photosynthese-Fernerkundung,
+5. magnetische Funktionsmaterialien.
+
+Vor jeder Neuanlage bleibt der Primärquellen- und Deduplizierungscheck verpflichtend.
