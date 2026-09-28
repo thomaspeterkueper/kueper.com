@@ -345,3 +345,29 @@ Keine Stufe impliziert automatisch die nächste. Die Klassen enthalten keine Gam
 ### Nächster Build
 
 Nächster priorisierter Kandidat: **Solar-Induced Fluorescence (SIF) / Photosynthese-Fernerkundung**. Vor Anlage: Abgleich gegen vorhandene KUE-Fernerkundungsdokumente und aktueller FLEX-Status nach dem für September 2026 geplanten Start.
+
+
+## 14. Foundation-Mining Pass 8 — SIF / Photosynthese-Fernerkundung, 2026-09-28
+
+Umgesetzt: `KUE-SCI-0188-2026-DE` — **Solar-induzierte Chlorophyllfluoreszenz — Photosynthese-Fernerkundung, SIF, GPP und FLEX**.
+
+### Statuskorrektur gegenüber dem ursprünglichen SSF-/OTA-Input
+
+FLEX ist nicht mehr nur eine geplante Mission. FLEX und Sentinel-3C wurden am 15.09.2026 erfolgreich auf Vega-C gestartet; ESA führt FLEX nach dem Start als operational. Das KUE-Dokument verwendet daher den aktuellen Missionsstatus und trennt diesen von der erst beginnenden wissenschaftlichen Langzeitdatenreihe.
+
+### Deduplizierung
+
+Im KUE-Bestand wurde vor Anlage kein eigenes SIF-/Photosynthese-Fernerkundungsdokument gefunden.
+
+### Zentrale Evidenzgrenzen
+
+- SIF ist ein physiologisch gekoppelter Vegetationskanal, aber keine direkte CO2-Flussmessung.
+- SIF ≠ GPP; die Beziehung hängt u. a. von APAR, Fluoreszenzausbeute, Canopy-Escape, Biome/C3-C4, Licht und Stress ab.
+- SIF-Anomalie ≠ eindeutige Stressursache.
+- Vegetationsstruktur ≠ aktuelle Pflanzenfunktion.
+- FLEX/FLORIS: 500–780 nm, ~300 m Bodenauflösung, ~150 km Schwad; Tandem-/Konvoibeobachtung mit Sentinel-3.
+- Sensorfusion aus Reflexion + SIF + Temperatur + Meteorologie ist aussagekräftiger als ein isolierter Kanal.
+
+### Nächster Build
+
+Nächster priorisierter Kandidat: **magnetische Funktionsmaterialien** — Materialklassen, Hysterese, Temperatur-/Curie-Grenzen, Mikrostruktur, Permanent-/Weichmagnete und anwendungsabhängige Auswahl. Vor Anlage ist der vorhandene KUE-/KG-Magnetismusbestand erneut auf Überschneidungen zu prüfen.
