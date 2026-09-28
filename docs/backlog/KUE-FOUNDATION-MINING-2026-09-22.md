@@ -267,3 +267,28 @@ Nach Raman folgen gemäß Priorisierung:
 5. magnetische Funktionsmaterialien.
 
 Vor jeder Neuanlage bleibt der Primärquellen- und Deduplizierungscheck verpflichtend.
+
+
+## 11. Foundation-Mining Pass 5 — lunarer Staub, 2026-09-28
+
+Der zweite Foundation-Build ist umgesetzt:
+
+| KUE-Dokument | Ursprung | Ergebnis |
+| --- | --- | --- |
+| `KUE-SCI-0185-2026-DE` | OTA PELICAN-Evidenzaudit + unabhängige NASA-/Primärquellenprüfung | **ERSTELLT** — Partikelphysik, Adhäsion/Elektrostatik, Abrasion, Apollo-Exposition, NASA-Human-System-Grenzwert, Hardware-Risikokette und gestufte Mitigation |
+
+### Deduplizierung gegen KUE-SCI-0180
+
+0180 bleibt der Realanker für Terramechanik, Fahrwege, Verdichtung, Sintern und Verkehrsarchitektur. 0185 behandelt die feine Staubfraktion als Umwelt-, Human- und Hardware-Risiko. Oberflächenstabilisierung erscheint in 0185 nur als Dust-Mitigation und verweist fachlich auf 0180.
+
+### Evidenzpräzisierungen
+
+- NASA [V2 6053]: <10-µm-Lunarstaub in bewohnbarer Atmosphäre <0,3 mg/m³ TWA bei intermittierender täglicher Exposition bis sechs Monate.
+- Der 6,8-mg/m³-NOAEL aus der vierwöchigen Ratten-Inhalationsstudie wird ausdrücklich **nicht** als Human-Grenzwert verwendet.
+- Simulanten- und Materialpaarungsdaten werden nicht als universelle Abrasivitäts-/Toxizitätsfaktoren kanonisiert.
+- RAC/Blue Ghost 1 liefert seit 2025 reale Mondoberflächen-Exposition von Materialproben und erweitert die Evidenz über Apollo und terrestrische Simulanten hinaus.
+- Plume–Surface Interaction wird als anthropogene Staubquelle und aktives Mess-/Testfeld geführt.
+
+### Nächster Build
+
+Nächster priorisierter Foundation-Kandidat ist **Mars-Perchloratchemie**. Vor Neuanlage erfolgt die Deduplizierung gegen KUE-SCI-0171 (Mars-Wasser/ISRU) und die Trennung von Umweltchemie, Human-/Pflanzentoxikologie und konkreter Prozessauslegung.
