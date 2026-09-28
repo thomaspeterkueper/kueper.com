@@ -484,3 +484,28 @@ SN Ia und FRB liefern unterschiedliche historienintegrierte Kanäle: geometrisch
 ### Nächste Kandidaten
 
 Nach 0191/0192 ist der aktuelle Expansions-/Baryonen-Beobachtungsblock grundgelegt. Nächster Mining-Pass sollte den verbleibenden OTA/SSF-Bestand neu priorisieren; besonders offen bleiben u. a. Ermüdung/Bruchmechanik als Anschluss an 0190 sowie die älteren Foundation-Kandidaten Triclosan, Disulfidbrücken, Mpemba, Belousov-Zhabotinsky und Kreisplatten-/Chladni-Akustik.
+
+
+## 19. Foundation-Mining Pass 13 — Bruchmechanik, 2026-09-28
+
+Umgesetzt: `KUE-SCI-0193-2026-DE` — **Bruchmechanik — Risse, Spannungsintensität, Bruchzähigkeit und elastisch-plastische Grenzen**.
+
+### Abhängigkeit
+
+`KUE-SCI-0193` setzt `DOC:KUE:KUE-SCI-0190-2026-DE` voraus. 0190 behandelt Tensor-/Fließmechanik und endet bei der Kerb-/Rissgrenze; 0193 übernimmt scharfe Risse und Damage Tolerance.
+
+### Zentrale Grenzen
+
+- Nennspannung ≠ Rissspitzenfeld.
+- K_t ≠ K_I.
+- gemessener K-Wert ≠ automatisch K_Ic.
+- K_Ic gilt nur unter validen LEFM-/plane-strain-/small-scale-yielding-Bedingungen.
+- plastischer Kollaps und Bruch sind getrennte Grenzzustände.
+- bei größerer Rissspitzenplastizität: J/CTOD/R-Kurve statt unkritischer K_Ic-Anwendung.
+- zyklisches Risswachstum kann bei K_max < K_Ic auftreten.
+- nicht detektiert ≠ nicht vorhanden; NDE-Nachweisgrenze gehört zum Sicherheitsmodell.
+- FEA-Rissparameter ≠ automatisch validierter Bruchnachweis.
+
+### Nächste Abhängigkeit
+
+Als direkter Folgeanker ist **Ermüdung und Ermüdungsrisswachstum** jetzt sinnvoll: S-N/Wöhler, ε-N, Mittelspannung, Miner-Schadensakkumulation, ΔK/Paris, Schwelle, variable Amplituden und Umwelteinflüsse. Bruchmechanik liefert dafür den Riss-Endzustand und die Damage-Tolerance-Schnittstelle.
