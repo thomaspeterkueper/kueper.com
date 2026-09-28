@@ -371,3 +371,31 @@ Im KUE-Bestand wurde vor Anlage kein eigenes SIF-/Photosynthese-Fernerkundungsdo
 ### Nächster Build
 
 Nächster priorisierter Kandidat: **magnetische Funktionsmaterialien** — Materialklassen, Hysterese, Temperatur-/Curie-Grenzen, Mikrostruktur, Permanent-/Weichmagnete und anwendungsabhängige Auswahl. Vor Anlage ist der vorhandene KUE-/KG-Magnetismusbestand erneut auf Überschneidungen zu prüfen.
+
+
+## 15. Foundation-Mining Pass 9 — Magnetische Funktionswerkstoffe, 2026-09-28
+
+Umgesetzt: `KUE-SCI-0189-2026-DE` — **Magnetische Funktionswerkstoffe — Hysterese, Mikrostruktur, Temperatur und anwendungsabhängige Auswahl**.
+
+### Abgrenzung
+
+Keine Duplizierung von Magnetit/Magnetorezeption oder Quantensensorik. KG bleibt Owner der Identitäten/Relationen für Motor, Generator, Transformator, Hall-Sensor und Magnetlager; SSF bleibt Owner der Didaktisierung. KUE-0189 liefert die fehlende reale Werkstoffschicht.
+
+### Zentrale Aussagen
+
+- weichmagnetisch und hartmagnetisch sind unterschiedliche Funktionsziele;
+- Remanenz, Koerzitivität, (BH)max, Permeabilität und Kernverlust dürfen nicht zu einem Einheitswert kollabieren;
+- Mikrostruktur und Herstellprozess sind Teil der magnetischen Funktion;
+- Curie-Temperatur ≠ sichere maximale Betriebstemperatur;
+- Nd-Fe-B ≠ universell bester Permanentmagnet;
+- GBDP kann Koerzitivität mit effizienterem HRE-Einsatz erhöhen;
+- fertige Bauteile können durch Stanzen, Spannung, Temperatur, Korrosion und Geometrie von idealisierten Materialkennwerten abweichen;
+- Auswahl ist ein Mehrzielproblem aus Magnetik, Temperatur, Mechanik, Chemie, Fertigung, Kosten und Versorgung.
+
+### Nächste Mining-Kandidaten
+
+Nach der bisherigen Prioritätenliste ist der Magnetismus-Block abgeschlossen. Als nächste starke Kandidaten bleiben insbesondere **Technische Mechanik II (Spannung/Dehnung/kombinierte Beanspruchung)** sowie aus OTA **SN-Ia/Hubble-Diagramme/dynamische Dunkle Energie** und **FRB als baryonischer Beobachtungskanal**. Vor Vergabe von 0190 ist erneut Deduplizierung und Primärquellenprüfung erforderlich.
+
+### Deployment-Hinweis
+
+Die seit Commit `8d67b898` auftretenden Vercel-Fehler sind nicht auf einen SCI-Content-Commit isoliert: `8d67b898` fügte ausschließlich diese Datei unter `docs/backlog/` hinzu, während der vorherige Commit `94d15e67` erfolgreich deployte. GitHub-Sync-Checks laufen weiterhin erfolgreich. Ohne zugänglichen Vercel-Buildlog wird daher kein spekulativer Content-Patch vorgenommen.
