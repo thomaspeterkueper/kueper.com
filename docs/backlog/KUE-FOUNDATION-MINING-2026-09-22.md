@@ -426,3 +426,32 @@ KUE-0190 liefert die allgemeine Kontinuums-/Festigkeitsgrundlage. Konkrete Baute
 Der Mechanikanker öffnet spätere eigenständige Grundlagen zu **Ermüdung**, **Bruchmechanik**, **Kriechen** und **Stabilität/Beulen**, falls OTA/SSF/Engineering dafür genügend projektübergreifenden Bedarf zeigen.
 
 Für den nächsten Mining-Pass bleiben als starke bereits identifizierte Kandidaten **SN-Ia/Hubble-Diagramme/dynamische Dunkle Energie** und **FRB als baryonischer Beobachtungskanal**.
+
+
+## 17. Foundation-Mining Pass 11 — SN Ia / Expansionsgeschichte / dynamische Dunkle Energie, 2026-09-28
+
+Umgesetzt: `KUE-SCI-0191-2026-DE` — **Typ-Ia-Supernovae und kosmische Expansionsgeschichte — Hubble-Diagramme, BAO und dynamische Dunkle Energie**.
+
+### Abstraktion aus OTA-SCI-0091
+
+OTA-SCI-0091 dokumentiert den aktuellen Unite-Preprint und seine mögliche AVI-Anschlussnutzung. KUE-0191 abstrahiert daraus die projektübergreifende Realbasis und erweitert sie um Pantheon+, DES-SN5YR, DESI DR2, BAO/CMB sowie die DESI-Lyα-Full-Shape-Entwicklung vom 30.07.2026.
+
+### Zentrale Evidenzgrenzen
+
+- SN Ia sind standardisierbare, nicht perfekte Standardkerzen.
+- unkalibriertes SN-Hubble-Diagramm ≠ direkte H0-Messung.
+- Leuchtkraftdistanz ist historienintegriert.
+- DESI DR2 + CMB + SN verstärkte 2025 Hinweise auf w0waCDM; Stärke hängt von SN-Kompilation ab.
+- DESI Lyα Full Shape 2026 verschiebt einen wichtigen Hoch-z-Anker zentral Richtung ΛCDM.
+- Unite (2.884 wahrscheinliche SN Ia) ist Stand 28.09.2026 Preprint.
+- Unite: schwache Bayes'sche Präferenz; frequentistisch ~2,5σ MAP bzw. ~3,1σ Maximum Likelihood.
+- Parameterpräferenz ≠ Entdeckung dynamischer Dunkler Energie ≠ Identifikation eines Mechanismus.
+- historienintegrierte Distanz ≠ Nachweis physikalischer Gedächtnisdynamik.
+
+### AVI-Nutzungsgrenze
+
+KUE-0191 kann als Realanker für quantitative AVI-Tests dienen. AVI muss H(z), dL(z), BAO-Distanzen und gegebenenfalls Wachstum vorhersagen und gegen dieselben Daten/Kovarianzen getestet werden. KUE-0191 bestätigt AVI nicht.
+
+### Nächster Mining-Kandidat
+
+Nächster priorisierter Beobachtungsanker: **Fast Radio Bursts als baryonischer Beobachtungskanal** — Dispersion Measure, Milky-Way/halo/host decomposition, Macquart relation, baryon census und Grenzen für kosmologische Inferenz. Vor Anlage Primärquellen- und Deduplizierungscheck.
