@@ -292,3 +292,25 @@ Der zweite Foundation-Build ist umgesetzt:
 ### Nächster Build
 
 Nächster priorisierter Foundation-Kandidat ist **Mars-Perchloratchemie**. Vor Neuanlage erfolgt die Deduplizierung gegen KUE-SCI-0171 (Mars-Wasser/ISRU) und die Trennung von Umweltchemie, Human-/Pflanzentoxikologie und konkreter Prozessauslegung.
+
+
+## 12. Foundation-Mining Pass 6 — Mars-Perchlorate, 2026-09-28
+
+Umgesetzt: `KUE-SCI-0186-2026-DE` — **Perchlorate auf dem Mars — Geochemie, Brinen, Toxikologie und Detoxifikation**.
+
+### Deduplizierung
+
+KUE-SCI-0171 bleibt Owner der Wasserressourcen-/Extraktionsphysik. 0186 übernimmt Oxychlorchemie, standortabhängige Verteilung, Brinen-/Deliqueszenzphysik, analytische Interferenzen, Human- und Pflanzenrelevanz sowie Detoxifikationspfade.
+
+### Zentrale Evidenzgrenzen
+
+- Phoenix 0,4–0,6 Gew.-% ClO4- ist ein lokaler Messbefund, kein globaler Marswert.
+- Perchloratsalze erweitern die thermodynamische Flüssigwasser-Domäne; RSL sind dadurch nicht als gesicherte Brinenflüsse kanonisiert.
+- Flüssige konzentrierte Brine ist nicht gleich habitabel.
+- Regolithwäsche verschiebt Perchlorat zunächst in einen Flüssigstrom und ist allein noch keine Detoxifikation.
+- Biologische Perchloratreduktion ist real; die 2026 publizierten Marswasser-/Regolithsimulationsresultate bleiben Earth-based proof-of-concept.
+- Systemgrenze für ISRU: **Extraktion ≠ Rohwasser ≠ detoxifiziertes Wasser ≠ Qualitätsfreigabe**.
+
+### Nächster Build
+
+Gemäß Priorisierung folgt **Humanentwicklung/Reproduktion in Mikro- und Teilgravitation**. Hier ist besonders strikt zwischen Humanbeobachtung, Tiermodellen, Zell-/Embryomodellen, Strahlung und hypothetischen Mindestgravitationsschwellen zu trennen.
