@@ -399,3 +399,30 @@ Nach der bisherigen Prioritätenliste ist der Magnetismus-Block abgeschlossen. A
 ### Deployment-Hinweis
 
 Die seit Commit `8d67b898` auftretenden Vercel-Fehler sind nicht auf einen SCI-Content-Commit isoliert: `8d67b898` fügte ausschließlich diese Datei unter `docs/backlog/` hinzu, während der vorherige Commit `94d15e67` erfolgreich deployte. GitHub-Sync-Checks laufen weiterhin erfolgreich. Ohne zugänglichen Vercel-Buildlog wird daher kein spekulativer Content-Patch vorgenommen.
+
+
+## 16. Foundation-Mining Pass 10 — Technische Mechanik II, 2026-09-28
+
+Umgesetzt: `KUE-SCI-0190-2026-DE` — **Mehrachsige Spannungs- und Dehnungszustände — Tensoren, Hauptspannungen und Fließkriterien**.
+
+### Abgrenzung
+
+KUE-0190 liefert die allgemeine Kontinuums-/Festigkeitsgrundlage. Konkrete Bauteilgeometrien, Lastfälle, FEA-Modelle, Sicherheitsfaktoren und Dimensionierung bleiben Engineering; Lernprogression und Übungen bleiben SSF.
+
+### Zentrale Modellgrenzen
+
+- Last ≠ Spannung ≠ Vergleichsspannung ≠ Fließen ≠ Bruch ≠ Lebensdauer.
+- σ = F/A ist kein allgemeines 3D-Spannungsmodell.
+- Hauptspannungen sind Tensor-Eigenwerte; Komponenten hängen vom Koordinatensystem ab.
+- von Mises/Tresca sind Fließkriterien für geeignete duktile Werkstoffe, keine universellen Versagenskriterien.
+- hydrostatischer und deviatorischer Spannungsanteil werden getrennt.
+- kombinierte Beanspruchungen werden auf Tensor-/Invariantenebene bewertet.
+- Curves aus Engineering stress/strain sind bei großen plastischen Dehnungen nicht mit true stress/strain identisch.
+- Sicherheitsfaktoren sind Regelwerks-/Designparameter, keine Materialkonstanten.
+- FEA-Ausgabe ≠ experimenteller Nachweis.
+
+### Anschlusskandidaten
+
+Der Mechanikanker öffnet spätere eigenständige Grundlagen zu **Ermüdung**, **Bruchmechanik**, **Kriechen** und **Stabilität/Beulen**, falls OTA/SSF/Engineering dafür genügend projektübergreifenden Bedarf zeigen.
+
+Für den nächsten Mining-Pass bleiben als starke bereits identifizierte Kandidaten **SN-Ia/Hubble-Diagramme/dynamische Dunkle Energie** und **FRB als baryonischer Beobachtungskanal**.
