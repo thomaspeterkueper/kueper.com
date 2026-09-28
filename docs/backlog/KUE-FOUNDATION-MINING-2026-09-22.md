@@ -509,3 +509,38 @@ Umgesetzt: `KUE-SCI-0193-2026-DE` — **Bruchmechanik — Risse, Spannungsintens
 ### Nächste Abhängigkeit
 
 Als direkter Folgeanker ist **Ermüdung und Ermüdungsrisswachstum** jetzt sinnvoll: S-N/Wöhler, ε-N, Mittelspannung, Miner-Schadensakkumulation, ΔK/Paris, Schwelle, variable Amplituden und Umwelteinflüsse. Bruchmechanik liefert dafür den Riss-Endzustand und die Damage-Tolerance-Schnittstelle.
+
+
+## 20. Foundation-Mining Pass 14 — Ermüdung und Ermüdungsrisswachstum, 2026-09-28
+
+Umgesetzt: `KUE-SCI-0194-2026-DE` — **Ermüdung und Ermüdungsrisswachstum — Lastspiele, Lebensdauer, Schadensakkumulation und Damage Tolerance**.
+
+### Abhängigkeiten
+
+Voraussetzungen:
+- `DOC:KUE:KUE-SCI-0190-2026-DE` für Spannungs-/Dehnungszustände;
+- `DOC:KUE:KUE-SCI-0193-2026-DE` für Rissspitzenparameter und kritische Bruchzustände.
+
+### Modellschichten
+
+0194 trennt bewusst:
+1. spannungsbasierte S-N-/Wöhler-Lebensdauer,
+2. dehnungsbasierte ε-N-/Coffin-Manson-Basquin-Lebensdauer,
+3. Lastkollektive/Rainflow/Miner,
+4. Wachstum eines vorhandenen Risses über ΔK und da/dN,
+5. Übergang zum kritischen Bruch-/Kollapszustand,
+6. NDE/Inspektionsintervall und Damage Tolerance.
+
+### Zentrale Grenzen
+
+- positiver statischer Nachweis ≠ Ermüdungsnachweis.
+- S-N-Daten ≠ universelle Werkstoffkonstante.
+- Miner-Summe 1 ≠ universeller physikalischer Bruchpunkt.
+- Initiierung ≠ technisch detektierbarer Riss.
+- Paris-Gesetz gilt nur in einem begrenzten stabilen Wachstumsregime.
+- ΔK < ΔK_th ≠ unter allen Bedingungen garantiert kein Wachstum.
+- FEA-Lebensdauerkarte ≠ validierte Bauteillebensdauer.
+
+### Nächster Mechanikanker
+
+Der direkte Mechanikblock 0190/0193/0194 ist nun ausreichend geschlossen. Ein späterer separater Baustein zu **Kriechen / Creep-Fatigue / Hochtemperatur-Lebensdauer** ist sinnvoll, aber nicht zwingend der nächste Mining-Pass. Die Priorisierung kann nun wieder auf ältere OTA/SSF-Lücken wechseln.
