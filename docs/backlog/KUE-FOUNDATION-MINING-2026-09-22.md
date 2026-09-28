@@ -314,3 +314,34 @@ KUE-SCI-0171 bleibt Owner der Wasserressourcen-/Extraktionsphysik. 0186 übernim
 ### Nächster Build
 
 Gemäß Priorisierung folgt **Humanentwicklung/Reproduktion in Mikro- und Teilgravitation**. Hier ist besonders strikt zwischen Humanbeobachtung, Tiermodellen, Zell-/Embryomodellen, Strahlung und hypothetischen Mindestgravitationsschwellen zu trennen.
+
+
+## 13. Foundation-Mining Pass 7 — Reproduktion und Entwicklung in Mikro-/Teilgravitation, 2026-09-28
+
+Umgesetzt: `KUE-SCI-0187-2026-DE` — **Menschliche Reproduktion und Entwicklung in Mikro- und Teilgravitation — Evidenz, Schwellen und Siedlungsfähigkeit**.
+
+### Abstraktion aus OTA
+
+OTA-SCI-0086/0089 enthalten bereits eine starke anwendungs- und weltbezogene Evidenzschicht. KUE-0187 abstrahiert daraus die wiederverwendbare wissenschaftliche Grundlage und bindet sie an aktuelle Raumflug-/Tierdaten.
+
+### Zentrale Evidenzgrenzen
+
+- Keine vollständige Human-Evidenz für Schwangerschaft, Geburt oder Entwicklung in 0 g, ~0,16 g oder ~0,38 g.
+- Kein validierter minimaler g-Schwellenwert für menschliche Schwangerschaft oder Kindentwicklung.
+- ISS-Mausembryonen 2023: Entwicklung von 2-Zell-Stadium bis Blastozyste in realer Mikrogravitation möglich; **kein** Nachweis der restlichen Reproduktionskette.
+- JAXA/NASA 1/6-g-Mausdaten: Teilgravitation kann einige Mikrogravitationseffekte organspezifisch teilweise abmildern; **kein** universeller biologischer Schwellenwert.
+- Adultes Deconditioning und Entwicklung unter lebenslang anderer Gravitation sind unterschiedliche Fragestellungen.
+- Gravitation und ionisierende Strahlung bleiben getrennte Risikoachsen.
+
+### Neue wiederverwendbare Capability-Trennung
+
+1. Adult Long-Duration Capable
+2. Pregnancy & Birth Capable
+3. Child Development Capable
+4. Multigenerational Capable
+
+Keine Stufe impliziert automatisch die nächste. Die Klassen enthalten keine Gameplay-Werte oder klinischen Freigaben.
+
+### Nächster Build
+
+Nächster priorisierter Kandidat: **Solar-Induced Fluorescence (SIF) / Photosynthese-Fernerkundung**. Vor Anlage: Abgleich gegen vorhandene KUE-Fernerkundungsdokumente und aktueller FLEX-Status nach dem für September 2026 geplanten Start.
