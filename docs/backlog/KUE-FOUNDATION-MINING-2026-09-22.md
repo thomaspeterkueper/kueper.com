@@ -455,3 +455,32 @@ KUE-0191 kann als Realanker für quantitative AVI-Tests dienen. AVI muss H(z), d
 ### Nächster Mining-Kandidat
 
 Nächster priorisierter Beobachtungsanker: **Fast Radio Bursts als baryonischer Beobachtungskanal** — Dispersion Measure, Milky-Way/halo/host decomposition, Macquart relation, baryon census und Grenzen für kosmologische Inferenz. Vor Anlage Primärquellen- und Deduplizierungscheck.
+
+
+## 18. Foundation-Mining Pass 12 — FRB / Baryonencensus / kosmologische Inferenz, 2026-09-28
+
+Umgesetzt: `KUE-SCI-0192-2026-DE` — **Fast Radio Bursts als kosmischer Baryonenkanal — Dispersion Measure, Macquart-Relation und kosmologische Inferenz**.
+
+### Aktualisierter Forschungsstand
+
+Der ursprüngliche Macquart-Nachweis von 2020 wird mit dem Stand 2025/2026 verbunden. Aktuelle Analysen verwenden >100 lokalisierte FRBs und untersuchen neben dem globalen Baryonencensus auch IGM/CGM-Aufteilung, Host-/Milky-Way-Systematik, baryonisches Feedback und dessen Einfluss auf das Matter Power Spectrum.
+
+### Zentrale Evidenzgrenzen
+
+- DM misst freie Elektronensäule, nicht direkt Baryonenmasse.
+- DM_ext ≠ DM_IGM.
+- DM_obs muss in MW-ISM, MW-Halo, IGM, intervenierende Struktur und Host/Quelle zerlegt werden.
+- Macquart-Relation ist eine statistische DM-z-Beziehung mit großer Sichtlinienvarianz.
+- Sichtlinien-Scatter ist zugleich Unsicherheit und astrophysikalisches Signal.
+- >90 % diffuse ionisierte Baryonen in einer aktuellen 124-FRB-Analyse ist modellgestützte Inferenz und sensitiv gegenüber MW-Halo-/Host-DM.
+- 114-FRB-Nature-Astronomy-Analyse 2026 nutzt DM-Fluktuationen bereits zur Einschränkung baryonischen Feedbacks und der Matter-Power-Suppression.
+- FRB-H0 ≠ direkte Distanzmessung.
+- historienintegrierte FRB-DM ≠ Nachweis einer intrinsischen kosmologischen Gedächtnisvariable.
+
+### Anschluss an KUE-SCI-0191
+
+SN Ia und FRB liefern unterschiedliche historienintegrierte Kanäle: geometrische Leuchtkraftdistanz versus elektronen-gewichtete Dispersionsgeschichte. Gemeinsam mit BAO/CMB/Weak Lensing/RSD entsteht eine Multi-Probe-Testarchitektur.
+
+### Nächste Kandidaten
+
+Nach 0191/0192 ist der aktuelle Expansions-/Baryonen-Beobachtungsblock grundgelegt. Nächster Mining-Pass sollte den verbleibenden OTA/SSF-Bestand neu priorisieren; besonders offen bleiben u. a. Ermüdung/Bruchmechanik als Anschluss an 0190 sowie die älteren Foundation-Kandidaten Triclosan, Disulfidbrücken, Mpemba, Belousov-Zhabotinsky und Kreisplatten-/Chladni-Akustik.
