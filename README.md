@@ -1,8 +1,10 @@
 # kueper.com
 
-Kanonische öffentliche Dokument- und Publikationsschicht des KUEPER-Ökosystems.
+Kanonische öffentliche Dokument- und Publikationsschicht des KUEPER-Ökosystems und stabile, zitierfähige Referenz für belastbares reales Wissen.
 
-`kueper.com` speichert und veröffentlicht insbesondere MINT+-Grundlagen, Essays, Whitepaper, Spezifikationen, Standards und Guides. Identitäten, Relationen, Mappings und zentrale Rechtsdaten werden im KUEPER Knowledge Graph gepflegt; fiktionale und In-universe-Archivdokumente gehören ausschließlich ins OverTime Archive.
+`kueper.com` speichert und veröffentlicht insbesondere MINT+-Grundlagen, Essays, Whitepaper, Spezifikationen, Standards und Guides. Es synthetisiert belastbare Ergebnisse aus den fachlich zuständigen Schichten des Ökosystems für eine öffentliche, menschenlesbare Referenz. Evidenz und Quellen bleiben bei OTA, strukturierte Identitäten und Relationen im Knowledge Graph, Lern- und Forschungsartefakte bei SSF, technische Ausarbeitung bei Engineering und Produktentscheidungen bei Products. Fiktionale und In-universe-Archivdokumente gehören ausschließlich ins OverTime Archive.
+
+Neue oder wesentlich geänderte Inhalte können zunächst als **Public Knowledge Candidate** eingehen. Dieser Status ist ein Prüfzustand und keine Publikationsfreigabe: Research Candidates, Hypothesen, Modellannahmen und Extrapolationen dürfen nicht automatisch zu etabliertem Wissen hochgestuft werden. Herkunft, Evidenzstatus und die Trennung von Beobachtung, Modell, Interpretation und Extrapolation müssen nachvollziehbar bleiben.
 
 ## Lokale Entwicklung
 
