@@ -1,6 +1,6 @@
 # Inhibitorische Plastizität: Lernen durch Veränderung und Stabilisierung
 
-**Kennung:** KUE-NEU-0001-2026-DE (Arbeitskennung; mit kanonischem Register abgleichen)  
+**Dokumentklasse:** interne Forschungsnotiz unter `research/`, noch kein kanonisches Publikationsdokument gemäß `docs/document-contract.md`; keine DOC:KUE-ID vergeben.  
 **Stand:** 20.10.2026 · **Status:** Forschungsfassung · **Auftrag:** [kueper.com #13](https://github.com/thomaspeterkueper/kueper.com/issues/13)
 
 ## Kernaussage
