@@ -1,0 +1,42 @@
+---
+import Navigation from '../components/Navigation.astro';
+---
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wissenschaftliche Standards und Dokumentationsrichtlinien | Kueper.com</title>
+<meta name="description" content="Quellenprüfung, Evidenzkennzeichnung und Freigabeverfahren für wissenschaftliche Dokumente." />
+<link rel="stylesheet" href="/styles/fonts.css" />
+<style>
+body{margin:0;background:#faf9f6;color:#24313a;font:17px/1.65 system-ui,sans-serif}
+main{max-width:850px;margin:4rem auto;padding:0 1.5rem 5rem}h1,h2{line-height:1.2}h1{font-size:clamp(2rem,5vw,3rem)}h2{margin-top:2.6rem}a{color:#175d72}li{margin:.45rem 0}.note{border-left:3px solid #567987;padding:.8rem 1.2rem;background:#f0f3f2}.meta{font-size:.9rem;color:#56646b}
+</style>
+</head>
+<body>
+<Navigation />
+<main>
+<p class="meta">KUEPER · SSF · Redaktionsstandard · Entwurf zur fachlichen Freigabe</p>
+<h1>Wissenschaftliche Standards und Dokumentationsrichtlinien</h1>
+<p>Diese Richtlinie erläutert, wie wissenschaftliche Aussagen für das KUEPER-Archiv vorgeschlagen, geprüft, gekennzeichnet und veröffentlicht werden. Die Aufnahme einer Quelle bedeutet nicht, dass ihre Schlussfolgerungen bestätigt sind.</p>
+<h2>1. Vor der Aufnahme prüfen</h2>
+<ol>
+<li><strong>Identität und Provenienz:</strong> Originalpublikation, Autorenschaft, DOI/arXiv-Kennung, Version, Veröffentlichungsdatum und Publikationsstatus nachvollziehen.</li>
+<li><strong>Aussage und Voraussetzungen:</strong> präzise Behauptung, mathematische oder experimentelle Methode, Annahmen, Stichprobe, Messgrößen und Gültigkeitsbereich angeben.</li>
+<li><strong>Evidenz:</strong> Peer Review, unabhängige Replikation, Unsicherheiten, Nullresultate, Gegenbefunde und Kritik prüfen.</li>
+<li><strong>Standarderklärung:</strong> bekannte Theorie, Systematik, unvollständige Zustandsbeschreibung und Modell-/Parameter-Spannungen vor neuer Physik prüfen.</li>
+<li><strong>Redaktion:</strong> Dubletten, fachliche Zuständigkeit, Quellenrechte, Verweise und epistemische Marker prüfen.</li>
+</ol>
+<h2>2. Aussagen kennzeichnen</h2>
+<p>Die bestehende Marker-Legende des Archivs wird beibehalten: <strong>R</strong> Research, <strong>T</strong> Theoretical, <strong>S</strong> Speculative, <strong>H</strong> Hypothesis, <strong>I</strong> Interpretation. Ein Marker ersetzt keine Quellenangabe. Insbesondere sind bedingt hergeleitete Aussagen nur unter ihren Voraussetzungen gültig.</p>
+<p class="note">Philosophische Analogien, einschließlich Omnizedenz, sind keine physikalische Evidenz und dürfen weder als Prämisse noch als Bestätigung eines naturwissenschaftlichen Modells dienen.</p>
+<h2>3. Dokumenttypen und Form</h2>
+<p>Wissenschaftliche Grundlagen, Forschungsnotizen, Hypothesen, Essays und Lernmodule teilen einen stabilen Metadatenkern. Je nach Typ müssen Methode und Gegenbefunde, argumentative Perspektiven oder Lernziele zusätzlich ausgewiesen werden. Die kanonischen Dokumentkörper liegen unter <code>src/content/kue/&lt;kategorie&gt;/</code>; Identität und KG-Beziehungen folgen dem bestehenden Dokumentvertrag.</p>
+<h2>4. Status und Freigabe</h2>
+<p><strong>Vorschlag → in Prüfung → quellengeprüft → fachlich freigegeben → veröffentlicht.</strong> Quellengeprüft bedeutet lediglich, dass Quellen und Wiedergabe kontrolliert wurden; es bedeutet nicht, dass das Ergebnis wissenschaftlich bestätigt oder repliziert ist. Bestehende technische Statuswerte werden nicht durch diese redaktionellen Bezeichnungen ersetzt.</p>
+<h2>5. Änderungen und Korrekturen</h2>
+<p>Jede wesentliche Änderung braucht Version, Änderungsgrund, überprüfbare Quellen und eine dokumentierte Freigabe. Widersprechende neue Evidenz führt zur Neubewertung, nicht zum stillen Überschreiben. Nicht überprüfte Vorschläge bleiben als solche erkennbar.</p>
+<p>Technische Felddefinitionen und eine Einreichungsvorlage stehen im <a href="https://github.com/thomaspeterkueper/kueper.com/blob/main/docs/document-contract.md">Dokumentvertrag</a> beziehungsweise nach Freigabe im Repository zur Verfügung.</p>
+</main>
+</body></html>
