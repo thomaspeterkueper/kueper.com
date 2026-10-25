@@ -7,7 +7,7 @@ datum: "2026-10-25"
 kategorie: PHI
 marker: ["I", "H"]
 status: draft
-version: "0.9.5"
+version: "0.9.6"
 language: DE
 sprache: DE
 documentType: essay
@@ -63,11 +63,11 @@ Verantwortung ist Antwortfähigkeit: Ich antworte nicht nur auf ein Problem, son
 ## Das Werden des anderen
 Werden ist kein ausschließlich individuelles Geschehen. Was wir werden können, hängt auch davon ab, was andere ermöglichen, begrenzen oder verhindern. Ein Kind, ein Lernender, ein kranker Mensch, eine Gemeinschaft – sie alle leben in Bedingungen, an denen andere mitwirken.
 
-Wer Möglichkeiten eröffnen will, gerät leicht in Versuchung, das Ergebnis bereits festzulegen. Dann wird aus Begleitung eine stillschweigende Formung. Eltern schaffen Schutz, dürfen aber nicht jeden eigenen Weg des Kindes im Voraus bestimmen. Lehrer vermitteln Wissen, ohne den Lernenden zur Wiederholung ihrer Gedanken zu machen. Hilfe darf Abhängigkeit nicht als dauerhaften Erfolg missverstehen.
+Wer Möglichkeiten eröffnen will, gerät leicht in Versuchung, das Ergebnis bereits festzulegen. Dann wird aus Begleitung eine stillschweigende Formung. Eltern schaffen Schutz, dürfen aber nicht jeden eigenen Weg des Kindes im Voraus bestimmen. Lehrer vermitteln Wissen, ohne den Lernenden zur Wiederholung ihrer Gedanken zu machen. Hilfe darf Abhängigkeit nicht als dauerhaften Erfolg missverstehen. Diesen Gedanken entfaltet auch *Kinder Gottes – Vom Fall zur Mündigkeit*.
 
 Die Anerkennung des anderen bedeutet nicht, seinen Weg zu kennen. Sie bedeutet, seine Möglichkeit zu einem eigenen Weg ernst zu nehmen. Das heißt nicht, nie einzugreifen. Wo Gewalt oder Ausgrenzung einen Spielraum zerstören, kann gerade eine Grenze für die Schädigenden die Selbstbestimmung anderer schützen.
 
-Und wenn frühere Möglichkeiten unwiederbringlich verloren sind? Dann zeigt sich, was Regenerierbarkeit bedeutet: nicht die Wiederherstellung einer früheren Lebenslage, sondern das Entstehen neuer eigener Möglichkeiten. Wer unterstützt, darf deren Gestalt nicht schon festlegen.
+Und wenn frühere Möglichkeiten unwiederbringlich verloren sind? Wie auch *Was ist durch dich geschehen?* betont, bleibt Verlorenes verloren. Dann zeigt sich, was Regenerierbarkeit bedeutet: nicht die Wiederherstellung einer früheren Lebenslage, sondern das Entstehen neuer eigener Möglichkeiten. Wer unterstützt, darf deren Gestalt nicht schon festlegen.
 
 Bedingungen sind, soweit möglich, mit den Betroffenen zu gestalten, nicht bloß für sie.
 
@@ -104,7 +104,7 @@ Schon unser Erkennen ist Teil dieser Beziehungen. Es verändert nicht zwangsläu
 ## Die Zumutung des Gebets
 „Komm, Heiliger Geist, erleuchte meinen Geist.“
 
-Diese Bitte war der Ausgangspunkt des *Erhellten Blicks*. Sie kann zunächst wie der Wunsch nach Klarheit klingen. Doch wer mehr erkennt, entdeckt womöglich nicht nur Schönheit und Zusammenhang. Er sieht auch die Folgen des eigenen Handelns, die Verletzbarkeit anderer und Bedingungen, die bisher unsichtbar waren.
+Diese Bitte aus einer Predigt zur Firmung meines Sohnes war der Ausgangspunkt des *Erhellten Blicks*. Sie kann zunächst wie der Wunsch nach Klarheit klingen. Doch wer mehr erkennt, entdeckt womöglich nicht nur Schönheit und Zusammenhang. Er sieht auch die Folgen des eigenen Handelns, die Verletzbarkeit anderer und Bedingungen, die bisher unsichtbar waren.
 
 *Der erhellte Blick* fragt, wie wir erkennen und unsere Urteile prüfen. Hier wird daraus die Frage der Verantwortung: Was können wir aus einer Einsicht unter wirklichen Bedingungen machen? Einen Schaden erkennen, eine angemessene Antwort finden, unter Widerständen an ihr festhalten und sie tatsächlich ausführen zu können sind verschiedene Dinge. Wer Mut fordert, ohne die äußeren Hindernisse zu sehen, verwechselt ein Ideal mit verfügbarem Spielraum. Ebenso kann ein entschlossener Rat fehlgehen, wenn er die Betroffenen nicht anhört.
 
