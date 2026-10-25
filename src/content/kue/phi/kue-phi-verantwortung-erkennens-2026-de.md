@@ -6,11 +6,11 @@ titel: "Die Verantwortung des Erkennens"
 datum: "2026-10-25"
 kategorie: PHI
 marker: ["I", "H"]
-status: draft
+status: "Entwurf"
 version: "0.9.6"
 language: DE
 sprache: DE
-documentType: essay
+documentType: "Philosophischer Essay"
 public: false
 kurator: "Thomas Peter Küper"
 keywords: ["Erkenntnis", "Verantwortung", "Antwortfähigkeit", "Spielraum", "Mündigkeit", "Omnizedenz", "Ethik", "Unwissenheit", "Perspektive", "Regenerierbarkeit", "Paternalismus-Kritik", "Aufmerksamkeitsökonomie", "Rollenverantwortung", "Werden"]
