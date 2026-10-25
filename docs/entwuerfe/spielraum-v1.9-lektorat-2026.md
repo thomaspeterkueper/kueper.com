@@ -3,7 +3,7 @@ datum: "2026-10-12"
 titel: "Spielraum"
 kategorie: PHI
 marker: ["I"]
-version: "1.9"
+version: "1.9.1"
 status: "Entwurf"
 sprache: DE
 keywords: ["Schöpfung", "Spielraum", "Verantwortung", "Freiheit", "Mitschöpfung", "Grenze", "Theodizee", "Omnizedenz", "Resonanzethik"]
@@ -23,13 +23,13 @@ public: false
 
 Wer einen Hammer herstellt, entscheidet über seine Form und seinen Zweck. Der Hammer muss keinen eigenen Weg finden. Er soll funktionieren. Und wenn er das tut, ist sein Entwurf gelungen.
 
-Bei einem Kind wäre dasselbe Ideal erschreckend. Niemand sollte wünschen, dass sein Leben nur die Ausführung eines fremden Plans bleibt. Es kommt durch andere in die Welt, aber es gehört ihnen nicht. Zwischen seinem Ursprung und seiner Zukunft liegt etwas, das weder Besitz noch bloßes Zufallsprodukt ist: Spielraum.
+Bei einem Kind wäre dasselbe Ideal erschreckend. Niemand sollte wünschen, dass das Leben eines Kindes nur die Ausführung eines fremden Plans bleibt. Es kommt durch andere in die Welt, aber es gehört ihnen nicht. Zwischen seinem Ursprung und seiner Zukunft liegt etwas, das weder Besitz noch bloßes Zufallsprodukt ist: Spielraum.
 
 Auch ein Autor kennt diesen Unterschied. Eine Figur wird glaubwürdig, wenn ihre Entscheidungen aus dem hervorgehen, was sie geworden ist. Manchmal widerspricht sie dadurch dem ursprünglichen Entwurf. Natürlich verlässt sie nicht buchstäblich das Papier. Aber der Autor entdeckt, dass eine gelungene Geschichte mehr verlangt als die bloße Durchsetzung seines Willens.
 
 **Schöpfung bedeutet nicht vollständige Bestimmung, sondern die Eröffnung von Spielraum.**
 
-Es geht um Schöpfung, aus der etwas Eigenständiges hervorgehen soll. Das setzt Bedingungen voraus. Ein Kind braucht Schutz; eine Geschichte braucht Zusammenhänge; eine Welt braucht Gesetzmäßigkeiten. Spielraum ist niemals der leere Raum ohne Grenzen. Er entsteht innerhalb eines Rahmens.
+Gemeint ist eine Schöpfung, aus der etwas Eigenständiges hervorgehen soll. Das setzt Bedingungen voraus. Ein Kind braucht Schutz; eine Geschichte braucht Zusammenhänge; eine Welt braucht Gesetzmäßigkeiten. Spielraum ist niemals der leere Raum ohne Grenzen. Er entsteht innerhalb eines Rahmens.
 
 Entscheidend ist also nicht, ob es Regeln gibt, sondern was sie ermöglichen. Ein Rahmen kann tragen oder einengen. Er kann Unterschiede zulassen oder sie unterdrücken. Er kann Möglichkeiten offenhalten oder jede Abweichung als Fehler behandeln.
 
@@ -45,13 +45,13 @@ Doch wer Spielraum eröffnet, kann sich nicht mit dessen Offenheit entschuldigen
 
 **Schöpfung eröffnet Spielraum. Verantwortung gilt den Bedingungen dieses Spielraums.**
 
-Damit ist die härteste Frage noch nicht beantwortet. Wer Spielraum eröffnet, eröffnet auch die Möglichkeit des Scheiterns, des Leidens und der Zerstörung. Ein Spielraum, in dem nichts misslingen kann, wäre keiner. Ist ein Rahmen verantwortbar, der Schaden nicht nur zulässt, sondern unvermeidlich mit sich bringt? Ich glaube nicht, dass sich diese Frage restlos auflösen lässt. Aber sie lässt sich unterscheiden: Es ist eines, dass Freiheit Misslingen ermöglicht. Es ist ein anderes, wenn Bedingungen Leid erzeugen, das Freiheit gar nicht verlangt. Das Erste ist die Last einer Entscheidung, die sich nicht ungeschehen machen lässt; das Zweite ist Schuld. In beiden Fällen bleibt die Aufgabe, dort beizustehen, wo Spielraum zerstört wurde, und Bedingungen zu schaffen, unter denen wieder eigener Spielraum entstehen kann. In einer gemeinsamen Wirklichkeit bleibt auch dieses Leid Teil ihres Geschehens. Es lässt sich nicht an einen Ort außerhalb unserer Beziehungen auslagern.
+Damit ist die härteste Frage noch nicht beantwortet. Wer Spielraum eröffnet, eröffnet auch die Möglichkeit des Scheiterns, des Leidens und der Zerstörung. Ein Spielraum, in dem nichts misslingen kann, wäre keiner. Ist ein Rahmen verantwortbar, der auch Schaden möglich macht? Ich glaube nicht, dass sich diese Frage restlos auflösen lässt. Aber sie lässt sich unterscheiden: Es ist eines, dass Freiheit Misslingen ermöglicht. Schon wo Wege sich kreuzen, erzeugt Verschiedenheit Reibung; sie ist noch kein Unrecht, solange aus ihr nicht unnötig Zerstörung wird – wie *Das Paradoxon der kreuzenden Wege* zeigt. Es ist ein anderes, wenn Bedingungen Leid erzeugen, das Freiheit gar nicht verlangt. Das Erste gehört zu der Entscheidung, überhaupt einen offenen Spielraum zu schaffen. Das Zweite verlangt Rechenschaft. Ob daraus Schuld wird, hängt davon ab, was erkennbar war und wer die Bedingungen hätte ändern können. In beiden Fällen bleibt die Aufgabe, dort beizustehen, wo Spielraum zerstört wurde, und Bedingungen zu schaffen, unter denen wieder eigener Spielraum entstehen kann. In einer gemeinsamen Wirklichkeit bleibt auch dieses Leid Teil ihres Geschehens. Es lässt sich nicht an einen Ort außerhalb unserer Beziehungen auslagern.
 
 Diese Verantwortung endet nicht beim Ursprung. Auch wer innerhalb eines Spielraums handelt, verändert ihn. Wir verbrauchen Ressourcen, schaffen Regeln, öffnen Türen oder verschließen sie. Wir nehmen Möglichkeiten für uns in Anspruch und beeinflussen damit, welche Möglichkeiten anderen bleiben.
 
 Freiheit ist deshalb nie bloß mein ungehinderter Weg. Sie entsteht und bewährt sich in Beziehungen: in der Möglichkeit, auf andere zu antworten, Widerspruch zu erfahren und selbst gehört zu werden. Ein Spielraum ist freiheitlich, wenn er nicht nur mir Wege öffnet, sondern auch anderen, deren Wege meinen kreuzen. Resonanz bezeichnet in diesem Sinn keine Harmoniepflicht, sondern eine Antwortbeziehung ohne vollständige Verfügung über den anderen.
 
-Grenzen können Freiheit schützen. Sie können aber auch nur die Macht derjenigen sichern, die sie gesetzt haben. Woran lässt sich beides unterscheiden? Ein mögliches Kriterium: Eine Grenze ist gerechtfertigt, wenn sie künftigen eigenen Spielraum vergrößert – wie ein Gerüst, das darauf angelegt ist, überflüssig zu werden. Eltern begrenzen ein Kind, damit es später selbst entscheiden kann. Eine Grenze, die nur dafür sorgt, dass es nie selbst entscheiden muss, hat ihren Sinn verloren. Und nicht jede Einengung ist eine sichtbare Grenze: Wenn etwa Bildung formal allen offensteht, aber Zeit, Geld oder Zugänge ungleich verteilt sind, bleibt die gleiche Erlaubnis noch lange kein gleicher Spielraum.
+Grenzen können Freiheit schützen. Sie können aber auch nur die Macht derjenigen sichern, die sie gesetzt haben. Woran lässt sich beides unterscheiden? Ein mögliches Kriterium: Eine Grenze kann gerechtfertigt sein, wenn sie eigenen oder fremden Spielraum schützt oder vergrößert. Wo sie der Entwicklung eines Kindes dient, ähnelt sie einem Gerüst, das eines Tages überflüssig werden soll. Andere Grenzen, etwa zum Schutz der Rechte Dritter, bleiben notwendig. Eltern begrenzen ein Kind, damit es später selbst entscheiden kann. Eine Grenze, die nur dafür sorgt, dass es nie selbst entscheiden muss, hat ihren Sinn verloren. Und nicht jede Einengung ist eine sichtbare Grenze: Wenn etwa Bildung formal allen offensteht, aber Zeit, Geld oder Zugänge ungleich verteilt sind, bleibt die gleiche Erlaubnis noch lange kein gleicher Spielraum.
 
 Es genügt deshalb nicht immer, den vorhandenen Spielraum zu bewahren. Wo seine Bedingungen ungerecht sind, kann verantwortliches Handeln verlangen, sie zu verändern. Mitschöpfung ist dann weder die Wiederholung des Ursprungs noch seine Verleugnung. Sie bedeutet mehr als Kooperation bei einer vorgegebenen Aufgabe: Wer mitschöpft, verändert auch die Bedingungen, unter denen künftige Aufgaben überhaupt gestellt und beantwortet werden können. Wir wirken an einem Gefüge mit, dessen Anfang nicht bei uns liegt und dessen Zukunft uns nicht allein gehört.
 
@@ -59,9 +59,9 @@ Was Spielraum ermöglicht, lässt sich nicht allein an seiner äußeren Form abl
 
 Auch Zeit gehört zum Spielraum. Eine heute begründete Grenze kann morgen sinnlos sein; eine grundsätzlich mögliche Antwort kann zu spät kommen. Wer Bedingungen setzt, trägt deshalb Verantwortung nicht nur für ihre Einführung, sondern auch für ihre Dauer. Eine Grenze, die bestehen bleibt, obwohl ihr Grund entfallen ist, kann selbst zur Unfreiheit werden.
 
-So verstanden ist Freiheit keine einmalige Gabe, die man besitzt, sondern eine Aufgabe, die immer wieder neu beantwortet werden muss. Mündigkeit heißt dann nicht, jede Bindung abzulegen. Sie heißt, innerhalb von Bindungen antwortfähig zu werden – ein Gedanke, der auch meinen Überlegungen zu den *Kindern Gottes* zugrunde liegt.
+So verstanden ist Freiheit keine einmalige Gabe, die man besitzt, sondern eine Aufgabe, die immer wieder neu beantwortet werden muss. Mündigkeit heißt dann nicht, jede Bindung abzulegen. Sie heißt, innerhalb von Bindungen antwortfähig zu werden – ein Gedanke, der auch meinen Überlegungen in *Kinder Gottes – Vom Fall zur Mündigkeit* zugrunde liegt.
 
-Ein Schöpfer – ob als theologisches Bild, als Mensch, der etwas hervorbringt, oder als denkbare Intelligenz, die auf die Entstehung einer anderen Welt, vielleicht sogar eines anderen Universums, Einfluss nimmt – könnte die Bedingungen einer Entwicklung gestalten, ohne ihren gesamten Verlauf zu bestimmen. Gerade daraus erwächst Verantwortung, nicht ihr Ende. Welche Wirklichkeit dann tatsächlich entsteht, wäre nicht vollständig Eigentum dieses Schöpfers.
+Ein Schöpfer – ob als theologisches Bild oder als Mensch, der etwas hervorbringt – könnte die Bedingungen einer Entwicklung gestalten, ohne ihren gesamten Verlauf zu bestimmen. Gerade daraus erwächst Verantwortung, nicht ihr Ende. Welche Wirklichkeit dann tatsächlich entsteht, wäre nicht vollständig Eigentum dieses Schöpfers.
 
 Vielleicht liegt darin die anspruchsvollste Form der Schöpfung: nicht alles zu steuern, sondern Möglichkeiten entstehen zu lassen; nicht über jede Zukunft zu verfügen, sondern für die Bedingungen einzustehen, unter denen Zukunft möglich wird.
 
@@ -69,4 +69,4 @@ Spielraum ist das, was wir empfangen, gestalten und weitergeben.
 
 ---
 
-*Redaktioneller Entwurf 1.9 · 25. Oktober 2026. Die veröffentlichte Fassung 1.5 bleibt unverändert.*
+*Redaktioneller Entwurf 1.9.1 · 25. Oktober 2026. Die veröffentlichte Fassung 1.5 bleibt unverändert.*
