@@ -7,7 +7,7 @@ datum: "2026-10-25"
 kategorie: PHI
 marker: ["I", "H"]
 status: draft
-version: "0.9.4"
+version: "0.9.5"
 language: DE
 sprache: DE
 documentType: essay
@@ -106,7 +106,7 @@ Schon unser Erkennen ist Teil dieser Beziehungen. Es verändert nicht zwangsläu
 
 Diese Bitte war der Ausgangspunkt des *Erhellten Blicks*. Sie kann zunächst wie der Wunsch nach Klarheit klingen. Doch wer mehr erkennt, entdeckt womöglich nicht nur Schönheit und Zusammenhang. Er sieht auch die Folgen des eigenen Handelns, die Verletzbarkeit anderer und Bedingungen, die bisher unsichtbar waren.
 
-Die christliche Tradition der Gaben des Geistes unterscheidet unter anderem Erkenntnis, Rat und Stärke; *Der erhellte Blick* nimmt diese Unterscheidung auf. Hier wird daraus die Frage der Verantwortung. Einen Schaden erkennen, eine angemessene Antwort finden, unter Widerständen an ihr festhalten und sie tatsächlich ausführen zu können sind verschiedene Dinge. Wer Mut fordert, ohne die äußeren Hindernisse zu sehen, verwechselt ein Ideal mit verfügbarem Spielraum. Ebenso kann ein entschlossener Rat fehlgehen, wenn er die Betroffenen nicht anhört.
+*Der erhellte Blick* fragt, wie wir erkennen und unsere Urteile prüfen. Hier wird daraus die Frage der Verantwortung: Was können wir aus einer Einsicht unter wirklichen Bedingungen machen? Einen Schaden erkennen, eine angemessene Antwort finden, unter Widerständen an ihr festhalten und sie tatsächlich ausführen zu können sind verschiedene Dinge. Wer Mut fordert, ohne die äußeren Hindernisse zu sehen, verwechselt ein Ideal mit verfügbarem Spielraum. Ebenso kann ein entschlossener Rat fehlgehen, wenn er die Betroffenen nicht anhört.
 
 Der erhellte Blick ist darum nicht notwendig der bequemere Blick.
 
