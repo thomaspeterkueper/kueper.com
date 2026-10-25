@@ -3,7 +3,7 @@ datum: "2026-10-12"
 titel: "Spielraum"
 kategorie: PHI
 marker: ["I"]
-version: "1.6"
+version: "1.7"
 status: "Entwurf"
 sprache: DE
 keywords: ["Schöpfung", "Spielraum", "Verantwortung", "Freiheit", "Mitschöpfung", "Grenze", "Theodizee", "Omnizedenz", "Resonanzethik"]
@@ -56,6 +56,10 @@ Das bedeutet nicht, dass jede Grenze aufgehoben werden müsste. Manche Grenzen s
 Es genügt deshalb nicht immer, den vorhandenen Spielraum zu bewahren. Wo seine Bedingungen ungerecht sind, kann verantwortliches Handeln verlangen, sie zu verändern. Mitschöpfung ist dann weder die Wiederholung des Ursprungs noch seine Verleugnung. Sie bedeutet mehr als Kooperation bei einer vorgegebenen Aufgabe: Wer mitschöpft, verändert auch die Bedingungen, unter denen künftige Aufgaben überhaupt gestellt und beantwortet werden können. Wir wirken an einem Gefüge mit, dessen Anfang nicht bei uns liegt und dessen Zukunft uns nicht allein gehört.
 
 Ein weiterer Unterschied wird sichtbar, wenn wir an die christliche Rede von den Gaben des Geistes denken. Einsicht, Rat und Stärke bezeichnen nicht dasselbe: Es ist eines, eine Möglichkeit zu erkennen, ein anderes, zwischen Wegen zu urteilen, und wieder ein anderes, einen gewählten Weg unter Widerständen gehen zu können. Als religiöse Gaben haben diese Begriffe ihre eigene Bedeutung. Für die Frage nach Spielraum zeigen sie, warum eine nominell offene Möglichkeit noch keine tatsächlich verfügbare Freiheit ist. Wo Furcht, Zwang oder Abhängigkeit das Handeln verhindern, genügt die Aufforderung zu mehr Mut nicht. Man muss auch die Bedingungen verändern, unter denen Mut überhaupt wirksam werden kann.
+
+Damit kommt die Zeit ins Spiel. Eine Antwort kann grundsätzlich möglich sein, aber zu spät kommen; eine heute notwendige Schutzgrenze kann morgen ihre Berechtigung verlieren. Verantwortung für Bedingungen heißt deshalb auch, die Dauer von Einschränkungen zu überprüfen und neue Zugänge zu eröffnen. Nicht jeder, der nicht handelt, will nicht: Vor dem Urteil darüber, was jemand versäumt hat, sind Macht, Wissen, reale Alternativen, Abhängigkeit und verfügbare Zeit zu unterscheiden.
+
+Ebenso wenig kann derjenige, der Möglichkeiten eröffnet, ihre Nutzung bestimmen. Wer von anderen Mündigkeit erwartet, soll die Voraussetzungen dafür soweit mitgestalten, wie sein wirklicher Einfluss reicht. Das geschieht nach Möglichkeit mit den Betroffenen, nicht über sie hinweg. Niemand wird dadurch für sämtliche Bedingungen fremden Lebens allzuständig.
 
 So verstanden ist Freiheit keine einmalige Gabe, die man besitzt, sondern eine Aufgabe, die immer wieder neu beantwortet werden muss. Mündigkeit heißt dann nicht, jede Bindung abzulegen. Sie heißt, innerhalb von Bindungen antwortfähig zu werden – ein Gedanke, der auch meinen Überlegungen zu den *Kindern Gottes* zugrunde liegt.
 
