@@ -7,7 +7,7 @@ datum: "2026-10-24"
 kategorie: PHI
 marker: ["I", "H"]
 status: draft
-version: "0.4"
+version: "0.5"
 language: DE
 sprache: DE
 documentType: essay
@@ -52,13 +52,11 @@ Gerade deshalb braucht das Gebet einen kritischen Vorbehalt. Nicht jeder Gedanke
 
 ## Sieben Gaben, keine sieben fertigen Antworten
 
-Die christliche Überlieferung kennt die sieben Gaben des Heiligen Geistes: Weisheit, Einsicht, Rat, Stärke, Erkenntnis, Frömmigkeit und Gottesfurcht. Sie stammen nicht als unveränderte Siebenerliste aus dem hebräischen Jesajatext; die spätere christliche Auslegung und Übersetzungsgeschichte hat ihre Gestalt geprägt.
+Die christliche Tradition kennt sieben Gaben des Heiligen Geistes: Weisheit, Einsicht, Rat, Stärke, Erkenntnis, Frömmigkeit und Gottesfurcht. Ihre überlieferte Gestalt ist Ergebnis biblischer Auslegung, nicht eine unverändert aus dem hebräischen Jesajatext übernommene Liste.
 
-Diese Unterscheidungen vertiefen die Bitte um einen erhellten Geist. Erkenntnis benennt noch nicht, was zu tun ist. Einsicht kann die Grenzen der eigenen Deutung sichtbar machen. Rat verweist auf die Prüfung möglicher Antworten. Stärke erinnert daran, dass auch eine erkannte Verantwortung Mut und reale Handlungsmöglichkeiten benötigt. Weisheit könnte darin liegen, Zusammenhang und Folgen nicht vom einzelnen Menschen zu lösen.
+Für unsere Frage wird daran eine Differenz sichtbar. Erkenntnis ist noch kein Urteil, Rat noch keine Entscheidung, Stärke noch keine tatsächliche Handlungsmacht. Das Gebet um Einsicht bittet daher nicht um eine fertige Lösung. Auch Frömmigkeit und Gottesfurcht behalten ihre theologische Eigenbedeutung; sie sind nicht bloß Bezeichnungen menschlicher Kompetenzen.
 
-Frömmigkeit und Gottesfurcht bleiben religiöse Begriffe eigener Bedeutung. In der katholischen Lehre sprechen sie vom Verhältnis zu Gott und von der Bereitschaft, sich von ihm leiten zu lassen. Philosophisch lässt sich daran die Frage nach Haltung, Ehrfurcht und Selbstbegrenzung anschließen, ohne die Tradition in ein säkulares Tugendschema aufzulösen.
-
-Die sieben Gaben liefern darum keinen Entscheidungsautomaten. Sie erinnern daran, dass ein klarerer Blick nicht die einzige Voraussetzung einer verantwortlichen Antwort ist. Wer weiß, was er tun sollte, braucht auch Gelegenheit und Kraft, überhaupt handeln zu können. Mut und wirklicher Handlungsspielraum sind dabei nicht dasselbe.
+Was als Bitte um einen erhellten Blick beginnt, führt so zu einer weiteren Frage: Was kann jemand unter wirklichen Bedingungen aus seiner Einsicht machen? Dieser Übergang steht im Mittelpunkt von *Die Verantwortung des Erkennens*.
 
 ## Feld statt Gegenüber
 
@@ -130,4 +128,4 @@ Wenn es eine gemeinsame Wirklichkeit gibt, müssen wir sie nicht besitzen, um an
 
 ---
 
-*Arbeitsfassung 0.4 · 25.10.2026. Philosophisch-theologische Interpretation; keine naturwissenschaftliche Bestätigung einer Ein-Bewusstsein-Ontologie. Primärquellen und historische Zuschreibungen sind vor Veröffentlichung zu verifizieren.*
+*Arbeitsfassung 0.5 · 25.10.2026. Philosophisch-theologische Interpretation; keine naturwissenschaftliche Bestätigung einer Ein-Bewusstsein-Ontologie. Primärquellen und historische Zuschreibungen sind vor Veröffentlichung zu verifizieren.*
