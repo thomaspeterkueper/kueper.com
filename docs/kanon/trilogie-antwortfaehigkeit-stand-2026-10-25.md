@@ -6,7 +6,7 @@ datum: "2026-10-25"
 kategorie: "KANON"
 marker: ["I", "H"]
 status: "Entwurf"
-version: "0.2"
+version: "0.3"
 language: "DE"
 documentType: "Kanon-Notiz"
 public: false
@@ -24,7 +24,7 @@ Drei Essays untersuchen eine Grundfrage in unterschiedlichen Registern: Unter we
 
 1. **Spielraum** – publiziert v1.5, redaktioneller Entwurf **v1.8**, Pfad `docs/entwuerfe/spielraum-v1.6-sieben-gaben-2026.md`. Ontologisch-ethisch: Freiheit braucht wirkliche Bedingungen und Zeit; Verantwortung für eröffnete oder verschlossene Möglichkeiten ist begrenzt und relational.
 2. **Der erhellte Blick** – unveröffentlicht **v0.5**, Pfad `src/content/kue/phi/kue-phi-erhellter-blick-2026-de.md`. Epistemisch-theologisch: Erkenntnis erhellt Perspektiven, ohne Verfügungsrecht oder Gewissheit zu verleihen; Gaben der Geisttradition bilden einen eigenen religiösen Horizont.
-3. **Die Verantwortung des Erkennens** – unveröffentlicht **v0.6**, Pfad `src/content/kue/phi/kue-phi-verantwortung-erkennens-2026-de.md`. Ethisch-epistemisch: Zurechnung verlangt Prüfung von Erkenntnis, Urteil, Einfluss, realen Alternativen, Abhängigkeit, Zumutbarkeit und Zeit.
+3. **Die Verantwortung des Erkennens** – unveröffentlicht **v0.9.2**, Pfad `src/content/kue/phi/kue-phi-verantwortung-erkennens-2026-de.md`. Ethisch-epistemisch: Zurechnung verlangt Prüfung von Erkenntnis, Urteil, Einfluss, realen Alternativen, Abhängigkeit, Zumutbarkeit und Zeit.
 
 ## Verbindendes Element
 **Antwortfähigkeit** meint kein grenzenloses individuelles Können. Sie ist relational ermöglicht und abhängig von Bedingungen; bei ihrer ethischen Beurteilung sind eigene Perspektive, Widerspruch anderer und Korrigierbarkeit wesentlich.
@@ -48,3 +48,7 @@ Die Gaben-Differenzierung ist ein **Anlass zum begrifflichen Unterscheiden**, ke
 
 ## Redaktion
 Diese Notiz führt die mitgebrachten Prüfungen vom 25.10.2026 fort und bildet den Stand nach der Straffung der drei Essays ab. Die publizierte Fassung von „Spielraum“ v1.5 wurde nicht überschrieben. Literatur- und Quellenprüfung bleibt von der essayistischen Darstellung getrennt. Eine Aktualisierung des zentralen Knowledge Graph wird nicht behauptet.
+
+## Stand der Schlusskorrektur
+
+Die Verantwortung des Erkennens ist in Fassung 0.9.2 lektoriert und bleibt unveröffentlicht. Die Einführung der Omnizedenz als Werden von Unterschieden in Beziehung wurde mit der revidierten philosophischen Position abgeglichen. Ergänzende systematische Prüfungen zu Zeit, Rat, Stärke und Handlungsfähigkeit stehen im gesonderten Arbeitspapier. Der Essay benötigt dafür keinen zusätzlichen Exkurs.
