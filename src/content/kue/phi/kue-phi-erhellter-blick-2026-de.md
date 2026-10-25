@@ -7,7 +7,7 @@ datum: "2026-10-24"
 kategorie: PHI
 marker: ["I", "H"]
 status: draft
-version: "0.2"
+version: "0.3"
 language: DE
 sprache: DE
 documentType: essay
@@ -49,6 +49,16 @@ Im biblischen Sprachraum können die Wörter *ruach* und *pneuma* unter anderem 
 Hier berühren sich Gebet und Mündigkeit. Wenn das Ziel der Schöpfung nicht gehorsame Wiederholung, sondern verantwortliche Antwortfähigkeit ist, wäre es merkwürdig, den Heiligen Geist allein als Lieferanten unanfechtbarer Sätze zu begreifen. Er könnte vielmehr in der christlichen Deutung als Beistand verstanden werden, der Einsicht und Unterscheidung ermöglicht, ohne sie an die Stelle der menschlichen Verantwortung zu setzen.
 
 Gerade deshalb braucht das Gebet einen kritischen Vorbehalt. Nicht jeder Gedanke nach einer Anrufung ist Eingebung. Nicht jede innere Klarheit ist Wahrheit. Wer den eigenen Einfall göttlich nennt, kann sich der Prüfung entziehen. Ein erhellter Blick müsste das Gegenteil bewirken: mehr Bereitschaft, Herkunft, Gründe, Konsequenzen und Widerspruch wahrzunehmen.
+
+## Sieben Gaben, keine sieben fertigen Antworten
+
+Die christliche Überlieferung kennt die sieben Gaben des Heiligen Geistes: Weisheit, Einsicht, Rat, Stärke, Erkenntnis, Frömmigkeit und Gottesfurcht. Sie stammen nicht als unveränderte Siebenerliste aus dem hebräischen Jesajatext; die spätere christliche Auslegung und Übersetzungsgeschichte hat ihre Gestalt geprägt.
+
+Diese Unterscheidungen vertiefen die Bitte um einen erhellten Geist. Erkenntnis benennt noch nicht, was zu tun ist. Einsicht kann die Grenzen der eigenen Deutung sichtbar machen. Rat verweist auf die Prüfung möglicher Antworten. Stärke erinnert daran, dass auch eine erkannte Verantwortung Mut und reale Handlungsmöglichkeiten benötigt. Weisheit könnte darin liegen, Zusammenhang und Folgen nicht vom einzelnen Menschen zu lösen.
+
+Frömmigkeit und Gottesfurcht bleiben religiöse Begriffe eigener Bedeutung. In der katholischen Lehre sprechen sie vom Verhältnis zu Gott und von der Bereitschaft, sich von ihm leiten zu lassen. Philosophisch lässt sich daran die Frage nach Haltung, Ehrfurcht und Selbstbegrenzung anschließen, ohne die Tradition in ein säkulares Tugendschema aufzulösen.
+
+Die sieben Gaben liefern darum keinen Entscheidungsautomaten. Sie erinnern daran, dass ein klarerer Blick nicht die einzige Voraussetzung einer verantwortlichen Antwort ist.
 
 ## Feld statt Gegenüber
 
@@ -106,7 +116,7 @@ Auch die Hypothese eines übergeordneten Informationsspeichers bleibt unabhängi
 
 ## Philosophische Bezugspunkte und offene Prüfung
 
-Für eine quellenbasierte spätere Fassung sind insbesondere folgende Primärtexte zu prüfen: Erwin Schrödinger, *Geist und Materie* sowie *Mein Leben, meine Weltanschauung*; Arthur Schopenhauer, *Über die Grundlage der Moral*; Immanuel Kant, *Beantwortung der Frage: Was ist Aufklärung?*; Martin Buber, *Ich und Du*; die Texte der Advaita-Tradition und ihre jeweils spezifischen Deutungen. Für die christliche Pneumatologie sind einschlägige Bibelstellen und theologische Auslegungen gesondert heranzuziehen. Die Nennung ist eine Arbeitsbibliografie, noch kein geprüfter Belegapparat. Die oft Viktor Frankl zugeschriebene Sentenz über den Raum zwischen Reiz und Reaktion wird hier bewusst nicht als authentisches Zitat verwendet.
+Für eine quellenbasierte spätere Fassung sind insbesondere folgende Primärtexte zu prüfen: Erwin Schrödinger, *Geist und Materie* sowie *Mein Leben, meine Weltanschauung*; Arthur Schopenhauer, *Über die Grundlage der Moral*; Immanuel Kant, *Beantwortung der Frage: Was ist Aufklärung?*; Martin Buber, *Ich und Du*; die Texte der Advaita-Tradition und ihre jeweils spezifischen Deutungen. Für die christliche Pneumatologie sind einschlägige Bibelstellen und theologische Auslegungen gesondert heranzuziehen. Die Nennung ist eine Arbeitsbibliografie, noch kein geprüfter Belegapparat. Für die sieben Gaben sind Jesaja 11,2–3 in hebräischer und griechischer Überlieferung sowie der Katechismus der Katholischen Kirche 1830–1831 zu vergleichen. Die oft Viktor Frankl zugeschriebene Sentenz über den Raum zwischen Reiz und Reaktion wird hier bewusst nicht als authentisches Zitat verwendet.
 
 ## Eine Bitte, keine Besitzurkunde
 
@@ -122,4 +132,4 @@ Wenn es eine gemeinsame Wirklichkeit gibt, müssen wir sie nicht besitzen, um an
 
 ---
 
-*Arbeitsfassung 0.2 · 25.10.2026. Philosophisch-theologische Interpretation; keine naturwissenschaftliche Bestätigung einer Ein-Bewusstsein-Ontologie. Primärquellen und historische Zuschreibungen sind vor Veröffentlichung zu verifizieren.*
+*Arbeitsfassung 0.3 · 25.10.2026. Philosophisch-theologische Interpretation; keine naturwissenschaftliche Bestätigung einer Ein-Bewusstsein-Ontologie. Primärquellen und historische Zuschreibungen sind vor Veröffentlichung zu verifizieren.*
