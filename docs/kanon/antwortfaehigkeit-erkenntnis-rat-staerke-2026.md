@@ -28,7 +28,8 @@ Eine Person erkennt eine Benachteiligung, verfügt aber nicht über den Zugang, 
 - Der erhellte Blick: bessere Wahrnehmung erzeugt nicht automatisch Macht zu handeln.
 - Spielraum: reale Möglichkeit ist mehr als vorgestellte Alternative.
 - Die Verantwortung des Erkennens: Wissen, Urteil, Stärke und Handlungsspielraum auseinanderhalten.
-- Kinder Gottes, Gottesdienst und Gericht als Rückkehr: künftiger redaktioneller Abgleich, ohne ungesichtete Texte zu ändern.
+- Theologische Reihe (*Kinder Gottes*, *Was ist durch dich geschehen?*, *Das Paradoxon der kreuzenden Wege* u. a.): am 25.10.2026 gesichtet, Abgleich in der Kanon-Notiz 0.4.
+- Die Essays verwenden die Reihe Rat/Stärke nicht mehr wörtlich; sie bleibt interne Arbeitsunterscheidung.
 
 ## Religiöse Einordnung
 Die sieben katholischen Gaben des Heiligen Geistes dienen als Ausgangspunkt der Frage, nicht als reduktionistisches Kompetenzmodell. Ihre eigene theologische Bedeutung bleibt bestehen.

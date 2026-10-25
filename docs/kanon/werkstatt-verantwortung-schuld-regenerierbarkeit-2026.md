@@ -2,7 +2,7 @@
 
 Datum: 2026-10-25
 Status: offene Forschungsnotiz, kein freigegebener Kanon
-Bezug: „Spielraum“ publiziert 1.5 / Entwurf 1.8; „Der erhellte Blick“ 0.5; „Die Verantwortung des Erkennens“ 0.8
+Bezug: „Spielraum“ publiziert 1.5 / Entwurf 1.9.1; „Der erhellte Blick“ 0.8.1; „Die Verantwortung des Erkennens“ 0.9.6
 
 ## Ausgangspunkt
 
@@ -38,4 +38,4 @@ Eine differenzierte Wirklichkeit im Werden begründet keine automatische Moralvo
 
 ## Redaktioneller Haltepunkt
 
-Die drei Essays bleiben eigenständige Texte. In der derzeitigen Arbeitsphase keine weitere begriffliche Ergänzung ohne neue Gegenprobe. „Das Gericht als Rückkehr“, „Kinder Gottes – Vom Fall zur Mündigkeit“ und andere verwandte Essays erst nach Sichtung ihrer maßgeblichen Fassungen abgleichen.
+Die drei Essays bleiben eigenständige Texte. In der derzeitigen Arbeitsphase keine weitere begriffliche Ergänzung ohne neue Gegenprobe. „Was ist durch dich geschehen?“ (zuvor als „Das Gericht als Rückkehr“ bezeichnet), „Kinder Gottes – Vom Fall zur Mündigkeit“ und die übrigen Texte der Theologischen Reihe wurden am 25.10.2026 gesichtet; Ergebnis siehe Kanon-Notiz 0.4. Die Unterscheidung Verursachung – Schuld – Verantwortung bleibt Arbeitsbegriff dieser Werkstatt und wird dem Gericht-Essay nicht als eigene These zugeschrieben.

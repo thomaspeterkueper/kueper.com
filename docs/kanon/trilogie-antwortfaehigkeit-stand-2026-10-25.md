@@ -6,12 +6,12 @@ datum: "2026-10-25"
 kategorie: "KANON"
 marker: ["I", "H"]
 status: "Entwurf"
-version: "0.3"
+version: "0.4"
 language: "DE"
 documentType: "Kanon-Notiz"
 public: false
 kurator: "Thomas Peter Küper"
-keywords: ["Antwortfähigkeit", "Spielraum", "Erkenntnis", "Verantwortung", "Mündigkeit", "Omnizedenz", "Differenz", "Zeit"]
+keywords: ["Antwortfähigkeit", "Spielraum", "Erkenntnis", "Verantwortung", "Mündigkeit", "Omnizedenz", "Differenz", "Zeit", "Reibung", "Rechenschaft"]
 bezug: ["KUE-PHI-0003-2026-DE", "KUE-PHI-ERHELLTER-BLICK-2026-DE", "KUE-PHI-VERANTWORTUNG-ERKENNENS-2026-DE"]
 ---
 
@@ -22,14 +22,46 @@ Drei Essays untersuchen eine Grundfrage in unterschiedlichen Registern: Unter we
 
 ## Die drei Texte – tatsächlich gespeicherte Fassungen
 
-1. **Spielraum** – publiziert v1.5, redaktioneller Entwurf **v1.8**, Pfad `docs/entwuerfe/spielraum-v1.6-sieben-gaben-2026.md`. Ontologisch-ethisch: Freiheit braucht wirkliche Bedingungen und Zeit; Verantwortung für eröffnete oder verschlossene Möglichkeiten ist begrenzt und relational.
-2. **Der erhellte Blick** – unveröffentlicht **v0.5**, Pfad `src/content/kue/phi/kue-phi-erhellter-blick-2026-de.md`. Epistemisch-theologisch: Erkenntnis erhellt Perspektiven, ohne Verfügungsrecht oder Gewissheit zu verleihen; Gaben der Geisttradition bilden einen eigenen religiösen Horizont.
-3. **Die Verantwortung des Erkennens** – unveröffentlicht **v0.9.2**, Pfad `src/content/kue/phi/kue-phi-verantwortung-erkennens-2026-de.md`. Ethisch-epistemisch: Zurechnung verlangt Prüfung von Erkenntnis, Urteil, Einfluss, realen Alternativen, Abhängigkeit, Zumutbarkeit und Zeit.
+1. **Spielraum** – publiziert v1.5 (`src/content/kue/phi/kue-phi-0003-2026-de.md`), redaktioneller Entwurf **v1.9.1** auf `main` (`docs/entwuerfe/spielraum-v1.9-lektorat-2026.md`). Leitfrage: Unter welchen Bedingungen kann Eigenständigkeit entstehen? Freiheit braucht reale Möglichkeiten, Grenzen und Zeit; Verantwortung gilt den Bedingungen des eröffneten Spielraums. Ob 1.9.1 die publizierte 1.5 ersetzt, ist noch nicht entschieden.
+2. **Der erhellte Blick** – unveröffentlicht **v0.8.1**, Pfad `src/content/kue/phi/kue-phi-erhellter-blick-2026-de.md`. Leitfrage: Wie erkennen wir Möglichkeiten und ihre Grenzen? Epistemisch: Erkenntnis erweitert und korrigiert Perspektiven, ohne Verfügungsrecht oder Gewissheit zu verleihen. Anlass ist ein Satz aus der Predigt zur Firmung des Sohnes; die Gaben-Tradition ist seit v0.8 nicht mehr Teil des Essays.
+3. **Die Verantwortung des Erkennens** – unveröffentlicht **v0.9.6**, Pfad `src/content/kue/phi/kue-phi-verantwortung-erkennens-2026-de.md`. Leitfrage: Was verändert eine Erkenntnis an unserer Antwort? Ethisch-epistemisch: Wissen verändert die Gründe für Handeln und Unterlassen, ohne die richtige Handlung vorzugeben; Zurechnung verlangt Prüfung von Erkennbarkeit, Einfluss, realen Alternativen, Abhängigkeit, Zumutbarkeit und Zeit.
+
+Gemeinsame Schlussklammer: „Spielraum ist das, was wir empfangen, gestalten und weitergeben“ beendet *Spielraum* und eröffnet den Schlusssatz der *Verantwortung des Erkennens*. Die Doppelung ist beabsichtigt.
 
 ## Verbindendes Element
 **Antwortfähigkeit** meint kein grenzenloses individuelles Können. Sie ist relational ermöglicht und abhängig von Bedingungen; bei ihrer ethischen Beurteilung sind eigene Perspektive, Widerspruch anderer und Korrigierbarkeit wesentlich.
 
-Die Gaben-Differenzierung ist ein **Anlass zum begrifflichen Unterscheiden**, kein religionsübergreifender Beweis und kein mit der Omnizedenz identisches System. Die katholische Liste der sieben Gaben bleibt in ihrer theologischen Eigenbedeutung anerkannt. Philosophische Dimensionen wie tatsächliche Handlungsfähigkeit und Zeit sind keine zusätzlichen kirchlichen Gaben.
+Kernformel (*Die Verantwortung des Erkennens*): „Verantwortung ist Antwortfähigkeit: Ich antworte nicht nur auf ein Problem, sondern einem Menschen, dessen Widerspruch meine Antwort verändern kann.“
+
+## Begriffsreihen in den Essays
+Die Unterscheidung von Erkennen und tatsächlichem Handeln-Können erscheint in jedem Essay in eigener Gestalt:
+
+| Text | Begriffsreihe |
+|---|---|
+| *Spielraum* | eine Möglichkeit erkennen – einen Weg wählen – an ihm festhalten – ihn tatsächlich gehen können |
+| *Der erhellte Blick* | Erkenntnis – Urteil – Handlung |
+| *Die Verantwortung des Erkennens* | einen Schaden erkennen – eine angemessene Antwort finden – an ihr festhalten – sie ausführen können |
+| Arbeitsnotiz (intern) | Erkenntnis – Rat – Stärke – Handlungsfähigkeit – zeitliche Disponibilität |
+
+Die Reihe mit Rat und Stärke ist eine interne Arbeitsunterscheidung. Die Essays verwenden sie nicht mehr und verweisen nicht mehr auf die Gaben des Heiligen Geistes. Die Gaben-Differenzierung bleibt ein **Anlass zum begrifflichen Unterscheiden**, kein religionsübergreifender Beweis und kein mit der Omnizedenz identisches System; die katholische Liste der sieben Gaben behält ihre theologische Eigenbedeutung.
+
+## Motivverteilung
+Mehrfach auftretende Motive haben einen Ort, an dem sie ausgeführt werden; andere Texte rufen sie nur auf.
+
+- **Spielraum:** formale Erlaubnis gegenüber realem Zugang; die Grenze, die zur Unfreiheit wird, wenn ihr Grund entfällt; Mut ersetzt keinen Zugang; Grenzkriterium „eigenen oder fremden Spielraum schützen oder vergrößern“.
+- **Der erhellte Blick:** Einheit der Wirklichkeit ohne Identität des Erlebens; andere Perspektiven als Erkenntnisquelle; Prüfung des eigenen Blicks.
+- **Die Verantwortung des Erkennens:** Antwortfähigkeit als korrigierbare Begegnung; begrenzte Aufmerksamkeit gegenüber strategischem Nichtwissen; Rollen- und Institutionenverantwortung; Regenerierbarkeit.
+
+## Bezug zur Theologischen Reihe
+Die Theologische Reihe auf thomas-kueper.de (`src/content/texte/`, Nr. 10–15) wurde am 25.10.2026 gesichtet. Beide Reihen bleiben eigenständig; die theologischen Texte eröffnen zusätzliche Perspektiven, ohne dass die philosophischen Essays theologisch begründet werden.
+
+| Theologischer Text | Verbindung zur Trilogie |
+|---|---|
+| *Kinder Gottes – Vom Fall zur Mündigkeit* | Quelle des Satzes „Ich komme von dir. Aber ich bin nicht du.“; Mündigkeit als Eigenständigkeit innerhalb von Bindungen. Verwiesen in *Spielraum* und *Die Verantwortung des Erkennens*. |
+| *Was ist durch dich geschehen?* | Rechenschaft statt Gehorsamsprüfung; drei Fragen (getan – entstanden – anderen geschehen); „Das Verlorene bleibt verloren“. Verwiesen in *Die Verantwortung des Erkennens* (Regenerierbarkeit). |
+| *Das Paradoxon der kreuzenden Wege* | Reibung durch Verschiedenheit ist unvermeidbar und moralisch neutral; Aufgabe ist, dass aus ihr nicht unnötig Zerstörung wird. Ursprung von „Ich muss nicht Ursprung sein, um verantwortlich zu sein“. Verwiesen in *Spielraum* 1.9.1. |
+| *Die Architektur der Stille* | Gebet als Aufmerksamkeit und Beziehung („Gebet ohne Empfänger?“); trägt den in *Der erhellte Blick* gestrichenen Feld-Gedanken. Bisher kein Verweis. |
+| *Gottesdienst*, *Die Verdichtung des Widersachers* | Kein unmittelbarer Bezug festgestellt. |
 
 ## Schutz vor Fehlschlüssen
 - Einheit der Wirklichkeit bedeutet nicht notwendig ein einziges phänomenales Bewusstsein; „was im Teil geschieht, geschieht dem Ganzen“ behauptet nicht, das Ganze empfinde.
@@ -38,6 +70,9 @@ Die Gaben-Differenzierung ist ein **Anlass zum begrifflichen Unterscheiden**, ke
 - Mitverantwortung für fremden Spielraum ist keine Allzuständigkeit und keine Legitimation zur Fremdbestimmung.
 - Zeitlich begründete Grenzen müssen hinsichtlich ihrer Dauer überprüft werden.
 - Regenerierbarkeit heißt die Möglichkeit neuer Zukunft, nicht bloß Rückkehr zum früheren Zustand.
+- Dass Freiheit Misslingen ermöglicht, begründet nicht, dass Schaden unvermeidlich ist.
+- Reibung zwischen Lebenswegen ist noch kein Unrecht; vermeidbares Leid verlangt Rechenschaft, wird aber erst durch Erkennbarkeit und Änderbarkeit zur Schuld.
+- Die Unterscheidung Verursachung – Schuld – Verantwortung ist eine philosophische Arbeitsunterscheidung dieser Trilogie (vgl. Werkstattnotiz), keine These von *Was ist durch dich geschehen?*.
 
 ## Forschungsfragen
 1. Wie lassen sich Erkenntnistheorie und Ethik über Antwortfähigkeit verbinden, ohne sie zu verwechseln?
@@ -45,10 +80,13 @@ Die Gaben-Differenzierung ist ein **Anlass zum begrifflichen Unterscheiden**, ke
 3. Welche Rechte begrenzen einen wohlmeinenden Eingriff auch dann, wenn er Spielräume maximieren soll?
 4. Wann darf eine Gemeinschaft stellvertretend handeln, und wie bleibt das korrigierbar?
 5. Was leisten religiöse Überlieferungen als eigenständige Gesprächspartner, ohne auf ein Einheitsnarrativ reduziert zu werden?
+6. Woher kommt der moralische Anspruch des anderen positiv, wenn er nicht aus der Beobachtung folgt? *Kinder Gottes* („der andere ist bereits in meiner Gottesrede enthalten“) bietet eine theologische Antwort; eine philosophische steht aus.
+
+## Offene redaktionelle Punkte
+- Entscheidung, ob *Spielraum* 1.9.1 die publizierte Fassung 1.5 ersetzt.
+- Google-Drive-Fassung von *Spielraum* auf 1.9.1 nachziehen.
+- *Der erhellte Blick* 0.8.1: Herkunft des Zitats „Ich komme von dir. Aber ich bin nicht du.“ wieder als *Kinder Gottes* ausweisen.
+- Frontmatter der drei Essays vereinheitlichen (Signaturschema, `status`, `documentType`, `marker`).
 
 ## Redaktion
-Diese Notiz führt die mitgebrachten Prüfungen vom 25.10.2026 fort und bildet den Stand nach der Straffung der drei Essays ab. Die publizierte Fassung von „Spielraum“ v1.5 wurde nicht überschrieben. Literatur- und Quellenprüfung bleibt von der essayistischen Darstellung getrennt. Eine Aktualisierung des zentralen Knowledge Graph wird nicht behauptet.
-
-## Stand der Schlusskorrektur
-
-Die Verantwortung des Erkennens ist in Fassung 0.9.2 lektoriert und bleibt unveröffentlicht. Die Einführung der Omnizedenz als Werden von Unterschieden in Beziehung wurde mit der revidierten philosophischen Position abgeglichen. Ergänzende systematische Prüfungen zu Zeit, Rat, Stärke und Handlungsfähigkeit stehen im gesonderten Arbeitspapier. Der Essay benötigt dafür keinen zusätzlichen Exkurs.
+Diese Notiz bildet den Stand vom 25.10.2026 nach dem Abgleich mit der Theologischen Reihe ab. Die publizierte Fassung von „Spielraum“ v1.5 wurde nicht überschrieben. Literatur- und Quellenprüfung bleibt von der essayistischen Darstellung getrennt. Eine Aktualisierung des zentralen Knowledge Graph wird nicht behauptet.
