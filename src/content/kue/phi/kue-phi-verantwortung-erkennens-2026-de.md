@@ -7,7 +7,7 @@ datum: "2026-10-25"
 kategorie: PHI
 marker: ["I", "H"]
 status: draft
-version: "0.9.3"
+version: "0.9.4"
 language: DE
 sprache: DE
 documentType: essay
@@ -36,7 +36,7 @@ Dabei beginnt Verantwortung nicht erst, wenn alles sicher feststeht. Bereits zwi
 Der Blick allein verändert die Szene nicht. Aber indem wir sie anders erkennen, verändert sich unsere Beziehung zu ihr – und damit unsere Lage in der Welt.
 
 ## Sehen ist noch kein Sollen
-Aus der Einsicht, dass etwas geschieht, folgt nicht schon, was geschehen sollte. Wer das verwechselt, macht Wissen zur Befehlsgewalt. Dass andere in ihrer Verletzbarkeit und Selbstbestimmung zählen, folgt nicht aus meiner Beobachtung. Worauf dieser Anspruch letztlich gründet, bleibt eine eigene philosophische Frage. Erkenntnis macht sichtbar, wo er mein Handeln berührt.
+Aus der Einsicht, dass etwas geschieht, folgt nicht schon, was geschehen sollte. Wer das verwechselt, macht Wissen zur Befehlsgewalt. Dass andere in ihrer Verletzbarkeit und Selbstbestimmung zählen, folgt nicht aus meiner Beobachtung. Worauf dieser Anspruch letztlich gründet, bleibt eine eigene philosophische Frage. Erkenntnis macht sichtbar, wo er mein Handeln berührt. Sie schafft diesen Anspruch nicht, verändert aber, welche Antworten ich auf ihn geben kann.
 
 Ich kann erkennen, dass jemand leidet, ohne zu wissen, was er benötigt. Vielleicht ist mein Eingreifen willkommen, vielleicht übergriffig. Zwischen Erkennen und Handeln liegt deshalb eine Aufgabe: die Bedürfnisse des anderen, die Folgen meines Eingreifens und meine eigenen Annahmen zu unterscheiden.
 
@@ -54,7 +54,7 @@ Im Essay *Spielraum* geht es um die Bedingungen wirklicher Freiheit. *Der erhell
 ## Der andere bleibt der andere
 Wer den anderen verstehen will, stößt auf eine Grenze, die keine noch so tief empfundene Verbundenheit beseitigt. Der Schmerz des anderen ist nicht meiner. Ich kann ihm nahekommen, ihn ernst nehmen, mitfühlen. Ich kann ihn nicht besitzen.
 
-Aus dieser Grenze folgt mehr als Zurückhaltung. Verantwortlich antworten heißt, die eigene Deutung dem Widerspruch des anderen auszusetzen. Vielleicht habe ich seine Not erkannt, aber seine Wünsche verkannt. Vielleicht halte ich meine Hilfe für nötig, während sie ihm eine Entscheidung abnimmt, die er selbst treffen will. Antworten ist dann kein Durchsetzen des erkannten Guten, sondern eine Begegnung, in der meine erste Antwort korrigiert werden kann. Darin liegt ein Risiko, das ich nicht durch guten Willen beseitige: Ich muss zulassen, dass meine Erklärung nicht genügt, mein Vorschlag zurückgewiesen wird und ein anderer Weg sichtbar wird. Diese Korrigierbarkeit ist keine Schwäche der Verantwortung, sondern gehört zu ihrer Form. Dass der Widerspruch des anderen zählt, bedeutet nicht, dass er jede Entscheidung bestimmt. Auch ein Eingreifen gegen seinen Willen bleibt rechtfertigungspflichtig.
+Aus dieser Grenze folgt mehr als Zurückhaltung. Verantwortlich antworten heißt, die eigene Deutung dem Widerspruch des anderen auszusetzen. Vielleicht habe ich seine Not erkannt, aber seine Wünsche verkannt. Vielleicht halte ich meine Hilfe für nötig, während sie ihm eine Entscheidung abnimmt, die er selbst treffen will. Antworten ist dann kein Durchsetzen des erkannten Guten, sondern eine Begegnung, in der meine erste Antwort korrigiert werden kann. Darin liegt ein Risiko, das ich nicht durch guten Willen beseitige: Ich muss zulassen, dass meine Erklärung nicht genügt, mein Vorschlag zurückgewiesen wird und ein anderer Weg sichtbar wird. Diese Korrigierbarkeit ist keine Schwäche der Verantwortung, sondern gehört zu ihrer Form. Dass der Widerspruch des anderen zählt, bedeutet nicht, dass er jede Entscheidung bestimmt. Auch ein Eingreifen gegen seinen Willen bleibt rechtfertigungspflichtig. Sein Widerspruch zählt dabei neben den Ansprüchen derjenigen, die durch sein Handeln betroffen sind.
 
 Wir können zusammengehören, ohne dieselbe Perspektive zu besitzen. An diesem Unterschied bewährt sich die Hilfe.
 
@@ -119,6 +119,6 @@ Mehr Erkenntnis bedeutet nicht automatisch mehr Schuld. Und nicht jede verstande
 
 Verantwortung bleibt eine Sache der Urteilskraft. Sie verlangt, Möglichkeiten und Grenzen in der konkreten Lage zu gewichten, statt die längste Liste moralischer Pflichten abzuarbeiten. Entscheidend ist die begründbare Antwort auf einen wirklichen Anspruch.
 
-Vielleicht geht es bei dem Kind vom Anfang zunächst darum, zuzuhören, nachzufragen oder eine zuständige Person hinzuzuziehen. Hier beginnt Antwortfähigkeit: die eigene Erkenntnis prüfen, den Widerspruch des anderen zulassen und für die Folgen des eigenen Einflusses einstehen. Wir bestimmen nicht, was andere werden sollen. Aber wir wirken an den Bedingungen mit, unter denen sie werden können.
+Vielleicht geht es bei dem Kind vom Anfang darum, zuzuhören, nachzufragen oder eine zuständige Person hinzuzuziehen; vielleicht ist es zunächst angemessen, die Vermutung genauer zu prüfen. Welche Antwort trägt, entscheidet sich an der Situation, nicht an einer allgemeinen Geste der Hilfsbereitschaft. Hier beginnt Antwortfähigkeit: die eigene Erkenntnis prüfen, den Widerspruch des anderen zulassen und für die Folgen des eigenen Einflusses einstehen. Wir bestimmen nicht, was andere werden sollen. Aber wir wirken an den Bedingungen mit, unter denen sie werden können.
 
 Spielraum ist das, was wir empfangen, gestalten und weitergeben. Der erhellte Blick ist die Bitte, ihn zu sehen. Verantwortung ist die Zumutung, beides nicht voneinander zu trennen.
