@@ -7,7 +7,7 @@ datum: "2026-10-25"
 kategorie: PHI
 marker: ["I", "H"]
 status: draft
-version: "0.5"
+version: "0.6"
 language: DE
 sprache: DE
 documentType: essay
@@ -73,7 +73,7 @@ Und wenn frühere Möglichkeiten unwiederbringlich verloren sind? Dann wird *Reg
 Dabei darf die Mitverantwortung weder zur Allzuständigkeit noch zur stillen Übernahme fremder Entscheidungen werden. Ein Lehrer kann nicht das ganze Bildungssystem verändern, aber er trägt Verantwortung für das, was er im eigenen Bereich öffnet oder versperrt. Institutionen und gesellschaftliche Regeln haben wiederum ihre eigene Verantwortung für Zugang und Verteilung. Bedingungen sind, soweit möglich, mit den Betroffenen zu gestalten, nicht bloß für sie.
 
 Dazu gehört ein Prüfstein für jede Fürsorge: Darf der andere meine Hilfe ablehnen, verändern, kritisieren? Oder erzeuge ich unter dem Namen der Unterstützung eine neue Form der Verfügung? Erkenntnis begründet kein Eigentum an fremden Lebenswegen.
-## Wissen und Macht
+## Wissen, Macht und die Grenzen der Aufmerksamkeit
 
 Es gibt Menschen, die wenig wissen und dennoch großen Einfluss haben. Andere verstehen ein Problem genau, verfügen aber über kaum eine Möglichkeit, es zu verändern. Die Verantwortung beider ist nicht identisch.
 
@@ -82,8 +82,6 @@ Wissen ohne Einfluss kann eine Pflicht begründen, aufmerksam zu bleiben, Zeugni
 Besonders anspruchsvoll wird Verantwortung dort, wo beide zusammenkommen. Wer die Folgen seines Handelns erkennt und zugleich über Mittel verfügt, sie zu verändern, kann sich weniger leicht auf Unkenntnis oder Ohnmacht berufen.
 
 Das darf nicht in die Erwartung grenzenloser Zuständigkeit umschlagen. Niemand kann auf jeden Schmerz antworten, der ihm bekannt wird. Die Weite dessen, was wir wissen können, ist größer als der Spielraum dessen, was wir verantwortbar tun können. Manchmal fehlt gerade die Zeit für eine Antwort; manchmal braucht Veränderung Jahre und viele Beteiligte. Eine Ethik, die diesen Unterschied missachtet, verwandelt Aufmerksamkeit in Überforderung.
-
-## Darf man nicht wissen wollen?
 
 Die schwierigste Frage beginnt dort, wo Erkenntnis selbst belastet. Niemand kann alle Nachrichten verfolgen, jedes Leid erfassen und alle Folgen des eigenen Handelns vollständig untersuchen. Aufmerksamkeit ist endlich. Ein Recht, nicht alles wissen zu müssen, schützt die Kräfte, die wir überhaupt für verantwortliches Antworten brauchen.
 
@@ -96,24 +94,18 @@ Auch die Pflicht zur Information ist abgestuft. Sie wächst mit Einwirkungsmacht
 Das Recht auf begrenzte Aufmerksamkeit schützt Mündigkeit. Das strategische Nichtwissen kann sie unterlaufen.
 ## Eine Wirklichkeit, viele Ansprüche
 
-In meiner Vorstellung der Omnizedenz gibt es eine einzige, in sich differenzierte Wirklichkeit. Das bleibt eine philosophische Annahme, kein Nachweis, dass sämtliche Menschen ein einziges phänomenales Erleben teilen.
+In meiner Vorstellung der Omnizedenz gibt es eine einzige, in sich differenzierte Wirklichkeit. Sie verändert den Horizont, in dem wir Verantwortung wahrnehmen: Fremdes Leid erscheint nicht bloß als äußerer Zwischenfall, sondern als Veränderung eines Gefüges, an dem auch ich teilhabe. Daraus folgt keine fertige Pflicht für jeden Einzelfall und ebenso wenig, dass alle Menschen ein einziges phänomenales Erleben teilen.
 
 Ihr ethischer Ertrag liegt nicht in einer kosmischen Vorschrift, sondern in der Aufmerksamkeit für reale Verflechtung. Wird der Spielraum eines Menschen zerstört, verändert sich nicht nur sein individuelles Leben. Es verändern sich Beziehungen und Bedingungen des Zusammenhangs, an dem auch andere teilhaben. Was im Teil geschieht, geschieht dem Ganzen – ohne dass deshalb jede Person über die Erfahrung des anderen verfügen dürfte.
 
 Aus dieser Verbundenheit folgt noch keine fertige Pflicht für jeden Fall. Aber sie stellt die Vorstellung infrage, fremdes Werden sei ein völlig äußerliches Ereignis. Wir wirken an den Bedingungen mit, die uns zugleich tragen. Wo wir sie verändern können, sind die Folgen unseres Handelns nicht auf uns selbst beschränkt.
-## Einsicht braucht Rat und Stärke
-
-Die christliche Überlieferung spricht nicht nur von Erkenntnis, sondern auch von Weisheit, Einsicht, Rat und Stärke als Gaben des Geistes. In der katholischen Siebenerliste gehören ferner Frömmigkeit und Gottesfurcht dazu. Diese Begriffe sind keine fertige Ethik der Omnizedenz und ihre religiöse Bedeutung erschöpft sich nicht in menschlichen Fähigkeiten. Doch sie lassen eine Lücke unserer bisherigen Überlegungen sichtbar werden.
-
-Es kann sein, dass ich einen Schaden erkenne, aber nicht weiß, welche Antwort hilfreich wäre. Es kann sein, dass ich die angemessene Handlung kenne, sie aber aus Furcht, Abhängigkeit oder fehlender Macht nicht verwirklichen kann. Urteilskraft, Rat und Stärke gehören deshalb zu verschiedenen Bedingungen der Antwortfähigkeit. Wer Mut fordert, ohne die realen Hindernisse zu sehen, verwechselt ein Ideal mit einem verfügbaren Spielraum.
-
-Und wer den anderen beraten will, muss die Möglichkeit offenhalten, dass sein Rat nicht der richtige ist. Die Einsicht in eine Lage verleiht keine Herrschaft über ihren Ausgang. Rat ist verantwortbar, wo er die Urteilskraft des anderen unterstützt, Alternativen und Ungewissheiten offenlegt und den eigenen Irrtum zulässt. Nicht-Handeln beweist weder Nicht-Wollen noch Feigheit. Wer so urteilt, kann strukturelle Hindernisse dem Einzelnen zur Last legen.
-
 ## Die Zumutung des Gebets
 
 „Komm, Heiliger Geist, erleuchte meinen Geist.“
 
 Diese Bitte war der Ausgangspunkt des *Erhellten Blicks*. Sie kann zunächst wie der Wunsch nach Klarheit klingen. Doch wer mehr erkennt, entdeckt womöglich nicht nur Schönheit und Zusammenhang. Er sieht auch die Folgen des eigenen Handelns, die Verletzbarkeit anderer und Bedingungen, die bisher unsichtbar waren.
+
+Was im *Erhellten Blick* als Differenzierung von Erkenntnis, Rat und Stärke erscheint, wird hier zur Frage der Verantwortung. Einen Schaden erkennen, eine angemessene Antwort finden, unter Widerständen an ihr festhalten und sie tatsächlich ausführen zu können sind verschiedene Dinge. Wer Mut fordert, ohne die äußeren Hindernisse zu sehen, verwechselt ein Ideal mit verfügbarem Spielraum. Ebenso kann ein entschlossener Rat fehlgehen, wenn er die Betroffenen nicht anhört.
 
 Der erhellte Blick ist darum nicht notwendig der bequemere Blick.
 
