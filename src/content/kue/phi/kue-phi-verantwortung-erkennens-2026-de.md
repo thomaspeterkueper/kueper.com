@@ -7,7 +7,7 @@ datum: "2026-10-25"
 kategorie: PHI
 marker: ["I", "H"]
 status: draft
-version: "0.9.1"
+version: "0.9.2"
 language: DE
 sprache: DE
 documentType: essay
@@ -31,7 +31,7 @@ An der Szene selbst hat sich in diesem Augenblick nichts geändert. Geändert ha
 
 Wir können weitergehen. Wir können fragen, ob wir richtig gesehen haben. Wir können etwas sagen, Hilfe anbieten oder einen anderen Menschen hinzuziehen. Nicht jede dieser Antworten wäre angemessen. Aber so zu handeln, als hätten wir nichts erkannt, verlangt nun eine eigene Entscheidung.
 
-Dabei beginnt Verantwortung nicht erst, wenn alles sicher feststeht. Zwischen einer ersten Irritation und einem begründeten Urteil kann bereits die Aufgabe liegen, genauer hinzusehen und die eigene Vermutung zu prüfen. Das ist keine Lizenz zum vorschnellen Eingriff; es ist die Weigerung, Unsicherheit als bequemen Grund für Blindheit zu benutzen.
+Dabei beginnt Verantwortung nicht erst, wenn alles sicher feststeht. Bereits zwischen einer ersten Irritation und einem begründeten Urteil liegt eine Aufgabe: genauer hinzusehen und die eigene Vermutung zu prüfen. Das ist keine Lizenz zum vorschnellen Eingriff; es ist die Weigerung, Unsicherheit als bequemen Grund für Blindheit zu benutzen.
 
 Erkenntnis fügt der Welt nicht notwendig etwas hinzu. Sie kann verändern, wie wir in ihr stehen.
 
@@ -106,7 +106,7 @@ Die Omnizedenz ersetzt keine moralische Begründung. Sie rückt deren Gegenstand
 
 Diese Bitte war der Ausgangspunkt des *Erhellten Blicks*. Sie kann zunächst wie der Wunsch nach Klarheit klingen. Doch wer mehr erkennt, entdeckt womöglich nicht nur Schönheit und Zusammenhang. Er sieht auch die Folgen des eigenen Handelns, die Verletzbarkeit anderer und Bedingungen, die bisher unsichtbar waren.
 
-Die Unterscheidung von Erkenntnis, Rat und Stärke aus dem *Erhellten Blick* wird hier zur Frage der Verantwortung. Einen Schaden erkennen, eine angemessene Antwort finden, unter Widerständen an ihr festhalten und sie tatsächlich ausführen zu können sind verschiedene Dinge. Wer Mut fordert, ohne die äußeren Hindernisse zu sehen, verwechselt ein Ideal mit verfügbarem Spielraum. Ebenso kann ein entschlossener Rat fehlgehen, wenn er die Betroffenen nicht anhört.
+Die im Essay *Der erhellte Blick* entwickelte Unterscheidung von Erkenntnis, Rat und Stärke wird hier zur Frage der Verantwortung. Einen Schaden erkennen, eine angemessene Antwort finden, unter Widerständen an ihr festhalten und sie tatsächlich ausführen zu können sind verschiedene Dinge. Wer Mut fordert, ohne die äußeren Hindernisse zu sehen, verwechselt ein Ideal mit verfügbarem Spielraum. Ebenso kann ein entschlossener Rat fehlgehen, wenn er die Betroffenen nicht anhört.
 
 Der erhellte Blick ist darum nicht notwendig der bequemere Blick.
 
