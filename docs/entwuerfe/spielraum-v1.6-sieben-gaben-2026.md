@@ -3,7 +3,7 @@ datum: "2026-10-12"
 titel: "Spielraum"
 kategorie: PHI
 marker: ["I"]
-version: "1.7"
+version: "1.8"
 status: "Entwurf"
 sprache: DE
 keywords: ["Schöpfung", "Spielraum", "Verantwortung", "Freiheit", "Mitschöpfung", "Grenze", "Theodizee", "Omnizedenz", "Resonanzethik"]
@@ -45,7 +45,7 @@ Doch hier beginnt die schwierigere Hälfte des Gedankens. Denn wer Spielraum er�
 
 **Schöpfung eröffnet Spielraum. Verantwortung gilt den Bedingungen dieses Spielraums.**
 
-Damit ist die härteste Frage noch nicht beantwortet. Wer Spielraum eröffnet, eröffnet auch die Möglichkeit des Scheiterns, des Leidens und der Zerstörung. Ein Spielraum, in dem nichts misslingen kann, wäre keiner. Ist ein Rahmen verantwortbar, der Schaden nicht nur zulässt, sondern unvermeidlich mit sich bringt? Ich glaube nicht, dass sich diese Frage restlos auflösen lässt. Aber sie lässt sich unterscheiden: Es ist eines, dass Freiheit Misslingen ermöglicht. Es ist ein anderes, wenn Bedingungen Leid erzeugen, das Freiheit gar nicht verlangt. Das Erste ist die Last einer Entscheidung, die sich nicht ungeschehen machen lässt; das Zweite ist Schuld. In beiden Fällen bleibt die Aufgabe, dort beizustehen, wo Spielraum zerstört wurde, und Bedingungen zu schaffen, unter denen wieder eigener Spielraum entstehen kann. Und in der Omnizedenz kommt etwas hinzu: Wenn kein Schöpfer außerhalb steht, lässt sich das Leid nicht als Geschehen außerhalb der Wirklichkeit betrachten. Was einem Teil geschieht, gehört zum Geschehen des Ganzen selbst.
+Damit ist die härteste Frage noch nicht beantwortet. Wer Spielraum eröffnet, eröffnet auch die Möglichkeit des Scheiterns, des Leidens und der Zerstörung. Ein Spielraum, in dem nichts misslingen kann, wäre keiner. Ist ein Rahmen verantwortbar, der Schaden nicht nur zulässt, sondern unvermeidlich mit sich bringt? Ich glaube nicht, dass sich diese Frage restlos auflösen lässt. Aber sie lässt sich unterscheiden: Es ist eines, dass Freiheit Misslingen ermöglicht. Es ist ein anderes, wenn Bedingungen Leid erzeugen, das Freiheit gar nicht verlangt. Das Erste ist die Last einer Entscheidung, die sich nicht ungeschehen machen lässt; das Zweite ist Schuld. In beiden Fällen bleibt die Aufgabe, dort beizustehen, wo Spielraum zerstört wurde, und Bedingungen zu schaffen, unter denen wieder eigener Spielraum entstehen kann. Und in der Omnizedenz kommt etwas hinzu: Wenn kein Schöpfer außerhalb steht, lässt sich das Leid nicht als Geschehen außerhalb der Wirklichkeit betrachten. Was einem Teil geschieht, gehört zum Geschehen des Ganzen selbst, ohne dass damit behauptet wäre, das Ganze empfinde es.
 
 Diese Verantwortung endet nicht beim Ursprung. Auch wer innerhalb eines Spielraums handelt, verändert ihn. Wir verbrauchen Ressourcen, schaffen Regeln, öffnen Türen oder verschließen sie. Wir nehmen Möglichkeiten für uns in Anspruch und beeinflussen damit, welche Möglichkeiten anderen bleiben.
 
@@ -55,11 +55,9 @@ Das bedeutet nicht, dass jede Grenze aufgehoben werden müsste. Manche Grenzen s
 
 Es genügt deshalb nicht immer, den vorhandenen Spielraum zu bewahren. Wo seine Bedingungen ungerecht sind, kann verantwortliches Handeln verlangen, sie zu verändern. Mitschöpfung ist dann weder die Wiederholung des Ursprungs noch seine Verleugnung. Sie bedeutet mehr als Kooperation bei einer vorgegebenen Aufgabe: Wer mitschöpft, verändert auch die Bedingungen, unter denen künftige Aufgaben überhaupt gestellt und beantwortet werden können. Wir wirken an einem Gefüge mit, dessen Anfang nicht bei uns liegt und dessen Zukunft uns nicht allein gehört.
 
-Ein weiterer Unterschied wird sichtbar, wenn wir an die christliche Rede von den Gaben des Geistes denken. Einsicht, Rat und Stärke bezeichnen nicht dasselbe: Es ist eines, eine Möglichkeit zu erkennen, ein anderes, zwischen Wegen zu urteilen, und wieder ein anderes, einen gewählten Weg unter Widerständen gehen zu können. Als religiöse Gaben haben diese Begriffe ihre eigene Bedeutung. Für die Frage nach Spielraum zeigen sie, warum eine nominell offene Möglichkeit noch keine tatsächlich verfügbare Freiheit ist. Wo Furcht, Zwang oder Abhängigkeit das Handeln verhindern, genügt die Aufforderung zu mehr Mut nicht. Man muss auch die Bedingungen verändern, unter denen Mut überhaupt wirksam werden kann.
+Was Spielraum ermöglicht, lässt sich nicht allein an seiner äußeren Form ablesen. Einsicht in eine Möglichkeit, Rat bei der Wahl eines Weges, Stärke unter Widerständen und tatsächliche Handlungsfähigkeit sind nicht dasselbe. Die christliche Rede von den Gaben des Geistes bietet für einige dieser Unterschiede eine eigene theologische Sprache. Doch Mut kann fehlenden Zugang, materielle Mittel oder Schutz nicht ersetzen. Wer von anderen Mündigkeit erwartet, trägt im Maß seines wirklichen Einflusses Verantwortung für solche Bedingungen – möglichst gemeinsam mit den Betroffenen, nicht als Entscheidung über sie. Daraus entsteht keine Allzuständigkeit für jedes fremde Leben.
 
-Damit kommt die Zeit ins Spiel. Eine Antwort kann grundsätzlich möglich sein, aber zu spät kommen; eine heute notwendige Schutzgrenze kann morgen ihre Berechtigung verlieren. Verantwortung für Bedingungen heißt deshalb auch, die Dauer von Einschränkungen zu überprüfen und neue Zugänge zu eröffnen. Nicht jeder, der nicht handelt, will nicht: Vor dem Urteil darüber, was jemand versäumt hat, sind Macht, Wissen, reale Alternativen, Abhängigkeit und verfügbare Zeit zu unterscheiden.
-
-Ebenso wenig kann derjenige, der Möglichkeiten eröffnet, ihre Nutzung bestimmen. Wer von anderen Mündigkeit erwartet, soll die Voraussetzungen dafür soweit mitgestalten, wie sein wirklicher Einfluss reicht. Das geschieht nach Möglichkeit mit den Betroffenen, nicht über sie hinweg. Niemand wird dadurch für sämtliche Bedingungen fremden Lebens allzuständig.
+Auch Zeit gehört zum Spielraum. Eine heute begründete Grenze kann morgen sinnlos sein; eine grundsätzlich mögliche Antwort kann zu spät kommen. Wer Bedingungen setzt, trägt deshalb Verantwortung nicht nur für ihre Einführung, sondern auch für ihre Dauer. Eine Grenze, die bestehen bleibt, obwohl ihr Grund entfallen ist, kann selbst zur Unfreiheit werden.
 
 So verstanden ist Freiheit keine einmalige Gabe, die man besitzt, sondern eine Aufgabe, die immer wieder neu beantwortet werden muss. Mündigkeit heißt dann nicht, jede Bindung abzulegen. Sie heißt, innerhalb von Bindungen antwortfähig zu werden – ein Gedanke, der auch meinen Überlegungen zu den *Kindern Gottes* zugrunde liegt.
 
@@ -67,7 +65,7 @@ Ein Schöpfer – ob als theologisches Bild, als Mensch, der etwas hervorbringt,
 
 Vielleicht liegt darin die anspruchsvollste Form der Schöpfung: nicht alles zu steuern, sondern Möglichkeiten entstehen zu lassen; nicht über jede Zukunft zu verfügen, sondern für die Bedingungen einzustehen, unter denen Zukunft möglich wird.
 
-Spielraum ist das, was wir empfangen, gestalten und weitergeben.
+Spielraum ist das, was wir empfangen, gestalten und weitergeben. Er verlangt Bedingungen, unter denen eigene Antworten tatsächlich und zur rechten Zeit möglich bleiben.
 
 ---
 
