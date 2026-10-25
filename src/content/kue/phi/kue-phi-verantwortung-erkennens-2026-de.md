@@ -7,7 +7,7 @@ datum: "2026-10-25"
 kategorie: PHI
 marker: ["I", "H"]
 status: draft
-version: "0.3"
+version: "0.4"
 language: DE
 sprache: DE
 documentType: essay
@@ -99,6 +99,14 @@ In meiner Vorstellung der Omnizedenz gibt es eine einzige, in sich differenziert
 Ihr ethischer Ertrag liegt nicht in einer kosmischen Vorschrift, sondern in der Aufmerksamkeit für reale Verflechtung. Wird der Spielraum eines Menschen zerstört, verändert sich nicht nur sein individuelles Leben. Es verändern sich Beziehungen und Bedingungen des Zusammenhangs, an dem auch andere teilhaben. Was im Teil geschieht, geschieht dem Ganzen – ohne dass deshalb jede Person über die Erfahrung des anderen verfügen dürfte.
 
 Aus dieser Verbundenheit folgt noch keine fertige Pflicht für jeden Fall. Aber sie stellt die Vorstellung infrage, fremdes Werden sei ein völlig äußerliches Ereignis. Wir wirken an den Bedingungen mit, die uns zugleich tragen. Wo wir sie verändern können, sind die Folgen unseres Handelns nicht auf uns selbst beschränkt.
+## Einsicht braucht Rat und Stärke
+
+Die christliche Überlieferung spricht nicht nur von Erkenntnis, sondern auch von Weisheit, Einsicht, Rat und Stärke als Gaben des Geistes. In der katholischen Siebenerliste gehören ferner Frömmigkeit und Gottesfurcht dazu. Diese Begriffe sind keine fertige Ethik der Omnizedenz und ihre religiöse Bedeutung erschöpft sich nicht in menschlichen Fähigkeiten. Doch sie lassen eine Lücke unserer bisherigen Überlegungen sichtbar werden.
+
+Es kann sein, dass ich einen Schaden erkenne, aber nicht weiß, welche Antwort hilfreich wäre. Es kann sein, dass ich die angemessene Handlung kenne, sie aber aus Furcht, Abhängigkeit oder fehlender Macht nicht verwirklichen kann. Urteilskraft, Rat und Stärke gehören deshalb zu verschiedenen Bedingungen der Antwortfähigkeit. Wer Mut fordert, ohne die realen Hindernisse zu sehen, verwechselt ein Ideal mit einem verfügbaren Spielraum.
+
+Und wer den anderen beraten will, muss die Möglichkeit offenhalten, dass sein Rat nicht der richtige ist. Die Einsicht in eine Lage verleiht keine Herrschaft über ihren Ausgang. Rat ist verantwortbar, wo er die Urteilskraft des anderen unterstützt und den eigenen Irrtum zulässt.
+
 ## Die Zumutung des Gebets
 
 „Komm, Heiliger Geist, erleuchte meinen Geist.“
