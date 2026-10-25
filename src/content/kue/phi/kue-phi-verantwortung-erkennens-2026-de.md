@@ -7,7 +7,7 @@ datum: "2026-10-25"
 kategorie: PHI
 marker: ["I", "H"]
 status: draft
-version: "0.4"
+version: "0.5"
 language: DE
 sprache: DE
 documentType: essay
@@ -70,6 +70,8 @@ Die Anerkennung des anderen bedeutet nicht, seinen Weg zu kennen. Sie bedeutet, 
 
 Und wenn frühere Möglichkeiten unwiederbringlich verloren sind? Dann wird *Regenerierbarkeit* wichtig. Verantwortung besteht nicht notwendig darin, das Vergangene wiederherzustellen, sondern darin, Bedingungen zu ermöglichen, unter denen erneut eigener Spielraum und damit Zukunft entstehen kann.
 
+Dabei darf die Mitverantwortung weder zur Allzuständigkeit noch zur stillen Übernahme fremder Entscheidungen werden. Ein Lehrer kann nicht das ganze Bildungssystem verändern, aber er trägt Verantwortung für das, was er im eigenen Bereich öffnet oder versperrt. Institutionen und gesellschaftliche Regeln haben wiederum ihre eigene Verantwortung für Zugang und Verteilung. Bedingungen sind, soweit möglich, mit den Betroffenen zu gestalten, nicht bloß für sie.
+
 Dazu gehört ein Prüfstein für jede Fürsorge: Darf der andere meine Hilfe ablehnen, verändern, kritisieren? Oder erzeuge ich unter dem Namen der Unterstützung eine neue Form der Verfügung? Erkenntnis begründet kein Eigentum an fremden Lebenswegen.
 ## Wissen und Macht
 
@@ -79,7 +81,7 @@ Wissen ohne Einfluss kann eine Pflicht begründen, aufmerksam zu bleiben, Zeugni
 
 Besonders anspruchsvoll wird Verantwortung dort, wo beide zusammenkommen. Wer die Folgen seines Handelns erkennt und zugleich über Mittel verfügt, sie zu verändern, kann sich weniger leicht auf Unkenntnis oder Ohnmacht berufen.
 
-Das darf nicht in die Erwartung grenzenloser Zuständigkeit umschlagen. Niemand kann auf jeden Schmerz antworten, der ihm bekannt wird. Die Weite dessen, was wir wissen können, ist größer als der Spielraum dessen, was wir verantwortbar tun können. Eine Ethik, die diesen Unterschied missachtet, verwandelt Aufmerksamkeit in Überforderung.
+Das darf nicht in die Erwartung grenzenloser Zuständigkeit umschlagen. Niemand kann auf jeden Schmerz antworten, der ihm bekannt wird. Die Weite dessen, was wir wissen können, ist größer als der Spielraum dessen, was wir verantwortbar tun können. Manchmal fehlt gerade die Zeit für eine Antwort; manchmal braucht Veränderung Jahre und viele Beteiligte. Eine Ethik, die diesen Unterschied missachtet, verwandelt Aufmerksamkeit in Überforderung.
 
 ## Darf man nicht wissen wollen?
 
@@ -105,7 +107,7 @@ Die christliche Überlieferung spricht nicht nur von Erkenntnis, sondern auch vo
 
 Es kann sein, dass ich einen Schaden erkenne, aber nicht weiß, welche Antwort hilfreich wäre. Es kann sein, dass ich die angemessene Handlung kenne, sie aber aus Furcht, Abhängigkeit oder fehlender Macht nicht verwirklichen kann. Urteilskraft, Rat und Stärke gehören deshalb zu verschiedenen Bedingungen der Antwortfähigkeit. Wer Mut fordert, ohne die realen Hindernisse zu sehen, verwechselt ein Ideal mit einem verfügbaren Spielraum.
 
-Und wer den anderen beraten will, muss die Möglichkeit offenhalten, dass sein Rat nicht der richtige ist. Die Einsicht in eine Lage verleiht keine Herrschaft über ihren Ausgang. Rat ist verantwortbar, wo er die Urteilskraft des anderen unterstützt und den eigenen Irrtum zulässt.
+Und wer den anderen beraten will, muss die Möglichkeit offenhalten, dass sein Rat nicht der richtige ist. Die Einsicht in eine Lage verleiht keine Herrschaft über ihren Ausgang. Rat ist verantwortbar, wo er die Urteilskraft des anderen unterstützt, Alternativen und Ungewissheiten offenlegt und den eigenen Irrtum zulässt. Nicht-Handeln beweist weder Nicht-Wollen noch Feigheit. Wer so urteilt, kann strukturelle Hindernisse dem Einzelnen zur Last legen.
 
 ## Die Zumutung des Gebets
 
@@ -123,7 +125,7 @@ Vielleicht ist gerade das seine Würde: Ich bitte nicht darum, Recht zu behalten
 
 Mehr Erkenntnis bedeutet nicht automatisch mehr Schuld. Und nicht jede verstandene Not begründet einen Anspruch auf mein Handeln. Aber Erkenntnis kann Ausreden verändern. Sie zeigt, wo wir Betroffene befragen, eine Grenze achten, Macht teilen oder Bedingungen erneuern müssten.
 
-Das verlangt Urteilskraft statt einer universalen Handlungsformel. Verantwortung bleibt graduell: Sie hängt von Erkennbarkeit, Reflexionsfähigkeit, tatsächlichen Alternativen, Einwirkungsmacht, Zwang und Abhängigkeit ab. Auch das Nicht-Eingreifen kann verantwortbar oder unverantwortlich sein. Entscheidend ist nicht, möglichst viele Antworten zu geben, sondern die begründbare Antwort auf einen wirklichen Anspruch zu finden.
+Das verlangt Urteilskraft statt einer universalen Handlungsformel. Verantwortung bleibt graduell: Sie hängt von Erkennbarkeit, Reflexionsfähigkeit, tatsächlichen Alternativen, Einwirkungsmacht, Zwang, Abhängigkeit und zeitlicher Verfügbarkeit ab. Auch das Nicht-Eingreifen kann verantwortbar oder unverantwortlich sein. Einzelne, Institutionen und gesellschaftliche Entscheidungsträger tragen dabei unterschiedliche Reichweiten von Verantwortung. Entscheidend ist nicht, möglichst viele Antworten zu geben, sondern die begründbare Antwort auf einen wirklichen Anspruch zu finden.
 
 Mündigkeit bedeutet dann, die eigene Erkenntnis zu prüfen, den Widerspruch des anderen zuzulassen und für die Folgen des eigenen Einflusses einzustehen. Wir bestimmen nicht, was andere werden sollen. Aber wir wirken an den Bedingungen mit, unter denen sie werden können.
 
