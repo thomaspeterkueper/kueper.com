@@ -12,11 +12,11 @@ Kann eine Person nach schwerer akuter Hirnverletzung kognitiv auf Aufforderungen
 - **Sekundärbericht:** https://www.welt.de/gesundheit/article6ad9e950d76437b82f935370/gehirn-forscher-entdecken-verborgenes-bewusstsein-und-machen-es-erstmals-nutzbar.html .
 - Für die weitergehende Fachprüfung: Primärtext, Supplement, Patientenauswahl, statistische Auswertung, EEG-Klassifikation, Kontrollbedingungen und zwölfmonatige Nachbeobachtung einzeln auditieren.
 
-## Berichtete Befunde
+## Studiendesign und methodische Präzisierung\n\n**[R]** Prospektive monozentrische Kohorte: 41 klinisch nicht ansprechbare akut hirnverletzte Patienten; zusätzlich 22 bewusst ansprechbare kritisch kranke Personen und 8 gesunde Freiwillige als Vergleichsgruppen. **BCI-Steuerung (13/41) und EEG-CMD-Nachweis (8/41) sind verschiedene Endpunkte und dürfen nicht gleichgesetzt werden.** Die mediane Signallatenz bei nicht ansprechbaren Patienten betrug 49,8 Sekunden (IQR 39,9–75,6), gegenüber 17,1 Sekunden (IQR 7,8–19,9) bei ansprechbaren Patienten und 15,5 Sekunden (IQR 12,9–21,2) bei gesunden Freiwilligen. Primärnachweis: [PubMed PMID 42911846](https://pubmed.ncbi.nlm.nih.gov/42911846/).\n\n## Berichtete Befunde
 
 **[R]** In der berichteten klinischen Kohorte von **41** äußerlich nicht ansprechbaren Personen mit akuter Hirnverletzung konnten **13 (32 %)** eine EEG-basierte Schnittstelle durch vorgestellte Bewegungen beeinflussen. Das System nutzte eine Echtzeit-Rückkopplung über die Tonhöhe eines akustischen Signals. Dies ist eine experimentelle aktive BCI-Aufgabe, noch keine freie Kommunikation über Schmerzen, Wünsche oder Einwilligung.
 
-**[R]** Klinisch wieder ansprechbar bei Entlassung: **4/13** der BCI-erfolgreichen gegenüber **1/28** der nicht erfolgreichen Gruppe. Funktionelle Selbstständigkeit nach zwölf Monaten: **6/13** gegenüber **2/28**. Die Zahlen beschreiben Gruppenassoziationen, keine kausale Wirkung der BCI auf Genesung; kleine Zellen, Selektion und mögliche Störfaktoren begrenzen Prognoseaussagen.
+**[R]** Klinisch wieder ansprechbar bei Entlassung: **4/13** der BCI-erfolgreichen gegenüber **1/28** der nicht erfolgreichen Gruppe. Funktionelle Selbstständigkeit nach zwölf Monaten: **6/13** gegenüber **2/28**. Die Zahlen beschreiben Gruppenassoziationen, keine kausale Wirkung der BCI auf Genesung; kleine Zellen, Selektion und mögliche Störfaktoren begrenzen Prognoseaussagen. Berichtete Odds Ratios: Entlassung OR 21,2 (95-%-KI 2,3–930,7); Selbstständigkeit nach zwölf Monaten OR 9,9 (95-%-KI 1,8–81,6). Die extrem weiten Intervalle zeigen hohe Unsicherheit. Der Studienendpunkt funktionelle Selbstständigkeit war GOSE ≥ 4 (mindestens acht Stunden unabhängig).
 
 **[H]** Erfolgreiche BCI-Steuerung könnte ein Hinweis auf erhaltene kognitive Verarbeitung und eine künftig erweiterbare Kommunikationsmöglichkeit sein. Ein negativer Versuch schließt Bewusstsein nicht aus (Aufmerksamkeits-, Sprachverständnis-, Hör-, Ermüdungs- oder Signalqualitätsprobleme).
 
@@ -45,4 +45,4 @@ Kann eine Person nach schwerer akuter Hirnverletzung kognitiv auf Aufforderungen
 
 ## Evidenzlegende
 
-**[R]** berichteter empirischer Befund; **[H]** offene Hypothese. Die Zahlen und Studienmethoden sind vor einer kanonischen Veröffentlichung gegen die vollständige Originalpublikation und das Supplement zu auditieren.
+**[R]** berichteter empirischer Befund; **[H]** offene Hypothese. Abstract und Ergebniszahlen gegen [PubMed PMID 42911846](https://pubmed.ncbi.nlm.nih.gov/42911846/) und [Originalverlag](https://academic.oup.com/brain/advance-article-abstract/doi/10.1093/brain/awag210/8931697) geprüft. Volltextmethoden, Supplement und unabhängige Replikation bleiben vor einer kanonischen Veröffentlichung zu auditieren.
