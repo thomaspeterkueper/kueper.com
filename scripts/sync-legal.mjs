@@ -1,6 +1,10 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 
-const KG_RAW = 'https://raw.githubusercontent.com/thomaspeterkueper/kueper-knowledge-graph/main';
+const KG_REPOSITORY = 'thomaspeterkueper/kueper-knowledge-graph';
+const KG_REF = 'main';
+const KG_RAW = `https://raw.githubusercontent.com/${KG_REPOSITORY}/${KG_REF}`;
+const KG_READ_TOKEN = process.env.KUEPER_KG_READ_TOKEN?.trim();
+
 const OUTPUT = new URL('../src/generated/legal.json', import.meta.url);
 
 const DOCUMENT_IDS = {
@@ -10,9 +14,26 @@ const DOCUMENT_IDS = {
 };
 
 async function fetchText(path) {
-  const response = await fetch(`${KG_RAW}/${path}`);
+  // Public KG content may be read anonymously. Private repositories require
+  // a read-only token, supplied as a protected build environment secret.
+  // Never embed tokens in URLs or error messages.
+  const url = KG_READ_TOKEN
+    ? `https://api.github.com/repos/${KG_REPOSITORY}/contents/${path.split('/').map(encodeURIComponent).join('/')}?ref=${KG_REF}`
+    : `${KG_RAW}/${path}`;
+  const response = await fetch(url, {
+    headers: KG_READ_TOKEN
+      ? {
+          Accept: 'application/vnd.github.raw+json',
+          Authorization: `Bearer ${KG_READ_TOKEN}`,
+          'X-GitHub-Api-Version': '2022-11-28',
+        }
+      : { Accept: 'text/plain' },
+  });
   if (!response.ok) {
-    throw new Error(`KG legal source unavailable: ${path} (${response.status})`);
+    const hint = !KG_READ_TOKEN && response.status === 404
+      ? ' KG may be private: configure KUEPER_KG_READ_TOKEN with Contents:read.'
+      : '';
+    throw new Error(`KG legal source unavailable: ${path} (HTTP ${response.status}).${hint}`);
   }
   return response.text();
 }
