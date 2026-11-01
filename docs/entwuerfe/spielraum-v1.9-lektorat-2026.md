@@ -69,4 +69,4 @@ Spielraum ist das, was wir empfangen, gestalten und weitergeben.
 
 ---
 
-*Redaktioneller Entwurf 1.9.1 · 25. Oktober 2026. Die veröffentlichte Fassung 1.5 bleibt unverändert.*
+*Redaktioneller Entwurf 1.9.1 · 25. Oktober 2026. Abgelöst durch die publizierte Fassung 1.9.2 vom 1. November 2026.*
