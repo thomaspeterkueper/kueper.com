@@ -4,6 +4,11 @@ signatur: "KUE-SCI-QUANTUM-GRAVITY-2026-DE"
 title: "Quanteninformation und emergente Raumzeit – Voraussetzungen und Grenzen"
 titel: "Quanteninformation und emergente Raumzeit – Voraussetzungen und Grenzen"
 status: draft_productive
+datum: "2026-10-19"
+kategorie: SCI
+marker: ["R", "H"]
+keywords: ["Quanteninformation", "emergente Raumzeit", "Quantengravitation", "Holographie"]
+kurator: "Thomas Peter Küper"
 language: DE
 sprache: DE
 version: "0.1"
