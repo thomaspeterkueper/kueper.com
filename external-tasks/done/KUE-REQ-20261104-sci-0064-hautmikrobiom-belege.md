@@ -1,7 +1,7 @@
 ---
 id: KUE-REQ-20261104-001
 title: KUE-SCI-0064 – Belegkorrekturen Reversibilität (Brumlow 2019, Baur 2021) und Abgleich mit OTA-SCI-0064
-status: open
+status: done
 source: KUE
 target: KUE
 created: 2026-11-04
@@ -41,3 +41,7 @@ Die Kernaussage „biochemische ≠ kompositionelle Reversibilität“ ist beleg
 ## Erwartetes Ergebnis
 
 Thomas entscheidet; bei Annahme Version 1.1 mit Revisionsvermerk.
+
+## Erledigt
+
+2026-11-04 – von Thomas freigegeben, als KUE-SCI-0064 v1.1 umgesetzt (Punkte 1–6; Punkt 6: die unbelegten OTA-Aussagen wurden nicht übernommen; Punkt 7 optional, nicht umgesetzt).
