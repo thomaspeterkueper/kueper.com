@@ -33,6 +33,16 @@ const kueCollection = defineCollection({
     canonicalUrl: z.string().url().optional(),
     public: z.boolean().optional(),
     kg: kgReferenceSchema,
+
+    // Wiederkehrende Begutachtung nach ECO-ARC-0037-2026-DE (spätestens alle
+    // 12 Monate). Optional; die Termine setzt die tägliche Begutachtung nach
+    // und nach. Die Altfelder (datum, status usw.) bleiben unverändert.
+    review: z.object({
+      last: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+      next: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+      reason: z.string().optional(),
+      abgeschlossen: z.boolean().default(false),
+    }).optional(),
   }),
 });
 
