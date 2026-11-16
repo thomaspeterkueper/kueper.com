@@ -1,0 +1,11 @@
+{
+  "target": "OTA",
+  "title": "OTA-TEC-0019 §IV.C: Trinkwasser-Realanker auf KUE-SCI-0178 §VI verweisen",
+  "reason": "EXT-OTA-KUE-20261114-001 ist umgesetzt: KUE-SCI-0178 v0.3 §VI führt jetzt die NASA-Mindestmenge Trinkwasser zur Hydration (2,5 L pro Crewmitglied und Tag, NASA-STD-3001 Bd. 2, V2 6109, Tabelle 6.3-1; gegen Rev. F vom 2026-07-14 geprüft). OTA-TEC-0019 nennt den Wert in §IV.C bisher nur als „ungefähr 2,5 L/Person/Tag“ im Audit ohne KUE-Verweis.",
+  "requested_change": "In OTA-TEC-0019-2091-DE §IV.C (Zeile mit „Als heutiger NASA-Realanker dient im Audit ungefähr 2,5 L/Person/Tag“) den Satz auf „Als heutiger NASA-Realanker gilt eine Mindestmenge von 2,5 L Trinkwasser pro Person und Tag `[R]`. Werte und Quellen: `DOC:KUE:KUE-SCI-0178-2026-DE` §VI.“ umstellen und einen Revisionseintrag ergänzen. Die KITE-Setzung „2 L/Pax/Tag“ [H/T] bleibt unverändert.",
+  "expected_result": "OTA-TEC-0019 verweist für den Trinkwasser-Realanker auf KUE-SCI-0178 §VI statt einen eigenen ungefähren Wert zu führen; die KITE-Survivalwerte bleiben OTA-eigene Setzungen.",
+  "priority": "low",
+  "parent_task": "EXT-OTA-KUE-20261114-001",
+  "depth": 1,
+  "affects": ["OTA", "KUE"]
+}
