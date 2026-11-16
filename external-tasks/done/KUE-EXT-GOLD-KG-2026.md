@@ -1,5 +1,5 @@
 # KG-Auftrag: Gold-Transmutation
-Status: open
+Status: done
 Quelle: DOC:KUE:KUE-SCI-0100-2026-DE
 Eigentümer: KUEPER Knowledge Graph
 
@@ -18,3 +18,11 @@ Evidenzstatus auf Aussagenebene: gesicherte Kernphysik / Simulation 2025 / ungep
 
 ## Akzeptanzkriterien
 Eindeutige Entitäten, quellengestützte Relationen, Dokument-ID-Mapping, keine kanonische Textkopie und nachvollziehbare Unsicherheitsklassifikation.
+
+## Erledigt
+
+2026-11-16 – KG-seitig erfüllt (kueper-knowledge-graph#254, Exporte `ontology-gold-transmutation-0.1.json`, `entity-registry-gold-transmutation-0.1.json`); Abschluss über EXT-KG-KUE-20261115-001.
+
+## Umgesetzt
+
+KUE-SCI-0100 verweist im Frontmatter auf die KG-IDs; Marathon Fusion bleibt bewusst Evidenzeintrag (`unverified_company_claim`), keine KG-Entität.
