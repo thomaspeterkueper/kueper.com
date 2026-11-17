@@ -1,0 +1,12 @@
+{
+  "target": "OTA",
+  "title": "OTA-SCI-0108 zum Brückendokument kürzen: KUE-Gegenstück KUE-SCI-0206-2026-DE liegt vor",
+  "reason": "EXT-OTA-KUE-20261115-002 ist umgesetzt: Der Realteil zu ultrakompakten Doppel-Weißen-Zwergen (eRASSU J060839.5-704014) liegt als DOC:KUE:KUE-SCI-0206-2026-DE (Entwurf 0.1) auf kueper.com/main. Damit ist die Voraussetzung von overtime-archive.org/external-tasks/open/OTA-REQ-20261115-weisse-zwerge-bruecke.md erfüllt.",
+  "requested_change": "In OTA-REQ-20261115-weisse-zwerge-bruecke.md den Platzhalter der KUE-Signatur durch KUE-SCI-0206-2026-DE ersetzen und den Request umsetzen (schlankes Brückendokument mit Verweis DOC:KUE:KUE-SCI-0206-2026-DE). Hinweise aus der Primärquellenprüfung: Chirp-Masse ist eine Obergrenze; Akkretionsmodell (Direct Impact oder Unipolar Inductor) hängt an der Entfernung; belegt sind nur Röntgendaten, keine UV-/optischen.",
+  "expected_result": "OTA-SCI-0108-2026-DE ist ein Brückendokument mit Verweis auf KUE-SCI-0206-2026-DE; OTA-REQ-20261115-002 liegt in external-tasks/done/.",
+  "priority": "medium",
+  "cost_policy": "normal",
+  "estimated_effort": "low",
+  "depth": 1,
+  "affects": ["OTA", "KUE"]
+}
