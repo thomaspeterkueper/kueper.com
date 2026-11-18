@@ -1,0 +1,11 @@
+{
+  "target": "OTA",
+  "title": "OTA-SCI-0082: Realteil liegt jetzt in KUE-SCI-0207-2026-DE – Signatur nachtragen und Kürzung freigeben",
+  "reason": "EXT-OTA-KUE-20261110-001 ist erledigt: kueper.com führt den werkneutralen Realteil von OTA-SCI-0082-2026-DE (Präzession, Thuban, MUL.APIN) als KUE-SCI-0207-2026-DE mit den Korrekturen 1–7.",
+  "requested_change": "Im Request overtime-archive.org/external-tasks/open/OTA-REQ-20261110-himmel-2700-aufraeumen.md die KUE-Signatur KUE-SCI-0207-2026-DE nachtragen; die Kürzung von OTA-SCI-0082 kann danach nach §3a umgesetzt werden und für den Realteil auf KUE-SCI-0207-2026-DE verweisen (Punkt F, KN-1.2, wartet weiter auf Thomas).",
+  "expected_result": "OTA-Request nennt KUE-SCI-0207-2026-DE; OTA-SCI-0082 verweist nach der Kürzung auf das KUE-Dokument statt den Realteil selbst zu tragen.",
+  "priority": "normal",
+  "parent_task": "EXT-OTA-KUE-20261110-001",
+  "depth": 1,
+  "affects": ["KUE", "OTA"]
+}
