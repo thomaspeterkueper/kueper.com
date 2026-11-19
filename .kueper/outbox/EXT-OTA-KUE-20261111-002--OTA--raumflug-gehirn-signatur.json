@@ -1,0 +1,12 @@
+{
+  "target": "OTA",
+  "title": "OTA-SCI-0021 kürzen: KUE-Gegenstück KUE-SCI-0211-2026-DE (Raumflug und Gehirn) liegt vor",
+  "reason": "EXT-OTA-KUE-20261111-002 ist umgesetzt: Der werkneutrale Realteil zu Raumflug und Gehirn (Lage, Liquor, Ventrikel, weiße Substanz, Konnektivität, Erholung, SANS, Grenzen) liegt als DOC:KUE:KUE-SCI-0211-2026-DE (Entwurf 0.1) auf kueper.com/main. Damit ist die Voraussetzung von overtime-archive.org/external-tasks/open/OTA-REQ-20261111-mikrogravitation-gehirn-aufraeumen.md erfüllt.",
+  "requested_change": "In OTA-REQ-20261111-mikrogravitation-gehirn-aufraeumen.md die Signatur KUE-SCI-0211-2026-DE nachtragen und den Request umsetzen: OTA-SCI-0021 behält Kuratoranmerkung, Matrix 'Gehirn-Epochen × g-Profile', KN-5.1 und Werkbezüge; der unbelegte Realabsatz wird durch einen Verweis auf DOC:KUE:KUE-SCI-0211-2026-DE ersetzt. Verweise in OTA-SCI-0019 und OTA-KARTE-0002 prüfen. Hinweis: Die PNAS-Studie 2026 heißt 'Brain displacement and nonlinear deformation following human spaceflight' (Wang, … Seidler; DOI 10.1073/pnas.2505682122) und wertet 130 Hirnregionen aus.",
+  "expected_result": "OTA-SCI-0021-2025-DE verweist für den Realteil auf KUE-SCI-0211-2026-DE; OTA-REQ-20261111-mikrogravitation-gehirn-aufraeumen liegt in external-tasks/done/.",
+  "priority": "medium",
+  "cost_policy": "normal",
+  "estimated_effort": "low",
+  "depth": 1,
+  "affects": ["OTA", "KUE"]
+}
