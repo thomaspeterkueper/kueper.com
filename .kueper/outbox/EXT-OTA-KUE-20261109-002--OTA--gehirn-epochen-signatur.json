@@ -1,0 +1,9 @@
+{
+  "target": "OTA",
+  "title": "Signatur KUE-SCI-0212-2026-DE in OTA-REQ-20261109-gehirn-epochen-aufraeumen nachtragen und OTA-SCI-0019 kürzen",
+  "reason": "EXT-OTA-KUE-20261109-002 ist umgesetzt: Der werkneutrale Realteil von OTA-SCI-0019-2025-DE (Abschnitte I–III, Mousley et al. 2025) liegt jetzt als DOC:KUE:KUE-SCI-0212-2026-DE (Entwurf 0.1) in kueper.com. Die Voraussetzung für die Kürzung nach OTA-REQ-20261109-gehirn-epochen-aufraeumen ist damit erfüllt.",
+  "requested_change": "In OTA-REQ-20261109-gehirn-epochen-aufraeumen die Signatur DOC:KUE:KUE-SCI-0212-2026-DE eintragen. OTA-SCI-0019-2025-DE danach nach diesem Request kürzen: Abschnitte I–III durch einen Verweis auf DOC:KUE:KUE-SCI-0212-2026-DE ersetzen, Abschnitte IV–V, Kuratoranmerkung und Werkbezüge behalten. Optional OTA-KARTE-0001-Gehirn-Epochen und OTA-KARTE-0002-Epochen-g-Profile-DE auf das KUE-Dokument verweisen lassen. Beachten: Aussagen zu Synapsen, Intelligenz, Persönlichkeit und Myelin sind keine Befunde der Studie und dürfen in OTA nicht weiter als [R] zu Mousley et al. geführt werden.",
+  "expected_result": "OTA-SCI-0019-2025-DE verweist für den Realteil auf DOC:KUE:KUE-SCI-0212-2026-DE und enthält nur noch die werkbezogenen Teile; OTA-REQ-20261109-gehirn-epochen-aufraeumen ist erledigt.",
+  "priority": "medium",
+  "affects": ["KUE", "OTA"]
+}
