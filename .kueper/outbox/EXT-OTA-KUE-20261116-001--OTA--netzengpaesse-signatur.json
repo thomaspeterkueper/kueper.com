@@ -1,0 +1,12 @@
+{
+  "target": "OTA",
+  "title": "Signatur KUE-SCI-0214-2026-DE in OTA-REQ-20261116-netzengpaesse-bruecke nachtragen",
+  "reason": "EXT-OTA-KUE-20261116-001 ist umgesetzt: Der Realteil von OTA-SCI-0109-2026-DE liegt jetzt als KUE-SCI-0214-2026-DE in kueper.com (src/content/kue/sci/kue-sci-0214-2026-de.md).",
+  "requested_change": "In overtime-archive.org/external-tasks/open/OTA-REQ-20261116-netzengpaesse-bruecke.md die KUE-Signatur KUE-SCI-0214-2026-DE eintragen und OTA-SCI-0109 auf das Brückendokument kürzen (§14 Archivregel bleibt in OTA, Verweis auf KUE-SCI-0214 für §1–13).",
+  "expected_result": "OTA-SCI-0109 verweist für die werkneutrale Realgrundlage auf KUE-SCI-0214-2026-DE; keine doppelte Fassung der Abschnitte 1–13 im OTA.",
+  "priority": "medium",
+  "cost_policy": "normal",
+  "estimated_effort": "low",
+  "depth": 1,
+  "affects": ["OTA", "KUE", "NOXIA", "SSF"]
+}
