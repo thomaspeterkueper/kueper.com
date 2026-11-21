@@ -1,0 +1,9 @@
+{
+  "target": "OTA",
+  "title": "Signatur KUE-SCI-0213-2026-DE in OTA-REQ-20261119-002-relikt-fenster-aufraeumen nachtragen und OTA-SCI-0020 §I.2 kürzen",
+  "reason": "EXT-OTA-KUE-20261119-001 Teil A ist umgesetzt: Der Grönland-Teil von OTA-SCI-0020-2026-DE (§I.2, Prudhoe Dome) liegt jetzt als DOC:KUE:KUE-SCI-0213-2026-DE (Entwurf 0.1) in kueper.com, aus der Originalarbeit (Walcott-George et al. 2026, Nature Geoscience, DOI 10.1038/s41561-025-01889-9) neu formuliert. Teil B (Kite et al. 2025 in KUE-SCI-0202) ist optional und noch offen.",
+  "requested_change": "In OTA-REQ-20261119-002-relikt-fenster-aufraeumen die Signatur DOC:KUE:KUE-SCI-0213-2026-DE eintragen. OTA-SCI-0020-2026-DE §I.2 durch einen Verweis auf DOC:KUE:KUE-SCI-0213-2026-DE ersetzen; Relikt-Fenster-Taxonomie, Frequenz-Hypothese (AVI) und Transferteil behalten. Beachten: „25 % bzw. 1,4 m Meeresspiegeläquivalent“ und „wärmste Werte seit 6.800–7.800 Jahren“ stammen aus Lecavalier et al. 2017 (Agassiz-Eiskappe, letzte Deglaziation) und dürfen in OTA nicht weiter dem Prudhoe-Befund zugeschrieben werden; Bader et al. 2020 erschien in Nature Communications, nicht in PNAS.",
+  "expected_result": "OTA-SCI-0020-2026-DE verweist für den Grönland-Teil auf DOC:KUE:KUE-SCI-0213-2026-DE; OTA-REQ-20261119-002 trägt die Signatur.",
+  "priority": "medium",
+  "affects": ["KUE", "OTA"]
+}
