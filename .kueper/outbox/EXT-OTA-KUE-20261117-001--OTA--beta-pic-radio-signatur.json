@@ -1,0 +1,12 @@
+{
+  "target": "OTA",
+  "title": "Signatur KUE-SCI-0217-2026-DE in OTA-REQ-20261117-001-beta-pic-radio-bruecke nachtragen",
+  "reason": "EXT-OTA-KUE-20261117-001 ist umgesetzt: Der Realteil von OTA-SCI-0111-2026-DE (§1–12, 15, 17, 18) liegt jetzt werkneutral als KUE-SCI-0217-2026-DE in kueper.com (src/content/kue/sci/kue-sci-0217-2026-de.md).",
+  "requested_change": "In overtime-archive.org/external-tasks/open/OTA-REQ-20261117-001-beta-pic-radio-bruecke.md die Signatur KUE-SCI-0217-2026-DE für KUE-SCI-NNNN eintragen und die Punkte A–D umsetzen (OTA-SCI-0111 zum Brückendokument kürzen; §13, §14, §16, §19 bleiben).",
+  "expected_result": "OTA-SCI-0111 verweist für die werkneutrale Realgrundlage auf KUE-SCI-0217-2026-DE; keine doppelte Fassung des Realteils im OTA.",
+  "priority": "medium",
+  "cost_policy": "normal",
+  "estimated_effort": "low",
+  "depth": 1,
+  "affects": ["OTA", "KUE"]
+}
