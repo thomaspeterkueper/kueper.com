@@ -1,0 +1,12 @@
+{
+  "target": "OTA",
+  "title": "Signaturen KUE-SCI-0221-2026-DE (Kreisplatten) und KUE-SCI-0222-2026-DE (Lapis lazuli) in OTA-REQ-20261122-002 (Punkt C) nachtragen",
+  "reason": "EXT-OTA-KUE-20261122-002 ist umgesetzt: Die werkneutralen Realteile aus OTA-SCI-0081 liegen jetzt als KUE-SCI-0221-2026-DE (src/content/kue/sci/kue-sci-0221-2026-de.md) und KUE-SCI-0222-2026-DE (src/content/kue/sci/kue-sci-0222-2026-de.md) in kueper.com/main.",
+  "requested_change": "In overtime-archive.org/external-tasks/open/OTA-REQ-20261122-002-bronzescheibe-korrektur.md die Platzhalter KUE-SCI-PPPP durch KUE-SCI-0221-2026-DE und KUE-SCI-LLLL durch KUE-SCI-0222-2026-DE ersetzen; damit ist Punkt C umsetzbar. Beim Ersatztext C.2 die Lumineszenz nach KUE-SCI-0222 Abschnitt III präzisieren: Calcit orange-rot, Diopsid und Wollastonit weiß-gelb; blaue Emission (Kalifeldspat) nur in bestimmten Lagerstätten (Sibirien), Lazurit selbst leuchtet kaum. Punkt B wartet weiter auf Thomas.",
+  "expected_result": "OTA-REQ-20261122-002 nennt beide Signaturen; OTA-SCI-0081 §1.1/1.2 und §2.1/2.2 verweisen nach Umsetzung von Punkt C auf DOC:KUE:KUE-SCI-0221-2026-DE bzw. DOC:KUE:KUE-SCI-0222-2026-DE.",
+  "priority": "low",
+  "cost_policy": "normal",
+  "estimated_effort": "low",
+  "depth": 1,
+  "affects": ["OTA", "KUE"]
+}
