@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const KG_REPOSITORY = 'thomaspeterkueper/kueper-knowledge-graph';
 const KG_REF = 'main';
@@ -67,38 +67,60 @@ function extractDeclaredStatus(markdown) {
   return match?.[1] ?? 'unknown';
 }
 
-const registry = await fetchJson('exports/document-references-0.1.json');
-const imprint = await fetchJson('registry/legal/impressum-master.json');
+async function buildPayload() {
+  const registry = await fetchJson('exports/document-references-0.1.json');
+  const imprint = await fetchJson('registry/legal/impressum-master.json');
 
-const privacyRecord = getRecord(registry, DOCUMENT_IDS.privacy);
-const termsRecord = getRecord(registry, DOCUMENT_IDS.terms);
-const imprintRecord = getRecord(registry, DOCUMENT_IDS.imprint);
+  const privacyRecord = getRecord(registry, DOCUMENT_IDS.privacy);
+  const termsRecord = getRecord(registry, DOCUMENT_IDS.terms);
+  const imprintRecord = getRecord(registry, DOCUMENT_IDS.imprint);
 
-const privacyMarkdown = replacePlaceholders(await fetchText(privacyRecord.sourcePath), imprint);
-const termsMarkdown = replacePlaceholders(await fetchText(termsRecord.sourcePath), imprint);
+  const privacyMarkdown = replacePlaceholders(await fetchText(privacyRecord.sourcePath), imprint);
+  const termsMarkdown = replacePlaceholders(await fetchText(termsRecord.sourcePath), imprint);
 
-const payload = {
-  generatedAt: new Date().toISOString(),
-  sourceRepository: 'thomaspeterkueper/kueper-knowledge-graph',
-  registryStatus: registry.status,
-  imprint: {
-    ...imprint,
-    documentId: imprintRecord.id,
-    registryStatus: imprintRecord.status,
-  },
-  privacy: {
-    documentId: privacyRecord.id,
-    registryStatus: privacyRecord.status,
-    declaredStatus: extractDeclaredStatus(privacyMarkdown),
-    markdown: privacyMarkdown,
-  },
-  terms: {
-    documentId: termsRecord.id,
-    registryStatus: termsRecord.status,
-    declaredStatus: extractDeclaredStatus(termsMarkdown),
-    markdown: termsMarkdown,
-  },
-};
+  return {
+    generatedAt: new Date().toISOString(),
+    sourceRepository: 'thomaspeterkueper/kueper-knowledge-graph',
+    registryStatus: registry.status,
+    imprint: {
+      ...imprint,
+      documentId: imprintRecord.id,
+      registryStatus: imprintRecord.status,
+    },
+    privacy: {
+      documentId: privacyRecord.id,
+      registryStatus: privacyRecord.status,
+      declaredStatus: extractDeclaredStatus(privacyMarkdown),
+      markdown: privacyMarkdown,
+    },
+    terms: {
+      documentId: termsRecord.id,
+      registryStatus: termsRecord.status,
+      declaredStatus: extractDeclaredStatus(termsMarkdown),
+      markdown: termsMarkdown,
+    },
+  };
+}
+
+// Without a token (local and agent builds) a private KG is unreachable. Then
+// the committed src/generated/legal.json stays as is, so the site still builds.
+// With a token (production) every failure stays fatal, so stale legal texts
+// are never deployed unnoticed.
+let payload;
+try {
+  payload = await buildPayload();
+} catch (error) {
+  if (KG_READ_TOKEN) throw error;
+  let committed;
+  try {
+    committed = JSON.parse(await readFile(OUTPUT, 'utf8'));
+  } catch {
+    throw error;
+  }
+  console.warn(`[sync:legal] ${error.message}`);
+  console.warn(`[sync:legal] Kein KUEPER_KG_READ_TOKEN: verwende die eingecheckte Fassung src/generated/legal.json (Stand ${committed.generatedAt ?? 'unbekannt'}).`);
+  process.exit(0);
+}
 
 await mkdir(new URL('../src/generated/', import.meta.url), { recursive: true });
 await writeFile(OUTPUT, `${JSON.stringify(payload, null, 2)}\n`, 'utf8');
