@@ -1,0 +1,12 @@
+{
+  "target": "OTA",
+  "title": "Signatur KUE-SCI-0219-2026-DE (S₈-Spannung) in OTA-REQ-20261121-002 (Punkt C) nachtragen",
+  "reason": "EXT-OTA-KUE-20261121-002 ist umgesetzt: Der werkneutrale Beobachtungsstand zur S₈-Spannung liegt jetzt als KUE-SCI-0219-2026-DE in kueper.com (src/content/kue/sci/kue-sci-0219-2026-de.md).",
+  "requested_change": "In overtime-archive.org/external-tasks/open/OTA-REQ-20261121-002-feldmediator-realgrundlage.md die Signatur KUE-SCI-0219-2026-DE eintragen; Punkt C (Verweis aus OTA-SCI-0024 auf KUE) wartet laut Request weiter auf Thomas.",
+  "expected_result": "Der OTA-Request nennt KUE-SCI-0219-2026-DE als Realgrundlage; nach Thomas' Entscheidung verweist OTA-SCI-0024 darauf.",
+  "priority": "low",
+  "cost_policy": "normal",
+  "estimated_effort": "low",
+  "depth": 1,
+  "affects": ["OTA", "KUE"]
+}
