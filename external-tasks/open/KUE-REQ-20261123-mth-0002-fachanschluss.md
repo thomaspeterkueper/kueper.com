@@ -22,3 +22,15 @@ Die Begutachtung vom 2026-11-23 fand keine sachlichen Fehler, keine kaputten Lin
 ## Erwartetes Ergebnis
 
 Entscheidung von Thomas zu Punkt 1 und 2; bei Zustimmung Umsetzung mit Versionssprung und Revisionsvermerk.
+
+## Ergänzung 2026-11-24 – KUE-MTH-0003 und KUE-MTH-0004
+
+Prüfberichte: `kueper-ecosystem/reviews/2026-11-24-KUE-MTH-0003-2026-DE.md`, `kueper-ecosystem/reviews/2026-11-24-KUE-MTH-0004-2026-DE.md`
+Claude-Status: wartet auf Thomas (berührt Thomas' methodisches Rahmenwerk)
+
+3. **Marker:** Auch KUE-MTH-0003 und -0004 führen `marker: [R]`, obwohl sie methodische Prüfungen bzw. Entscheidungen festhalten. Gleiche Frage wie Punkt 1.
+4. **Fachlicher Anschluss zu KUE-MTH-0003/0004 (optional):** Die Kandidaten und ihre Prüfspannungen sind in der Philosophie gut bearbeitet. Ein kurzer Abschnitt „Fachliche Anschlüsse“ könnte darauf verweisen, ohne Bewertungen zu ändern:
+   - Unterscheidbarkeit als Grundoperation: G. Spencer-Brown, *Laws of Form* (1969) – Kalkül, der mit dem Akt „Draw a distinction“ beginnt; Kandidat A wird dort gerade als fundamental gesetzt.
+   - Identität als Teil der Logik: In der Prädikatenlogik erster Stufe mit Gleichheit gehört `=` zur logischen Sprache (Stützt die Bewertung in KUE-MTH-0004 §4); dazu Quines Formel „no entity without identity“ und Leibniz' Prinzip der Identität des Ununterscheidbaren (Spannung Kandidat A/C).
+   - Relation vor Relata: ontischer Strukturenrealismus (Ladyman, French) vertritt Relationen ohne vorgängige Relata – genau die Prüfspannung zu Kandidat D und die Frage nach dem Trägerbegriff in KUE-MTH-0004. Überblick: Stanford Encyclopedia of Philosophy, „Structural Realism“ und „Relations“.
+   Quellen nach Fachwissen und den SEP-Einträgen; vor Übernahme an der Literatur prüfen.
