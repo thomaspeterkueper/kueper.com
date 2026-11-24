@@ -1,0 +1,15 @@
+{
+  "target": "OTA",
+  "title": "Signatur KUE-SCI-0218-2026-DE in OTA-REQ-20261122-001 (Punkt C) nachtragen",
+  "reason": "EXT-OTA-KUE-20261122-001 ist umgesetzt: Die werkneutrale Realgrundlage zu IRAS 07251−0248 liegt jetzt als KUE-SCI-0218-2026-DE in kueper.com (src/content/kue/sci/kue-sci-0218-2026-de.md).",
+  "requested_change": "In overtime-archive.org/external-tasks/open/OTA-REQ-20261122-001-iras-07251-korrektur.md die Signatur KUE-SCI-0218-2026-DE eintragen und Punkt C umsetzen (OTA-SCI-0044 zum Brückendokument mit Verweis auf KUE-SCI-0218); Punkt B wartet weiter auf Thomas.",
+  "expected_result": "OTA-SCI-0044 verweist für die Realgrundlage auf KUE-SCI-0218-2026-DE; keine doppelte Fassung des Realteils im OTA.",
+  "priority": "low",
+  "cost_policy": "normal",
+  "estimated_effort": "low",
+  "depth": 1,
+  "affects": [
+    "OTA",
+    "KUE"
+  ]
+}
