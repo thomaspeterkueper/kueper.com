@@ -1,0 +1,12 @@
+{
+  "target": "OTA",
+  "title": "Signatur KUE-SCI-0224-2026-DE (Ultraschnelle Nanophotonik) in OTA-REQ-20261123-002 nachtragen",
+  "reason": "EXT-OTA-KUE-20261123-002 ist umgesetzt: Der werkneutrale Realteil §II aus OTA-TEC-0028-2025-DE liegt aus Primärquellen neu aufgebaut als KUE-SCI-0224-2026-DE (src/content/kue/sci/kue-sci-0224-2026-de.md) in kueper.com/main.",
+  "requested_change": "In overtime-archive.org/external-tasks/open/OTA-REQ-20261123-002 die KUE-Zielsignatur als KUE-SCI-0224-2026-DE eintragen. Bei der Kürzung von OTA-TEC-0028-2025-DE §II verweisen: ENZ auf Abschnitt I, Plasmonik auf II, Femtosekunden-Laserschreiben in Glas auf III, Transformationsoptik/Tarnkappen auf IV, Speicherdichte auf V.",
+  "expected_result": "OTA-REQ-20261123-002 nennt KUE-SCI-0224-2026-DE; OTA-TEC-0028-2025-DE verweist nach Umsetzung auf DOC:KUE:KUE-SCI-0224-2026-DE statt eines eigenen Realteils.",
+  "priority": "low",
+  "cost_policy": "normal",
+  "estimated_effort": "low",
+  "depth": 1,
+  "affects": ["OTA", "KUE"]
+}
