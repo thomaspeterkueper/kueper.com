@@ -1,0 +1,12 @@
+{
+  "target": "OTA",
+  "title": "Signatur KUE-SCI-0225-2026-DE (Planetensystem HD 20794) in OTA-REQ-20261124-002 nachtragen",
+  "reason": "EXT-OTA-KUE-20261124-002 ist umgesetzt: Der werkneutrale Realteil aus OTA-SCI-0030-2025-DE (§§ I, II.1, VIII) liegt aus Primärquellen neu aufgebaut als KUE-SCI-0225-2026-DE (src/content/kue/sci/kue-sci-0225-2026-de.md) in kueper.com/main.",
+  "requested_change": "In overtime-archive.org/external-tasks/open/OTA-REQ-20261124-002-hd20794-korrektur.md die KUE-Zielsignatur als KUE-SCI-0225-2026-DE eintragen. Bei der Kürzung von OTA-SCI-0030-2025-DE verweisen: Stern auf Abschnitt I, Planeten und Signalgeschichte auf II, habitable Zone und Einstrahlung auf III, Dynamik/wahre Masse auf IV, Beobachtung auf VI.",
+  "expected_result": "OTA-REQ-20261124-002 nennt KUE-SCI-0225-2026-DE; OTA-SCI-0030-2025-DE verweist nach Umsetzung für die Realdaten auf DOC:KUE:KUE-SCI-0225-2026-DE.",
+  "priority": "low",
+  "cost_policy": "normal",
+  "estimated_effort": "low",
+  "depth": 1,
+  "affects": ["OTA", "KUE"]
+}
