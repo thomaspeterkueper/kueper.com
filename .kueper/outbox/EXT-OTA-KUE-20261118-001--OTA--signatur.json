@@ -1,0 +1,12 @@
+{
+  "target": "OTA",
+  "title": "Signatur KUE-SCI-0223-2026-DE (Schumann-Resonanzen Mars, Erdorbit, biologische Evidenz) in OTA-REQ-20261118-001 und OTA-REQ-20261118-002 nachtragen",
+  "reason": "EXT-OTA-KUE-20261118-001 ist umgesetzt: Die werkneutralen Realteile aus OTA-SCI-0009 und OTA-SCI-0015 liegen korrigiert als KUE-SCI-0223-2026-DE (src/content/kue/sci/kue-sci-0223-2026-de.md) in kueper.com/main.",
+  "requested_change": "In overtime-archive.org/external-tasks/open/OTA-REQ-20261118-001-schumann-mars-korrektur.md und OTA-REQ-20261118-002-schumann-bio-korrektur.md die KUE-Zielsignatur als KUE-SCI-0223-2026-DE eintragen. Bei der Kürzung verweisen: Mars-Abschnitte von OTA-SCI-0009 auf KUE-SCI-0223 Abschnitt I, Zeitdilatation auf Abschnitt III, ISS/Orbit und biologische Evidenz von OTA-SCI-0015 auf Abschnitte II und IV.",
+  "expected_result": "Beide OTA-Requests nennen KUE-SCI-0223-2026-DE; OTA-SCI-0009 und OTA-SCI-0015 verweisen nach Umsetzung auf DOC:KUE:KUE-SCI-0223-2026-DE statt eigene Realteile zu führen.",
+  "priority": "low",
+  "cost_policy": "normal",
+  "estimated_effort": "low",
+  "depth": 1,
+  "affects": ["OTA", "KUE"]
+}
