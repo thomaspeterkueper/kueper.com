@@ -4,6 +4,10 @@ Kanonische öffentliche Dokument- und Publikationsschicht des KUEPER-Ökosystems
 
 `kueper.com` speichert und veröffentlicht insbesondere MINT+-Grundlagen, Essays, Whitepaper, Spezifikationen, Standards und Guides. Identitäten, Relationen, Mappings und zentrale Rechtsdaten werden im KUEPER Knowledge Graph gepflegt; fiktionale und In-universe-Archivdokumente gehören ausschließlich ins OverTime Archive.
 
+## Entwicklungsstand
+
+Laufende Workstreams mit Ziel, Status, Branch/PR, letzter verifizierter Revision und offenen Schritten stehen in [`docs/development/README.md`](docs/development/README.md).
+
 ## Lokale Entwicklung
 
 ```bash
