@@ -1,0 +1,9 @@
+{
+  "target": "OTA",
+  "title": "Signatur KUE-SCI-0226-2026-DE für OTA-REQ-20261125-003 Punkt B (Lodestone)",
+  "reason": "EXT-OTA-KUE-20261125-002 ist umgesetzt: Das neue KUE-Dokument „Lodestone – natürlicher Permanentmagnet“ liegt als DOC:KUE:KUE-SCI-0226-2026-DE v0.1 in kueper.com/main. OTA-REQ-20261125-003 Punkt B wartet auf diese Signatur.",
+  "requested_change": "In overtime-archive.org/external-tasks/open/OTA-REQ-20261125-003-lodestone-korrektur.md Punkt B den Platzhalter KUE-SCI-NNNN durch KUE-SCI-0226-2026-DE ersetzen und Punkt B nach Punkt A umsetzen. Hinweis: Der REM-Bereich der Lodestones (~0,15–0,5) ist in KUE nicht übernommen, sondern als offen geführt; die OTA-Kurzfassung soll ihn nicht stärker kennzeichnen als KUE.",
+  "expected_result": "OTA-SCI-0119-2026-DE verweist im gekürzten Realteil auf DOC:KUE:KUE-SCI-0226-2026-DE; Werkbezüge (V, 4.3 letzter Absatz, 6.3, 7.3, VIII) bleiben in OTA.",
+  "priority": "low",
+  "affects": ["OTA", "KUE"]
+}
