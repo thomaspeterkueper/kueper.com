@@ -1,0 +1,9 @@
+{
+  "target": "OTA",
+  "title": "Signatur KUE-SCI-0228-2026-DE für OTA-REQ-20261126-004 Punkt B (Belousov-Zhabotinsky-Reaktion)",
+  "reason": "EXT-OTA-KUE-20261126-004 ist umgesetzt: Das neue KUE-Dokument „Die Belousov-Zhabotinsky-Reaktion – Geschichte, Mechanismus, Musterbildung und Anwendungen“ liegt als DOC:KUE:KUE-SCI-0228-2026-DE v0.1 in kueper.com/main. OTA-REQ-20261126-004 Punkt B wartet auf diese Signatur.",
+  "requested_change": "In overtime-archive.org/external-tasks/open/OTA-REQ-20261126-004-bz-reaktion-korrektur.md Punkt B den Platzhalter KUE-SCI-NNNN durch KUE-SCI-0228-2026-DE ersetzen und Punkt B nach Punkt A umsetzen. Hinweis: Huang et al. 2004 (Spiralwellen im Kortex) ist in Journal of Neuroscience 24(44), 9897–9902 erschienen, nicht in Neuron; OTA-Zitate entsprechend anpassen. Punkt C (Motiv „kein Ursprung“ in 8.2/8.3) bleibt bei Thomas; KUE führt Zielwellen mit Schrittmacherzentren und Spiralen mit Kern.",
+  "expected_result": "OTA-SCI-0063-2026-DE verweist im gekürzten Realteil auf DOC:KUE:KUE-SCI-0228-2026-DE; Werkbezüge (Archivgesetz, Patentbehörde, Zuva, Kuratornotizen, 5.2) bleiben in OTA.",
+  "priority": "low",
+  "affects": ["OTA", "KUE"]
+}
