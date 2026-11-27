@@ -1,0 +1,9 @@
+{
+  "target": "OTA",
+  "title": "Signatur KUE-SCI-0229-2026-DE für OTA-REQ-20261116-physical-ai-bruecke (Adaptive Fertigung und Physical AI)",
+  "reason": "EXT-OTA-KUE-20261116-002 ist umgesetzt: Das neue KUE-Dokument „Adaptive Fertigung und Physical AI – Digital Twins, industrielle KI und Robotik: Reifegrad 2026“ liegt als DOC:KUE:KUE-SCI-0229-2026-DE v0.1 in kueper.com/main. Der OTA-Request zur Kürzung von OTA-SCI-0110 auf ein Brückendokument wartet auf diese Signatur.",
+  "requested_change": "In overtime-archive.org/external-tasks/open/OTA-REQ-20261116-physical-ai-bruecke.md den Platzhalter für die KUE-Signatur durch KUE-SCI-0229-2026-DE ersetzen und OTA-SCI-0110 danach auf das Brückendokument kürzen (NOXIA-Anschluss §7, Autoritätsstufen A0–A5 §8.3, §14, Archivregel §19 bleiben; Realteil verweist auf DOC:KUE:KUE-SCI-0229-2026-DE). Hinweis: Halle & Shao 2026 und NIST IR 8604 sind an nist.gov bestätigt.",
+  "expected_result": "OTA-SCI-0110-2026-DE verweist im gekürzten Realteil auf DOC:KUE:KUE-SCI-0229-2026-DE; noxiagame- und SSF-Verweise auf das Dossier können danach auf die KUE-Signatur zeigen.",
+  "priority": "low",
+  "affects": ["OTA", "KUE", "NOXIA", "SSF"]
+}
