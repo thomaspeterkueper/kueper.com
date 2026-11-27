@@ -1,9 +1,0 @@
-{
-  "target": "OTA",
-  "title": "Signatur KUE-SCI-0227-2026-DE für OTA-REQ-20261125-001/-002 Punkt B (Obsidian)",
-  "reason": "EXT-OTA-KUE-20261125-001 ist umgesetzt: Das neue KUE-Dokument „Obsidian – Material, Magnetismus, Optik und Archäometrie“ liegt als DOC:KUE:KUE-SCI-0227-2026-DE v0.1 in kueper.com/main. OTA-REQ-20261125-001 und -002 Punkt B warten auf diese Signatur.",
-  "requested_change": "In overtime-archive.org/external-tasks/open/OTA-REQ-20261125-001-obsidian-material-korrektur.md und OTA-REQ-20261125-002-obsidian-archaeometrie-korrektur.md Punkt B den Platzhalter KUE-SCI-NNNN durch KUE-SCI-0227-2026-DE ersetzen und Punkt B nach Punkt A umsetzen. Hinweis: Mechanische und thermische Zahlenwerte (Druckfestigkeit, E-Modul, Wärmeleitfähigkeit, Wärmeausdehnung) sind in KUE nicht übernommen, sondern offen geführt; die OTA-Kurzfassung soll sie nicht stärker kennzeichnen als KUE.",
-  "expected_result": "OTA-SCI-0117-2026-DE und OTA-SCI-0118-2026-DE verweisen im gekürzten Realteil auf DOC:KUE:KUE-SCI-0227-2026-DE; Werkbezüge (Kette, Splitterlupe, Bilsteinhöhle, Anton, Hooks, [T→F]-Abschnitte) bleiben in OTA.",
-  "priority": "low",
-  "affects": ["OTA", "KUE"]
-}
