@@ -1,9 +1,0 @@
-{
-  "target": "OTA",
-  "title": "KUE-SCI-0176-2026-DE v0.3 mit §Va „Maternale Vererbung der mtDNA“ für OTA-REQ-20261126-003 Punkt B2 (Λ-Haplogruppe)",
-  "reason": "EXT-OTA-KUE-20261126-003 ist umgesetzt: DOC:KUE:KUE-SCI-0176-2026-DE liegt als v0.3 in kueper.com/main und enthält §Va (Grundmechanismus, Kopienzahl Oozyte/Spermium, Keimbahn-Bottleneck, behauptete väterliche Weitergabe und Mega-NUMTs nach Wei et al. 2020, Haplogruppen/PhyloTree). OTA-REQ-20261126-003 Punkt B2 wartet auf diesen Realanker.",
-  "requested_change": "In overtime-archive.org/external-tasks/open/OTA-REQ-20261126-003-lambda-haplogruppe-korrektur.md Punkt B2 den Verweis auf DOC:KUE:KUE-SCI-0176-2026-DE §Va setzen und den Realteil zur maternalen mtDNA-Vererbung in OTA-SCI-0045-2026-DE nach Punkt A auf einen kurzen Verweis kürzen. Hinweis: KUE führt die Kopienzahl der Oozyte als Spanne (50 000–1 500 000, Lehrbuch bis ~100 000) und Haplogruppen-Krankheitsassoziationen ausdrücklich als Assoziation, nicht als Ursache; die OTA-Kurzfassung soll beides nicht stärker zuspitzen.",
-  "expected_result": "OTA-SCI-0045-2026-DE verweist für die maternale Vererbung der mtDNA auf DOC:KUE:KUE-SCI-0176-2026-DE §Va; Λ-Haplogruppe, Λ-piRNA-Profil, Aktivierungsstufen, Figuren und übrige Setzungen bleiben in OTA.",
-  "priority": "low",
-  "affects": ["OTA", "KUE"]
-}
