@@ -34,3 +34,11 @@ Claude-Status: wartet auf Thomas (berührt Thomas' methodisches Rahmenwerk)
    - Identität als Teil der Logik: In der Prädikatenlogik erster Stufe mit Gleichheit gehört `=` zur logischen Sprache (Stützt die Bewertung in KUE-MTH-0004 §4); dazu Quines Formel „no entity without identity“ und Leibniz' Prinzip der Identität des Ununterscheidbaren (Spannung Kandidat A/C).
    - Relation vor Relata: ontischer Strukturenrealismus (Ladyman, French) vertritt Relationen ohne vorgängige Relata – genau die Prüfspannung zu Kandidat D und die Frage nach dem Trägerbegriff in KUE-MTH-0004. Überblick: Stanford Encyclopedia of Philosophy, „Structural Realism“ und „Relations“.
    Quellen nach Fachwissen und den SEP-Einträgen; vor Übernahme an der Literatur prüfen.
+
+## Ergänzung 2026-11-28 – KUE-MTH-0005
+
+Prüfbericht: `kueper-ecosystem/reviews/2026-11-28-KUE-MTH-0005-2026-DE.md`
+Claude-Status: wartet auf Thomas (berührt Thomas' methodisches Rahmenwerk)
+
+5. **Marker:** KUE-MTH-0005 führt wie KUE-MTH-0002 bis -0004 `marker: [R]`, schließt aber nur eine methodische Begriffsprüfung (FG-1) ab. Gleiche Frage wie Punkt 1.
+6. **Fachlicher Anschluss zu KUE-MTH-0005 (optional):** Die Entscheidung „Relata als nicht interpretierte Argumentstellen“ entspricht der Stelligkeit (Arität) von Relationszeichen in der Prädikatenlogik; die Behandlung der Identität als Metasprache knüpft an Punkt 4 an. Die in §7 offen gelassene Frage, ob Relation selbst ableitbar ist, und die Entscheidung gegen einen eigenen Relata-Begriff berühren dieselbe Debatte wie Punkt 4 (ontischer Strukturenrealismus; SEP „Relations“, Abschnitt zu Relationen und ihren Relata). Ein Satz unter „Fachliche Anschlüsse“ würde genügen; Bewertungen bleiben unverändert. Quellen nach Fachwissen und SEP, vor Übernahme prüfen.
